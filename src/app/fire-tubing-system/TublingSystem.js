@@ -217,7 +217,7 @@ export default function TublingSystem() {
               Why Choose Adhunik FireXpert Tube Suppression Systems in Delhi NCR ?
             </h2>
 
-            <p className=" text-center text-sm  md:text-lg md:text-left py-2 font-semibold py-3 pb-5 ">
+            <p className=" text-center text-sm  md:text-lg md:text-left  font-semibold py-3 pb-5 ">
               At Adhunik FireXpert, we understand the unique fire safety challenges
               faced by businesses in Delhi NCR. Our Fire Tube Suppression
               Systems offer a multitude of benefits :
