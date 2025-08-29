@@ -574,8 +574,8 @@ export default function HeroPage() {
                 <div className="flex flex-col items-center justify-center ">
                   {/* Container for the images. Uses flexbox for layout. */}
                   {/* It's responsive, switching from a single column on small screens to a row on larger ones. */}
-                   <a
-                      href="#_"
+                   <Link href="/help-and-support"
+                     
                       className="relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold   group"
                     >
                       <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
@@ -584,7 +584,7 @@ export default function HeroPage() {
                         Let's Connect
                       </span>
                       <span className="absolute inset-0 border-2 border-white"></span>
-                    </a>
+                    </Link>
                 </div>
               </div>
             </div>
@@ -655,13 +655,13 @@ export default function HeroPage() {
                 like Data centres, Wind Turbines, CNC machines to even strategic
                 defence establishments.
               </p>
-              <a
-                href="#"
+              <Link
+                href="/our-company"
                 className="group flex items-center w-max text-blue-600 font-semibold transition-all duration-300 transform hover:translate-x-1"
               >
                 Read More
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 transform group-hover:translate-x-1" />
-              </a>
+              </Link>
             </div>
 
             {/* Right Side: Video Container */}

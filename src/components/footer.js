@@ -28,8 +28,8 @@ export default function Footer() {
           <div className="flex space-x-4 justify-center md:justify-start  py-4">
             <Link href="#" className="hover:text-orange-500"><FaInstagram /></Link>
             <Link href="#" className="hover:text-orange-500"><FaFacebookF /></Link>
-            <a href="#" className="hover:text-orange-500"><TbBrandX /></a>
-            <a href="#" className="hover:text-orange-500"><FaLinkedinIn /></a>
+            <Link href="#" className="hover:text-orange-500"><TbBrandX /></Link>
+            <Link href="#" className="hover:text-orange-500"><FaLinkedinIn /></Link>
           </div>
         </div>
 
