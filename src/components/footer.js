@@ -38,7 +38,7 @@ export default function Footer() {
           <h4 className="text-lg font-semibold mb-4 md:text-left text-center ">Quick Links</h4>
           <ul className="space-y-2 text-sm md:text-left text-center ">
             <li><Link href="/" className="hover:text-orange-500">Home</Link></li>
-            <li><Link href="/about-our-company" className="hover:text-orange-500">About Us</Link></li>
+            <li><Link href="/our-company" className="hover:text-orange-500">About Us</Link></li>
             <li><Link href="/our-clients" className="hover:text-orange-500">Clients</Link></li>
             <li><Link href="/help-and-support" className="hover:text-orange-500">Contact</Link></li>
           </ul>
@@ -50,7 +50,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm text-center md:text-left ">
             {[
               'fire-extinguishers',
-              'fire-alarm-system',
+              'addressable-fire-alarm-system-in-delhi-ncr',
               'fire-sprinkler-system',
               'fire-hydrant-system',
               'fire-suppression-system',
@@ -79,17 +79,16 @@ export default function Footer() {
           <ul className="space-y-3 text-sm flex md:justify-center  md:items-start  items-center flex-col">
             <li className="flex  text-center md:text-left  gap-2">
               <BiEnvelope className="mt-1" />
-              <a href="mailto:info@adhunikxpert.com" className=" w-54">info@adhunikxpert.com</a>
+              <a href="mailto:info@adhunikfirexpert.com" className=" w-54">info@adhunikfirexpert.com</a>
             </li>
             <li className="flex md:text-left text-center gap-2">
               <BsFillTelephoneFill className="mt-1 " />
-              <a href="tel:981xxxxxxx" className=" w-54">981xxxxxxx</a>
+              <a href="tel:8287885885" className=" w-54">8287885885</a>
             </li>
             <li className="flex md:text-left text-center gap-2">
               <IoLocationSharp className="mt-1 " />
               <a className=" w-54">
-            DCG1-0102, Tower-1, DLF CORPORATE GREENS, Sector 74A, Gurugram, Haryana 122004
-             </a>
+          603, Reach My Tower, Sector 70, Gurugram, Haryana 122001 </a>
             </li>
           </ul>
         </div>

@@ -54,7 +54,7 @@ export default function FireExtinguisher() {
   },
   {
     title: (
-      <a href="tel:9810xxxxx">
+      <a href="tel:8287885885">
         <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for ABC Extinguishers</button>
       </a>
     )
@@ -77,7 +77,7 @@ export default function FireExtinguisher() {
   },
   {
     title: (
-      <a href="tel:9810xxxxx">
+      <a href="tel:8287885885">
         <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for CO2 Extinguishers</button>
       </a>
     )
@@ -100,7 +100,7 @@ export default function FireExtinguisher() {
   },
   {
     title: (
-      <a href="tel:9810xxxxx">
+      <a href="tel:8287885885">
         <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Water/Foam Extinguishers</button>
       </a>
     )
@@ -123,7 +123,7 @@ export default function FireExtinguisher() {
   },
   {
     title: (
-      <a href="tel:9810xxxxx">
+      <a href="tel:8287885885">
         <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Wet Chemical Extinguishers</button>
       </a>
     )
@@ -146,7 +146,7 @@ export default function FireExtinguisher() {
   },
   {
     title: (
-      <a href="tel:9810xxxxx">
+      <a href="tel:8287885885">
         <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Clean Agent Extinguishers</button>
       </a>
     )
@@ -169,7 +169,7 @@ export default function FireExtinguisher() {
   },
   {
     title: (
-      <a href="tel:9810xxxxx">
+      <a href="tel:8287885885">
         <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Automatic Extinguishers</button>
       </a>
     )
@@ -633,7 +633,7 @@ export default function FireExtinguisher() {
                 </motion.p>
                 <motion.div variants={fadeInVariants}>
                   <a
-                    href="tel:9810xxxxx"
+                    href="tel:8287885885"
                     className="inline-block rounded-lg relative overflow-hidden group items-center justify-center px-6 py-3 m-1 cursor-pointer border-b-4 border-l-2 active:border-white active:shadow-none shadow-lg bg-white text-red-600 font-bold hover:bg-gray-50 transition"
                   >
                     <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-red-100 rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>

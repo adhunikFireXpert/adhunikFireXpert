@@ -550,8 +550,31 @@ export default function HeroPage() {
                 <div className="flex flex-col items-center justify-center ">
                   {/* Container for the images. Uses flexbox for layout. */}
                   {/* It's responsive, switching from a single column on small screens to a row on larger ones. */}
-                  <div className="flex py-4 md:py-12  sm:flex-row md:space-y-8 sm:space-y-0 md:space-x-8 md:max-w-6xl mx-auto">
-                    <a
+                  <div className="flex py-4 md:pt-12  sm:flex-row md:space-y-8 sm:space-y-0 md:space-x-8 md:max-w-6xl mx-auto">
+                  
+                    {posts.map((image) => (
+                      // Card container for each image with a shadow and rounded corners.
+                      <div
+                        key={image.id}
+                        className=" flex-1 w-full   rounded-xl   p-4"
+                      >
+                        <div className="relative  overflow-hidden rounded-lg">
+                          
+                          <img
+                            src={image.imgsrc}
+                            alt={image.alt}
+                            className="  h-12 w-12 object-contain "
+                          />
+                
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div className="flex flex-col items-center justify-center ">
+                  {/* Container for the images. Uses flexbox for layout. */}
+                  {/* It's responsive, switching from a single column on small screens to a row on larger ones. */}
+                   <a
                       href="#_"
                       className="relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold   group"
                     >
@@ -562,24 +585,6 @@ export default function HeroPage() {
                       </span>
                       <span className="absolute inset-0 border-2 border-white"></span>
                     </a>
-                    {posts.map((image) => (
-                      // Card container for each image with a shadow and rounded corners.
-                      <div
-                        key={image.id}
-                        className=" flex-1 w-full   rounded-xl   p-4"
-                      >
-                        <div className="relative  overflow-hidden rounded-lg">
-                          {/* The image element itself. */}
-                          <img
-                            src={image.imgsrc}
-                            alt={image.alt}
-                            className="  h-12 w-12 object-contain "
-                          />
-                          {/* Optional overlay for interactive elements. */}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
                 </div>
               </div>
             </div>
