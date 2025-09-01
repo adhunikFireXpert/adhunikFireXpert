@@ -242,13 +242,15 @@ export default function HeroPage() {
   const solutions = [
     {
       id: 1,
+      links:"/fire-extinguishers",
       icon:
-        // Placeholder for Fire Extinguishers SVG
+        
         "https://static.wixstatic.com/media/cf66d3_4a42cee4226d4ddda5e799dcd29922b5~mv2.png/v1/fill/w_250,h_250,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/FE-V1.png",
       title: "FIRE EXTINUISHERS",
     },
     {
       id: 2,
+      links:"/fire-extinguishers",
       icon:
         // Placeholder for In-Panel Fire Suppression SVG
         "https://static.wixstatic.com/media/cf66d3_e0ab75847b9c4f40ae16a25bc51cad4d~mv2.png/v1/fill/w_250,h_250,al_c,lg_1,q_85,enc_avif,quality_auto/KSS.png",
@@ -257,6 +259,7 @@ export default function HeroPage() {
 
     {
       id: 3,
+      links:"/fire-extinguishers",
       icon:
         // Placeholder for In-Panel Fire Suppression SVG
         "https://static.wixstatic.com/media/cf66d3_ddd4bff3d93f4ee38c8c874196e1fa68~mv2.png/v1/fill/w_250,h_250,al_c,lg_1,q_85,enc_avif,quality_auto/HYDRANTS.png",
@@ -265,60 +268,70 @@ export default function HeroPage() {
 
     {
       id: 4,
+      links:"/fire-extinguishers",
       icon: "https://static.wixstatic.com/media/cf66d3_24589982908d4a0c814ced449ade9aaa~mv2.png/v1/fill/w_184,h_184,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ALARM-SOLUTIONS.png",
       title: "ALARM SOLUTIONS",
     },
 
     {
       id: 5,
+      links:"/fire-extinguishers",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Fire Sprinkler System",
     },
 
     {
       id: 6,
+      links:"/fire-extinguishers",
       icon: "https://static.wixstatic.com/media/cf66d3_5fd9bce8e0804864b4b107ad7514ad16~mv2.png/v1/fill/w_226,h_226,al_c,lg_1,q_85,enc_avif,quality_auto/TOTAL-FLOODING--SYSTEMS.png",
       title: "Fire Suppression System",
     },
 
     {
       id: 7,
+      links:"/fire-extinguishers",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Anti Rodent System",
     },
 
     {
       id: 8,
+      links:"/fire-extinguishers",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Water Leak Device (WLD)",
     },
 
     {
       id: 9,
+      links:"/fire-extinguishers",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Vesda System",
     },
 
     {
       id: 10,
+      links:"/fire-extinguishers",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Fire Tubing System",
     },
 
     {
       id: 11,
+      links:"/fire-extinguishers",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Fire Door Service",
     },
 
     {
       id: 12,
+      links:"/fire-extinguishers",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Kitchen Fire Suppression System",
     },
 
     {
       id: 14,
+      links:"/fire-extinguishers",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Fire Sprinkler System",
     },
@@ -734,18 +747,29 @@ export default function HeroPage() {
               {solutions.map((item) => (
                 <div
                   key={item.id}
-                  className="flex flex-col items-center justify-center text-center space-y-4"
+                  className="flex flex-col items-center justify-center text-center      "
+                
                 >
-                  <div className="w-32 h-32 flex items-center justify-center">
+
+                <Link href={item.links} className="flex flex-col items-center justify-center text-center space-y-4 p-4 rounded-lg">
+   <div className="w-32 h-32 flex items-center justify-center ">
+
                     <img
                       src={item.icon}
                       className=" h-full w-full"
                       alt="FIRE SOLUTIONS"
                     />
+
+
                   </div>
+
                   <h3 className="text-sm font-semibold uppercase tracking-wide text-gray-800">
                     {item.title}
                   </h3>
+
+                </Link>
+               
+
                 </div>
               ))}
             </div>
