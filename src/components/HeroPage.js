@@ -240,6 +240,7 @@ export default function HeroPage() {
   ];
 
   const solutions = [
+
     {
       id: 1,
       links:"/fire-extinguishers",
@@ -248,93 +249,89 @@ export default function HeroPage() {
         "https://static.wixstatic.com/media/cf66d3_4a42cee4226d4ddda5e799dcd29922b5~mv2.png/v1/fill/w_250,h_250,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/FE-V1.png",
       title: "FIRE EXTINUISHERS",
     },
+
+
     {
       id: 2,
-      links:"/fire-extinguishers",
+      links:"/kitchen-fire-suppression-system",
       icon:
-        // Placeholder for In-Panel Fire Suppression SVG
         "https://static.wixstatic.com/media/cf66d3_e0ab75847b9c4f40ae16a25bc51cad4d~mv2.png/v1/fill/w_250,h_250,al_c,lg_1,q_85,enc_avif,quality_auto/KSS.png",
       title: "KITCHEN FIRE SUPPRESSION",
     },
 
     {
       id: 3,
-      links:"/fire-extinguishers",
+      links:"/fire-hydrant-system",
       icon:
-        // Placeholder for In-Panel Fire Suppression SVG
         "https://static.wixstatic.com/media/cf66d3_ddd4bff3d93f4ee38c8c874196e1fa68~mv2.png/v1/fill/w_250,h_250,al_c,lg_1,q_85,enc_avif,quality_auto/HYDRANTS.png",
       title: "HYDRANTS",
     },
 
     {
       id: 4,
-      links:"/fire-extinguishers",
+      links:"/addressable-fire-alarm-system-in-delhi-ncr",
       icon: "https://static.wixstatic.com/media/cf66d3_24589982908d4a0c814ced449ade9aaa~mv2.png/v1/fill/w_184,h_184,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ALARM-SOLUTIONS.png",
       title: "ALARM SOLUTIONS",
     },
 
     {
+     
       id: 5,
-      links:"/fire-extinguishers",
+      links:"/fire-sprinkler-system",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Fire Sprinkler System",
     },
 
     {
       id: 6,
-      links:"/fire-extinguishers",
+      links:"/fire-suppression-system",
       icon: "https://static.wixstatic.com/media/cf66d3_5fd9bce8e0804864b4b107ad7514ad16~mv2.png/v1/fill/w_226,h_226,al_c,lg_1,q_85,enc_avif,quality_auto/TOTAL-FLOODING--SYSTEMS.png",
       title: "Fire Suppression System",
     },
 
     {
       id: 7,
-      links:"/fire-extinguishers",
+      links:"/anti-rodent-system",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Anti Rodent System",
     },
 
     {
       id: 8,
-      links:"/fire-extinguishers",
+      links:"/water-leak-detection-device",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Water Leak Device (WLD)",
     },
 
     {
       id: 9,
-      links:"/fire-extinguishers",
+      links:"/fire-vesda-system",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Vesda System",
     },
 
     {
       id: 10,
-      links:"/fire-extinguishers",
+      links:"/fire-tubing-system",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Fire Tubing System",
     },
 
     {
       id: 11,
-      links:"/fire-extinguishers",
+      links:"/fire-door-service",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Fire Door Service",
     },
 
     {
       id: 12,
-      links:"/fire-extinguishers",
+      links:"/kitchen-fire-suppression-system",
       icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
       title: "Kitchen Fire Suppression System",
     },
 
-    {
-      id: 14,
-      links:"/fire-extinguishers",
-      icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
-      title: "Fire Sprinkler System",
-    },
+ 
   ];
 
   const certifications = [
@@ -691,7 +688,7 @@ export default function HeroPage() {
           </div>
         </div>
 
-        <div className="relative w-full min-h-screen flex flex-col items-center justify-center text-center text-white p-8 overflow-hidden">
+        <div className="relative w-full  min-h-screen flex flex-col items-center justify-center text-center text-white p-8 overflow-hidden">
           {/* Video Background */}
           <video
             className="absolute top-0 left-0 w-full h-full object-cover z-0"
@@ -701,7 +698,7 @@ export default function HeroPage() {
             muted
             playsInline
           />
-          <div className="absolute top-4 bg-[#262626] text-white py-2 px-8 rounded-b-2xl shadow-lg z-10">
+          <div className="relative bottom-4 bg-[#262626] text-white py-2 px-8 rounded-b-2xl shadow-lg z-10">
             <h2 className="uppercase text-lg font-semibold tracking-wide">
               ADHUNIK FIREXPERT HALLMARK
             </h2>
@@ -737,7 +734,7 @@ export default function HeroPage() {
 
         <div className="relative w-full   flex flex-col items-center justify-center p-8 bg-white">
           <div className="absolute top-4 bg-[#262626] text-white py-2 px-8 rounded-b-2xl shadow-lg z-10">
-            <h2 className="uppercase text-lg font-semibold tracking-wide">
+            <h2 className="uppercase text-center text-lg font-semibold tracking-wide">
               OUR FULL SPECTRUM FIRE SOLUTIONS
             </h2>
           </div>
@@ -757,7 +754,7 @@ export default function HeroPage() {
                     <img
                       src={item.icon}
                       className=" h-full w-full"
-                      alt="FIRE SOLUTIONS"
+                      alt="ADHUNIK FIREXPERT SOLUTIONS PRODUCTS"
                     />
 
 
@@ -793,7 +790,7 @@ export default function HeroPage() {
                   key={cert.id}
                   className="flex  flex-col items-center justify-center"
                 >
-                  <div className="card   h-36 w-36 ">
+                  <div className="card  h-24 w-24  md:h-32 md:w-32">
                     <img
                       src={cert.src}
                       alt={cert.alt}
@@ -826,12 +823,14 @@ export default function HeroPage() {
                 isAnimating && (index % 2 === 0 || (index > 0 && (index - 1) % 2 === 0)) ? 'rotate-y-180  ' : ''
               }`}
             >
-            <div className="card h-36 w-36">
+            <div className="card lg:h-36 lg:w-36">
+
       <img
                 src={client.src}
                 alt={client.alt}
                 className="w-full h-full object-center object-contain"
               />
+
             </div>
         
             </div>
