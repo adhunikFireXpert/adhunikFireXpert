@@ -251,9 +251,9 @@ function Header() {
 
 
                     <a
-                      href="/zedex-fire-services-catalogue-2025.pdf"
-                      download="adhunik-firexpert-fire-services-catalogue-2025"
-                      className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
+                    href="/Adhunik-FireXpert.pdf" // ✅ file path from public/
+  download="Adhunik-FireXpert.pdf"
+   className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
                         ? " text-black hover:text-black border-black"
                         : " text-white hover:text-black "
                         }`}
