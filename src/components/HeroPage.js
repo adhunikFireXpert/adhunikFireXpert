@@ -246,8 +246,10 @@ export default function HeroPage() {
       links:"/fire-extinguishers",
       icon:
         
-        "https://static.wixstatic.com/media/cf66d3_4a42cee4226d4ddda5e799dcd29922b5~mv2.png/v1/fill/w_250,h_250,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/FE-V1.png",
+        "https://res.cloudinary.com/djablkulv/image/upload/v1757329419/7_pn9l2c.webp",
+
       title: "FIRE EXTINUISHERS",
+      alt: "FIRE EXTINUISHERS",
     },
 
 
@@ -255,81 +257,81 @@ export default function HeroPage() {
       id: 2,
       links:"/kitchen-fire-suppression-system",
       icon:
-        "https://static.wixstatic.com/media/cf66d3_e0ab75847b9c4f40ae16a25bc51cad4d~mv2.png/v1/fill/w_250,h_250,al_c,lg_1,q_85,enc_avif,quality_auto/KSS.png",
+        "https://res.cloudinary.com/djablkulv/image/upload/v1757329421/9_j1jepg.webp",
       title: "KITCHEN FIRE SUPPRESSION",
+      alt: "KITCHEN FIRE SUPPRESSION",
     },
 
     {
       id: 3,
       links:"/fire-hydrant-system",
       icon:
-        "https://static.wixstatic.com/media/cf66d3_ddd4bff3d93f4ee38c8c874196e1fa68~mv2.png/v1/fill/w_250,h_250,al_c,lg_1,q_85,enc_avif,quality_auto/HYDRANTS.png",
+        "https://res.cloudinary.com/djablkulv/image/upload/v1757329423/10_grplmq.webp",
       title: "HYDRANTS",
+      alt: "HYDRANTS",
     },
 
     {
       id: 4,
       links:"/addressable-fire-alarm-system-in-delhi-ncr",
-      icon: "https://static.wixstatic.com/media/cf66d3_24589982908d4a0c814ced449ade9aaa~mv2.png/v1/fill/w_184,h_184,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ALARM-SOLUTIONS.png",
+      icon: "https://res.cloudinary.com/djablkulv/image/upload/v1757329420/8_jfiqdm.webp",
       title: "ALARM SOLUTIONS",
+      alt: "ALARM SOLUTIONS",
     },
 
     {
      
       id: 5,
       links:"/fire-sprinkler-system",
-      icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
+      icon: "https://res.cloudinary.com/djablkulv/image/upload/v1757329418/6_xliveo.webp",
       title: "Fire Sprinkler System",
+      alt: "Fire Sprinkler System",
     },
 
     {
       id: 6,
       links:"/fire-suppression-system",
-      icon: "https://static.wixstatic.com/media/cf66d3_5fd9bce8e0804864b4b107ad7514ad16~mv2.png/v1/fill/w_226,h_226,al_c,lg_1,q_85,enc_avif,quality_auto/TOTAL-FLOODING--SYSTEMS.png",
+      icon: "https://res.cloudinary.com/djablkulv/image/upload/v1757329423/11_w4lore.webp",
       title: "Fire Suppression System",
+      alt: "Fire Suppression System",
     },
 
     {
       id: 7,
       links:"/anti-rodent-system",
-      icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
+      icon: "https://res.cloudinary.com/djablkulv/image/upload/v1757329416/1_lvrnci.webp",
       title: "Anti Rodent System",
     },
 
     {
       id: 8,
       links:"/water-leak-detection-device",
-      icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
+      icon: "https://res.cloudinary.com/djablkulv/image/upload/v1757329416/4_qrelbz.webp",
       title: "Water Leak Device (WLD)",
     },
 
     {
       id: 9,
       links:"/fire-vesda-system",
-      icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
+      icon: "https://res.cloudinary.com/djablkulv/image/upload/v1757329417/5_mddsxs.webp",
       title: "Vesda System",
     },
 
     {
       id: 10,
       links:"/fire-tubing-system",
-      icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
+      icon: "https://res.cloudinary.com/djablkulv/image/upload/v1757329416/3_huckrp.webp",
       title: "Fire Tubing System",
     },
 
     {
       id: 11,
       links:"/fire-door-service",
-      icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
+      icon: "https://res.cloudinary.com/djablkulv/image/upload/v1757329424/12_r5ewhp.webp",
       title: "Fire Door Service",
     },
 
-    {
-      id: 12,
-      links:"/kitchen-fire-suppression-system",
-      icon: "https://static.wixstatic.com/media/cf66d3_032fb59ce2aa4c6eb096be05d734b7f3~mv2.png/v1/fill/w_214,h_214,al_c,lg_1,q_85,enc_avif,quality_auto/SERVICES.png",
-      title: "Kitchen Fire Suppression System",
-    },
+ 
 
  
   ];
@@ -754,7 +756,7 @@ export default function HeroPage() {
                     <img
                       src={item.icon}
                       className=" h-full w-full"
-                      alt="ADHUNIK FIREXPERT SOLUTIONS PRODUCTS"
+                      alt={item.alt}
                     />
 
 

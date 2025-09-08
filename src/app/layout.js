@@ -28,8 +28,11 @@ export default function RootLayout({ children }) {
       <WatsapButton phoneNumber="+919599050534" />
 
       <Header/>
+
         {children}
+
         <Footer/>
+        
       </body>
     </html>
   );
