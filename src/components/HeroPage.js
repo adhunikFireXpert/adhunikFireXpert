@@ -184,25 +184,22 @@ export default function HeroPage() {
   const imageRef = useRef(null);
 
   useEffect(() => {
-    // Ensure both refs are available before running the animation
+    
     if (!sectionRef.current || !imageRef.current) return;
 
-    // Set up the GSAP animation timeline
+    
     gsap.to(imageRef.current, {
-      // Animate the image's x (horizontal) position
-      // The image will move 250 pixels to the left
+   
       x: -250,
-      // The duration of the animation is linked to the scroll position
+      
       ease: "none",
       scrollTrigger: {
-        // The animation is triggered by the main section container
+       
         trigger: sectionRef.current,
-        // The animation starts when the top of the trigger hits the center of the viewport
+        
         start: "top center",
-        // The animation ends when the bottom of the trigger leaves the top of the viewport
+        
         end: "bottom top",
-        // 'scrub: true' links the animation's progress directly to the scrollbar
-        // A value of true is a simple 1:1 scrub, while a number (e.g., 1) adds a smoothing effect
         scrub: true,
       },
     });
@@ -330,8 +327,6 @@ export default function HeroPage() {
       icon: "https://res.cloudinary.com/djablkulv/image/upload/v1757329424/12_r5ewhp.webp",
       title: "Fire Door Service",
     },
-
- 
 
  
   ];

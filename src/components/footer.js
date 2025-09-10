@@ -88,7 +88,9 @@ export default function Footer() {
             <li className="flex md:text-left text-center gap-2">
               <IoLocationSharp className="mt-1 " />
               <a className=" w-54">
-          603, Reach My Tower, Sector 70, Gurugram, Haryana 122001 </a>
+         Unit No. 6-03B, 6th floor, Reach My Tower,
+Sector 70, Gurugram, Pin Code-122101
+           </a>
             </li>
           </ul>
         </div>

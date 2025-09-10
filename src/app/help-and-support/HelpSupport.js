@@ -27,7 +27,7 @@ export default function HelpSupport() {
     const handleEmailSend = () => {
         window.location.href = `mailto:${emailAddress}`;
     };
-    const locationAddress = "603, Reach My Tower, Sector 70, Gurugram, Haryana 122001";
+    const locationAddress = "Unit No. 6-03B, 6th floor, Reach My Tower, Sector 70, Gurugram, Pin Code-122101";
 
     const handleGetLocation = () => {
         // Constructing the Google Maps URL with the address
@@ -399,7 +399,7 @@ export default function HelpSupport() {
 
  
 
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.937703899196!2d77.0274945757116!3d28.390949475797598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d236b8c98bf29%3A0x266dda9c259993e0!2sAdhunik%20DecoDive!5e0!3m2!1sen!2sin!4v1756447723896!5m2!1sen!2sin" width="600" height="450" allowFullScreen="" referrerPolicy="no-referrer-when-downgrade"
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.9183265698257!2d77.0303888!3d28.391534699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d2347608a46ad%3A0x7be398f2c8e0a3cf!2sReach%203%20Roads!5e0!3m2!1sen!2sin!4v1757499519429!5m2!1sen!2sin" width="600" height="450" allowFullScreen="" referrerPolicy="no-referrer-when-downgrade"
                                 className=" w-full h-[50vh]"
                                 style={{ border: 0 }}
                                 loading="lazy"
