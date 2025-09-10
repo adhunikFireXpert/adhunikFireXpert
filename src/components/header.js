@@ -206,7 +206,7 @@ function Header() {
     >
       <div className=" md:mx-2 md:px-4">
 
-        <div className="flex lg:flex-row items-center xl:flex-row justify-between p-4" >
+        <div className="flex lg:flex-row items-center xl:flex-row justify-between  md:px-0 px-4 md:p-4" >
 
           <div className="flex space-x-4">
             <div className="row flex  md:flex-col lg:flex-row ">
@@ -276,7 +276,7 @@ function Header() {
                   </div>
  <hr className='rotate-90 w-10  relative hidden lg:block' />
 
-                  <div className="col pb-2 md:pb-0  ps-5  md:ps-0">
+                  <div className="col py-6 md:py-0 pb-2 md:pb-0  ps-5  md:ps-0">
 
                     <svg onClick={() => window.location.href = "mailto:info@adhunikfirexpert.com"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
@@ -296,7 +296,7 @@ function Header() {
 
                   <hr className='rotate-90 w-10  relative hidden md:block' />
 
-                  <div className="col pb-2 md:pb-0 ">
+                  <div className=" py-6 md:py-0 col pb-2 md:pb-0 ">
                    
 
 <svg onClick={() => window.location.href = "tel:8287885885"} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
