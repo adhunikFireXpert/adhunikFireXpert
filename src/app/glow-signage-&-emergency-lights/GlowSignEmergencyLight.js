@@ -191,12 +191,13 @@ export default function GlowSignEmergencyLight() {
             <section className=' md:p-5 pb-0 mb-0 flex flex-col md:flex-row  '>
               <div className=" blog-img mb-6 text-center">
                 <div className="flex gap-4 md:gap-9  justify-evenly items-center  flex-col md:flex-row">
-                  <div className="w-full h-96 md:w-5/12 flex  ">
+
+                  <div className="w-full  md:w-5/12 flex  ">
 
 
                     <img
                       className=" w-full h-full object-center rounded-3xl object-contain"
-                      src="https://res.cloudinary.com/ddkyx2jhh/image/upload/v1754385628/Lighting-p36-37_ixjar2.webp"
+                      src="https://images.unsplash.com/photo-1707234377854-69d1f130b4ff?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="Glow Signage & Emergency Lights"
                       loading="lazy"
                     />
