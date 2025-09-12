@@ -1,12 +1,13 @@
 'use client';
  
 import Link from 'next/link';
-import { FaInstagram, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import { FaInstagram, FaFacebookF, FaLinkedinIn, FaYoutubeSquare } from 'react-icons/fa';
 import { BiEnvelope } from 'react-icons/bi';
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
 
 import { TbBrandX } from 'react-icons/tb';
+import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -26,10 +27,11 @@ export default function Footer() {
             At Adhunik FireXpert, we are dedicated to providing comprehensive fire and safety solutions to safeguard lives and property.
           </p>
           <div className="flex space-x-4 justify-center md:justify-start  py-4">
-            <Link href="#" className="hover:text-orange-500"><FaInstagram /></Link>
-            <Link href="#" className="hover:text-orange-500"><FaFacebookF /></Link>
-            <Link href="#" className="hover:text-orange-500"><TbBrandX /></Link>
-            <Link href="#" className="hover:text-orange-500"><FaLinkedinIn /></Link>
+            <Link href="https://www.instagram.com/adhunikfirexpert/" className="hover:text-orange-500"><Instagram /></Link>
+            <Link href="https://www.facebook.com/profile.php?id=61580554204443" className="hover:text-orange-500"><Facebook /></Link>
+            <Link href="https://x.com/FireXpertIndia" className="hover:text-orange-500"><Twitter /></Link>
+            <Link href="https://www.linkedin.com/in/adhunik-firexpert-38469b383/" className="hover:text-orange-500"><Linkedin /></Link>
+            <Link href="https://www.youtube.com/channel/UCcmVB3CludLuUUu3eYWP4Tw" className="hover:text-orange-500  "><Youtube /></Link>
           </div>
         </div>
 
