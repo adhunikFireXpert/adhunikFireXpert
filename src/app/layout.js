@@ -29,7 +29,6 @@ export default function RootLayout({ children }) {
 
  
 
-
    <meta itemProp="name" content="Adhunik FireXpert" />
 
         <script
@@ -46,12 +45,11 @@ export default function RootLayout({ children }) {
         />
 
 
- 
-     
   <Script
      async src="https://www.googletagmanager.com/gtag/js?id=G-BL66YEM2XD"
         strategy="afterInteractive"
       />
+
 
       <Script id="gtag-init" strategy="afterInteractive">
         {`
@@ -62,9 +60,8 @@ export default function RootLayout({ children }) {
         `}
       </Script>
 
+
         <GoogleTagManager gtmId="G-BL66YEM2XD" />
-        
-       
         
 
         <Script id="google-analytics" >
@@ -111,6 +108,7 @@ export default function RootLayout({ children }) {
         <Footer/>
         
       </body>
+
     </html>
   );
 }
