@@ -28,13 +28,7 @@ export default function RootLayout({ children }) {
      <head>
 
  
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-BL66YEM2XD');
-</script>
 
    <meta itemProp="name" content="Adhunik FireXpert" />
 
