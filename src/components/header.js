@@ -51,9 +51,10 @@ function Header() {
         { label: "Vesda System", href: "/fire-vesda-system" },
         { label: "Fire Tubing System", href: "/fire-tubing-system" },
         { label: "Fire Door Service", href: "/fire-door-service" },
+        { label: "Glow Signage & Emergency Light", href: "/glow-signage-&-emergency-lights" },
         { label: "Kitchen Fire Suppression System", href: "/kitchen-fire-suppression-system" },
-
       ],
+
     },
 
 
@@ -409,6 +410,12 @@ function Header() {
                           <DropdownItem>
                             <Link href='/fire-door-service'>
                               Fire Door Service
+                            </Link>
+                          </DropdownItem>
+
+                          <DropdownItem>
+                            <Link href='/glow-signage-&-emergency-lights'>
+                              Glow Signage & Emergency Light
                             </Link>
                           </DropdownItem>
 
