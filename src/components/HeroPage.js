@@ -332,8 +332,8 @@ export default function HeroPage() {
     {
       id: 12,
       links:"/glow-signage-&-emergency-lights",
-      icon: "https://res.cloudinary.com/djablkulv/image/upload/v1758019075/Glow_signage_whoor3.webp",
-      title: "Fire Door Service",
+      icon: "https://res.cloudinary.com/djablkulv/image/upload/v1758095275/G_S_rlno8p.webp",
+      title: "Glow Signage & Emergency Light",
     },
 
  
