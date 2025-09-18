@@ -3,6 +3,7 @@
 import { useState } from 'react';
  
 import { motion } from 'framer-motion';
+import Link from 'next/link';
  
 export default function FireExtinguisher() {
 
@@ -14,35 +15,32 @@ export default function FireExtinguisher() {
 
   const FireRisks = [
     {
-      title: "Class A Fires",
-      description: "Involve ordinary combustible materials like wood, paper, cloth, and plastics.",
+      title: "Ceasefire",
+      description: " A pioneer in the industry, known for its innovative and technologically advanced range of fire extinguishers and suppression systems.",
     },
     {
-      title: "Class B Fires",
-      description: "Involve flammable liquids such as petrol, oil, paints, and solvents."
+      title: "Kanex",
+      description: "A globally recognized brand offering a comprehensive range of fire fighting equipment with international certifications, trusted in the most demanding industrial environments."
     },
     {
-      title: "Class C Fires",
-      description: "Involve flammable gases like LPG, propane, and butane."
+      title: "UFS (Universal Fire Safety)",
+      description: "A leading Indian manufacturer known for its high-quality, ISI-marked fire extinguishers that offer reliable performance."
     },
     {
-      title: "Class D Fires",
-      description: "Involve combustible metals like magnesium, titanium, and potassium."
+      title: "Eversafe",
+      description: " A well-established brand providing a wide array of reliable and cost-effective fire extinguishers for all types of applications."
     },
-    {
-      title: "Class K / Class F Fires",
-      description: "Involve cooking oils and fats (e.g., in commercial kitchens)."
-    }
+   
   ];
 
  const ABCChemicalFire = [
   {
-    title: "ABC Dry Chemical Fire Extinguishers",
+    title: "ABC Dry Powder Extinguisher",
     imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618669/abc-dry-powder-extinguisher_cbhshq.webp"
   },
   {
     title: "Versatile Protection :",
-    description: "Your multi-purpose solution for Class A, B, and C fires. Ideal for homes, offices, schools, and general commercial spaces in Delhi NCR."
+    description: "The most versatile and widely used fire extinguisher. Its monoammonium phosphate-based agent is highly effective on Class A (solid combustibles), B (flammable liquids), and C (electrical) fires. This makes it the standard, multi-purpose choice for offices, factories, warehouses, and general commercial spaces."
   },
   {
     title: "Key Features :",
@@ -55,17 +53,20 @@ export default function FireExtinguisher() {
   {
     title: (
       <a href="tel:8287885885">
-        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for ABC Extinguishers</button>
+        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing</button>
       </a>
     )
   },
+
+
+
   {
-    title: "CO2 Fire Extinguishers",
+    title: "CO2 (Carbon Dioxide) Extinguisher",
     imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755668457/CO2_j5bgn9.webp"
   },
   {
     title: "Residue-Free Solution : ",
-    description: "Perfect for Class B (flammable liquids) and electrical (Class C) fires, especially in sensitive environments like data centers, server rooms, and laboratories across Delhi NCR."
+    description: "The perfect choice for protecting sensitive and expensive electronic equipment. The CO2 agent works by displacing oxygen and providing a cooling effect. Crucially, it is electrically non-conductive and leaves no residue, preventing damage to servers, control panels, and delicate machinery. It is primarily used for Class B and C fires."
   },
   {
     title: "Key Features : ",
@@ -78,17 +79,20 @@ export default function FireExtinguisher() {
   {
     title: (
       <a href="tel:8287885885">
-        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for CO2 Extinguishers</button>
+        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing</button>
       </a>
     )
   },
+
+
+
   {
-    title: "Water & Foam Fire Extinguishers",
+    title: "Water & Mechanical Foam (AFFF) Extinguishers",
     imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755668457/Foam_aand_water_type_qfwezz.webp"
   },
   {
     title: "Effective for Class A/B : ",
-    description: "Water extinguishers are ideal for Class A fires, while Foam (AFFF) extinguishers are highly effective on Class A and B fires."
+    description: "The classic solution for specific fire types. Water-based extinguishers are highly effective for Class A fires by providing a powerful cooling effect. Mechanical Foam (AFFF) extinguishers are designed for Class A and B fires, creating a blanket over flammable liquids to cut off the oxygen supply and prevent re-ignition."
   },
   {
     title: "Key Features : ",
@@ -101,17 +105,19 @@ export default function FireExtinguisher() {
   {
     title: (
       <a href="tel:8287885885">
-        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Water/Foam Extinguishers</button>
+        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing</button>
       </a>
     )
   },
+
+
   {
-    title: "Wet Chemical Fire Extinguishers (Class K/F)",
+    title: "Wet Chemical Extinguishers (Class K/F)",
     imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755670654/wet_chemical_oucpzt.webp"
   },
   {
     title: "Kitchen Fire Specialists : ",
-    description: "Specifically designed for Class K (cooking oil and fat) fires, making them indispensable for restaurants, food courts, and commercial kitchens in Delhi NCR."
+    description: "The specialist for commercial kitchens. These extinguishers contain a potassium-based agent that reacts with burning cooking oils and fats in a process called saponification, creating a thick, soapy foam that smothers the fire and prevents dangerous flare-ups. They are indispensable for restaurants and food processing facilities."
   },
   {
     title: "Key Features : ",
@@ -124,17 +130,20 @@ export default function FireExtinguisher() {
   {
     title: (
       <a href="tel:8287885885">
-        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Wet Chemical Extinguishers</button>
+        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing</button>
       </a>
     )
   },
+
+
+
   {
-    title: "Clean Agent Fire Extinguishers (e.g., HFC 236fa)",
+    title: "Clean Agent Fire Extinguishers",
     imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755668457/Clean_Agent_wl31jp.webp"
   },
   {
     title: "Sensitive Environment Protection : ",
-    description: "An ideal choice for valuable assets, electronics, and critical documents, effective on Class A, B, and C fires without leaving residue."
+    description: "Offering the ultimate protection for high-value, irreplaceable assets where even the residue from a dry powder extinguisher is unacceptable. Clean Agent extinguishers use an electrically non-conductive and ozone-friendly gas that is safe for sensitive electronics and documents, making it ideal for data centers, museums, and laboratories. It is effective on Class A, B, and C fires."
   },
   {
     title: "Key Features : ",
@@ -147,76 +156,31 @@ export default function FireExtinguisher() {
   {
     title: (
       <a href="tel:8287885885">
-        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Clean Agent Extinguishers</button>
+        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing</button>
       </a>
     )
   },
-  {
-    title: "Automatic Modular Fire Extinguishers",
-    imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755668457/Automatic_Modular_Fire_Extinguishers_nkg9d3.webp"
-  },
-  {
-    title: "Unattended Fire Protection : ",
-    description: "Automatically detects and suppresses fires in enclosed spaces, ideal for server rooms, electrical panels, and storage areas."
-  },
-  {
-    title: "Key Features : ",
-    description: "Ceiling-mounted, automatic activation, ideal for 24/7 protection."
-  },
-  {
-    title: "Suitable For :",
-    description: "Unattended spaces, high-risk areas."
-  },
-  {
-    title: (
-      <a href="tel:8287885885">
-        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">Get Pricing for Automatic Extinguishers</button>
-      </a>
-    )
-  }
+
+
+
 ];
 
   const Comprehensive = [
+   
     {
-      title: "Fire Extinguisher Refilling & Recharging in Delhi NCR  "
+      title: "Professional Installation",
+      description: "Our technicians ensure every extinguisher is installed in a compliant, accessible, and clearly marked location, adhering to all fire safety codes."
     },
+
     {
-      title: "Certified & Reliable  ",
-      description: "We provide expert refilling and recharging services for all types of fire extinguishers, adhering to ISO 9001:2008 and BIS/ISI standards. Our facilities in Delhi NCR ensure quick and efficient service."
+      title: "Fire Extinguisher Refilling in Delhi & Gurgaon",
+      description: "We offer prompt and certified fire extinguisher refilling and recharging services across Delhi NCR, including hydrostatic testing, to ensure your equipment is always ready for an emergency."
     },
+   
     {
-      title: "Importance  ",
-      description: "Regular refilling after use or expiry is crucial for operational readiness."
+      title: "Annual Maintenance Contracts (AMCs)",
+      description: "Our comprehensive AMCs include regular inspections, maintenance, and compliance documentation for all your fire extinguishers, taking the burden of regulatory upkeep off your shoulders."
     },
-    {
-      title: "Annual Maintenance Contracts (AMC) for Fire Extinguishers  "
-    },
-    {
-      title: "Ensuring Compliance & Readiness  ",
-      description: "Our AMCs guarantee periodic inspections, maintenance, and necessary repairs, keeping your fire extinguishers in optimal condition and ensuring compliance with local regulations."
-    },
-    {
-      title: "Benefits  ",
-      description: "Peace of mind, prolonged equipment life, immediate response to issues."
-    },
-    {
-      title: "Professional Installation Services  ",
-      description: "Our certified technicians ensure proper installation and placement of fire extinguishers in your premises across Delhi NCR, maximizing their effectiveness in an emergency."
-    },
-    {
-      title: "Fire Safety Audits & NOC Consultancy in Delhi  "
-    },
-    {
-      title: "Expert Guidance  ",
-      description: "Our team conducts thorough fire safety audits of your property and assists with obtaining Fire No Objection Certificates (NOC) and ensuring compliance with Delhi's fire safety regulations."
-    },
-    {
-      title: "Hands-on Fire Safety Training Programs  "
-    },
-    {
-      title: "Empowering Your Team  ",
-      description: "We offer practical training sessions for your staff or residents on the correct use of fire extinguishers (PASS method), emergency evacuation procedures, and basic fire prevention techniques, building a safer community in Delhi NCR."
-    }
   ];
 
   const Why = [
@@ -373,20 +337,24 @@ export default function FireExtinguisher() {
                 variants={fadeInVariants}
                 className="text-3xl font-bold mb-4 text-gray-800"
               >
-                Adhunik FireXpert : Your Trusted Partner for Comprehensive Fire Extinguisher Solutions in Delhi NCR
+               Your Premier Fire Extinguisher Dealer & Supplier in Delhi NCR
+
               </motion.h1>
+
               <motion.h2 
                 variants={fadeInVariants}
-                className="text-xl font-semibold mb-4 text-red-600"
+                className="text-sm font-semibold mb-4 text-red-600 "
               >
-                Safeguarding Delhi NCR : Premium Fire Extinguishers & Expert Services by Adhunik FireXpert
+             Your First Line of Defense, Engineered for Reliability. Adhunik FireXpert is a leading dealer and supplier for a complete range of ISI-marked fire extinguishers in Delhi, Gurgaon, and Noida. We provide expert solutions for industrial facilities and dedicated support for our network of contractors and partners.
+
               </motion.h2>
-              <motion.p 
-                variants={fadeInVariants}
-                className="text-gray-700 leading-relaxed mb-4"
-              >
-                Protecting Homes, Businesses, and Industries Across Delhi, Gurgaon, Noida, Faridabad, and Ghaziabad with ISO 9001:2008 Certified Quality and Unmatched Fire Safety Expertise.
-              </motion.p>
+             
+               <Link href="/help-and-support">
+
+        <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 transform hover:scale-105">
+       Get a Free Quote
+        </button>
+      </Link>
             </div>
           </motion.div>
 
@@ -399,14 +367,59 @@ export default function FireExtinguisher() {
               variants={fadeInVariants}
               className="text-3xl font-bold mb-6 text-gray-800"
             >
-              Understanding Fire Risks: A Guide by Adhunik FireXpert Experts
+             More Than a Supplier : A Partner in Safety with a 19+ Year Legacy
+
             </motion.h2>
             <motion.p 
               variants={fadeInVariants}
               className="text-gray-700 leading-relaxed mb-8"
             >
-              Before choosing your fire extinguisher, it's crucial to understand the different types of fires you might encounter. Our experts guide you through the essential fire classes:
+            Choosing a fire extinguisher supplier in Delhi is a critical decision that directly impacts the safety of your facility, your assets, and your people. In a market filled with traders and dealers, Adhunik FireXpert stands apart. We are not just a supplier; we are your long-term safety partner. Our expertise is born from the proven, award-winning project execution legacy of the renowned Adhunik Powertech. This gives us an unmatched, hands-on understanding of the real-world safety challenges faced by industrial and commercial facilities. It allows us to provide expert, practical advice to our direct clients and valuable technical support to our dealer network, ensuring the right solution is chosen and implemented correctly, every time.
+
+
             </motion.p>
+
+
+            <motion.h2 
+              variants={fadeInVariants}
+              className="text-3xl font-bold mb-6 text-gray-800"
+            >
+            Your Direct Supplier for Complete Fire Safety Compliance
+
+
+            </motion.h2>
+            <motion.p 
+              variants={fadeInVariants}
+              className="text-gray-700 leading-relaxed mb-8"
+            >
+            As a facility manager or business owner, your priority is ensuring a safe, compliant, and productive environment. You need a supplier who understands your risks and can provide a complete solution, not just a product. Adhunik FireXpert acts as your direct partner, guiding you from initial risk assessment to final installation and ongoing maintenance. We help you navigate the complexities of fire safety regulations, select the appropriate extinguisher types and capacities for each specific area of your facility, and ensure your team is prepared. Our goal is to provide a comprehensive solution that delivers not just equipment, but complete peace of mind.
+
+
+
+            </motion.p>
+
+
+
+            <motion.h2 
+              variants={fadeInVariants}
+              className="text-3xl font-bold mb-6 text-gray-800"
+            >
+       Authorized Supplier & Dealer of India's Top Fire Extinguisher Brands
+
+
+            </motion.h2>
+            <motion.p 
+              variants={fadeInVariants}
+              className="text-gray-700 leading-relaxed mb-8"
+            >
+
+         To provide our clients with the best in safety and reliability, we are proud to be authorized dealers and suppliers for India's most trusted fire extinguisher manufacturers. We supply, install, and service equipment from leading brands, ensuring you receive only certified, high-quality products. Our brand portfolio includes :
+
+
+            </motion.p>
+
+
+
 
             <div className="grid md:grid-cols-2 gap-6">
               {FireRisks.map((risk, index) => (
@@ -422,12 +435,27 @@ export default function FireExtinguisher() {
               ))}
             </div>
 
+
+
+      <motion.h2 
+              variants={fadeInVariants}
+              className="text-3xl pt-8 font-bold mb-6 text-gray-800"
+            >
+    A Reliable Partner for HVAC Contractors & Resellers
+
+
+            </motion.h2>
             <motion.p 
               variants={fadeInVariants}
-              className="text-gray-700 leading-relaxed mt-8"
+              className="text-gray-700 leading-relaxed mb-8"
             >
-              Knowing your fire risks helps you select the right fire extinguisher, a decision our Adhunik FireXpert experts in Delhi NCR are always ready to assist you with.
+
+       For contractors, architects, and safety equipment resellers, a reliable supply chain is critical. You need a master fire extinguisher dealer in Delhi who can provide a wide range of certified products, competitive pricing, and timely delivery. Adhunik FireXpert is that partner. We offer our dealer network access to our extensive inventory of top brands, ensuring you can meet the diverse needs of your clients. We provide the technical backup and product knowledge you need to confidently bid on projects, knowing you have a trusted supplier supporting you at every step.
+
+
             </motion.p>
+
+ 
           </motion.div>
 
           {/* Products Section - Zigzag Layout */}
@@ -437,18 +465,20 @@ export default function FireExtinguisher() {
           >
             <motion.h2 
               variants={fadeInVariants}
-              className="text-3xl font-bold mb-6 text-gray-800"
+              className="text-3xl font-bold mb-4 text-gray-800"
             >
-              Our Comprehensive Range of Certified Fire Extinguishers for Delhi NCR
+            A Complete Product Portfolio for Every Risk
+
             </motion.h2>
             <motion.p 
               variants={fadeInVariants}
               className="text-gray-700 leading-relaxed mb-8"
             >
-              Adhunik FireXpert is a proud provider of ISO 9001:2008 and BIS/ISI certified fire extinguishers, ensuring adherence to the highest Indian and international safety standards. Explore our diverse range:
+            As a premier fire extinguisher dealer in Delhi, we maintain a comprehensive inventory of high-quality, certified fire extinguishers to meet the specific risks of any environment.
+
             </motion.p>
 
-         <div className="     min-h-screen py-16 px-4 md:px-8">
+         <div className="     min-h-screen py-6 px-4 md:px-8">
       <div className="container mx-auto">
         {ABCChemicalFire.map((item, index) => {
           // Check if the current item is the start of a new card group (every 5 items)
@@ -555,22 +585,24 @@ export default function FireExtinguisher() {
               variants={fadeInVariants}
               className="text-3xl font-bold mb-6 text-gray-800"
             >
-              Comprehensive Fire Extinguisher Services in Delhi NCR
+             End-to-End Support for Clients & Partners Across Delhi NCR
+
             </motion.h2>
             <motion.p 
               variants={fadeInVariants}
               className="text-gray-700 leading-relaxed mb-8"
             >
-              At Adhunik FireXpert, our commitment to your safety extends far beyond product sales. We offer a full spectrum of fire extinguisher services:
+             As a full-service fire safety company in Delhi, we provide complete support to ensure all equipment is compliant and ready for use.
+
             </motion.p>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="  grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {Comprehensive.map((service, index) => (
                 <motion.div 
                   key={index}
                   variants={itemVariants}
                   whileHover={{ scale: 1.03 }}
-                  className="bg-white flex justify-center items-center flex-col p-6 rounded-xl shadow-md border border-gray-100"
+                  className="bg-white flex md:justify-start justify-center items-center flex-col p-6 rounded-xl shadow-md border border-gray-100 "
                 >
                   <h3 className=" text-center text-xl font-bold text-red-600 mb-3">{service.title}</h3>
                   {service.description && (
@@ -623,14 +655,26 @@ export default function FireExtinguisher() {
                   variants={fadeInVariants}
                   className="text-2xl md:text-3xl font-bold"
                 >
-                  Ready to Enhance Your Fire Safety in Delhi NCR?
-                </motion.h2>
+             Ensure Your Facility is Protected. Partner with the Experts.
+  </motion.h2>
                 <motion.p 
                   variants={fadeInVariants}
                   className="max-w-2xl"
                 >
-                  Don't compromise on safety. Partner with Adhunik FireXpert, your reliable firefighting equipment supplier and dealer in Delhi NCR.
+
+           Whether you need to equip a new factory, upgrade your office extinguishers, or source reliable products for your clients, our team is ready to help.
+
+
                 </motion.p>
+                <motion.p 
+                  variants={fadeInVariants}
+                  className="max-w-2xl"
+                >
+Contact us today for a free consultation and a quote on our fire extinguisher solutions and services!
+
+
+                </motion.p>
+
                 <motion.div variants={fadeInVariants}>
                   <a
                     href="tel:8287885885"
