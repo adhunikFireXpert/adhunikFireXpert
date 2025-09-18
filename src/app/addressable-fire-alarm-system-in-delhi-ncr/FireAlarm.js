@@ -196,11 +196,12 @@ export default function FireAlarm() {
                             <div className="mb-6">
 
                                 <h1 className="  text:2xl md:text-3xl font-bold text-center  md:text-left mb-4">
-                                    Adhunik FireXpert Addressable Fire Alarm Systems : Intelligent Fire Protection for Delhi NCR
+                                    Intelligent Fire Detection : Addressable Fire Alarm Systems
                                 </h1>
 
                                 <p className="text-gray-700 text-justify md:text-left">
-                                    In the critical moments of a fire emergency, every second counts. Adhunik FireXpert offers state-of-the-art addressable fire alarm systems engineered for rapid and precise detection. These systems give you the vital time needed for safe evacuation and minimize potential damage. Unlike conventional systems, our addressable technology pinpoints the exact location of a fire, enabling swift and targeted responses. Discover how Adhunik FireXpert's intelligent fire protection can safeguard your property and personnel in Delhi NCR.
+
+                                Pinpoint the Exact Location of a Threat in Seconds. Adhunik FireXpert specializes in the design, installation, and maintenance of advanced addressable fire alarm systems for commercial and industrial facilities in Delhi, Gurgaon, and Noida.
 
                                 </p>
 
@@ -212,6 +213,23 @@ export default function FireAlarm() {
                     {/* Types of Fire Alarm Systems */}
                     <section >
                        
+
+                            <div className="  w-full">
+                            <div className="py-6 pt-10">
+
+                                <h1 className="  text:2xl md:text-3xl font-bold text-center  md:text-left mb-4">
+                                    Intelligent Fire Detection : Addressable Fire Alarm Systems
+                                </h1>
+
+                                <p className="text-gray-700 text-justify md:text-left">
+                                
+                                Pinpoint the Exact Location of a Threat in Seconds. Adhunik FireXpert specializes in the design, installation, and maintenance of advanced addressable fire alarm systems for commercial and industrial facilities in Delhi, Gurgaon, and Noida.
+
+                                </p>
+
+
+                            </div>
+                        </div>
 
                         <h2 className="  pt-8 capitalize text:2xl md:text-3xl font-bold text-center  md:text-left mb-4">
                             The addressable fire alarm panel typically includes the following features :

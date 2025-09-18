@@ -332,10 +332,10 @@ export default function FireExtinguisher() {
               </motion.div>
             </div>
 
-            <div className="lg:w-5/12 w-full">
+            <div className="lg:w-5/12 flex justify-center flex-col items-center  md:items-start w-full">
               <motion.h1 
                 variants={fadeInVariants}
-                className="text-3xl font-bold mb-4 text-gray-800"
+                className=" text-lg text-center md:text-left md:text-2xl font-bold mb-4 text-gray-800"
               >
                Your Premier Fire Extinguisher Dealer & Supplier in Delhi NCR
 
@@ -343,7 +343,7 @@ export default function FireExtinguisher() {
 
               <motion.h2 
                 variants={fadeInVariants}
-                className="text-sm font-semibold mb-4 text-red-600 "
+                className="text-sm text-justify font-semibold mb-4 text-red-600 "
               >
              Your First Line of Defense, Engineered for Reliability. Adhunik FireXpert is a leading dealer and supplier for a complete range of ISI-marked fire extinguishers in Delhi, Gurgaon, and Noida. We provide expert solutions for industrial facilities and dedicated support for our network of contractors and partners.
 
@@ -365,14 +365,14 @@ export default function FireExtinguisher() {
           >
             <motion.h2 
               variants={fadeInVariants}
-              className="text-3xl font-bold mb-6 text-gray-800"
+              className=" text-lg text-center md:text-left md:text-2xl font-bold mb-6 text-gray-800"
             >
              More Than a Supplier : A Partner in Safety with a 19+ Year Legacy
 
             </motion.h2>
             <motion.p 
               variants={fadeInVariants}
-              className="text-gray-700 leading-relaxed mb-8"
+              className="text-gray-700 text-justify text-sm  leading-relaxed mb-8"
             >
             Choosing a fire extinguisher supplier in Delhi is a critical decision that directly impacts the safety of your facility, your assets, and your people. In a market filled with traders and dealers, Adhunik FireXpert stands apart. We are not just a supplier; we are your long-term safety partner. Our expertise is born from the proven, award-winning project execution legacy of the renowned Adhunik Powertech. This gives us an unmatched, hands-on understanding of the real-world safety challenges faced by industrial and commercial facilities. It allows us to provide expert, practical advice to our direct clients and valuable technical support to our dealer network, ensuring the right solution is chosen and implemented correctly, every time.
 
@@ -382,15 +382,16 @@ export default function FireExtinguisher() {
 
             <motion.h2 
               variants={fadeInVariants}
-              className="text-3xl font-bold mb-6 text-gray-800"
+              className=" text-lg text-center md:text-left md:text-2xl font-bold mb-6 text-gray-800"
             >
             Your Direct Supplier for Complete Fire Safety Compliance
 
 
             </motion.h2>
+
             <motion.p 
               variants={fadeInVariants}
-              className="text-gray-700 leading-relaxed mb-8"
+              className="text-gray-700 leading-relaxed mb-8 text-sm text-justify"
             >
             As a facility manager or business owner, your priority is ensuring a safe, compliant, and productive environment. You need a supplier who understands your risks and can provide a complete solution, not just a product. Adhunik FireXpert acts as your direct partner, guiding you from initial risk assessment to final installation and ongoing maintenance. We help you navigate the complexities of fire safety regulations, select the appropriate extinguisher types and capacities for each specific area of your facility, and ensure your team is prepared. Our goal is to provide a comprehensive solution that delivers not just equipment, but complete peace of mind.
 
@@ -402,15 +403,16 @@ export default function FireExtinguisher() {
 
             <motion.h2 
               variants={fadeInVariants}
-              className="text-3xl font-bold mb-6 text-gray-800"
+              className=" text-center md:text-left text-lg md:text-2xl font-bold mb-6 text-gray-800"
             >
        Authorized Supplier & Dealer of India's Top Fire Extinguisher Brands
 
 
             </motion.h2>
+
             <motion.p 
               variants={fadeInVariants}
-              className="text-gray-700 leading-relaxed mb-8"
+              className="text-gray-700  text-justify text-sm leading-relaxed mb-8"
             >
 
          To provide our clients with the best in safety and reliability, we are proud to be authorized dealers and suppliers for India's most trusted fire extinguisher manufacturers. We supply, install, and service equipment from leading brands, ensuring you receive only certified, high-quality products. Our brand portfolio includes :
@@ -429,8 +431,10 @@ export default function FireExtinguisher() {
                   whileHover={{ y: -5 }}
                   className="bg-gray-50 p-6 rounded-lg shadow-md border-l-4 border-red-500"
                 >
-                  <h3 className="text-xl font-bold text-red-600 mb-2">{risk.title}</h3>
-                  <p className="text-gray-700">{risk.description}</p>
+                  <h3 className="text-xl font-bold text-red-600 mb-2">
+                  {risk.title}
+                  </h3>
+                  <p className="text-gray-700 text-justify">{risk.description}</p>
                 </motion.div>
               ))}
             </div>
@@ -439,7 +443,7 @@ export default function FireExtinguisher() {
 
       <motion.h2 
               variants={fadeInVariants}
-              className="text-3xl pt-8 font-bold mb-6 text-gray-800"
+              className=" text-lg text-center md:text-left md:text-2xl pt-8 font-bold mb-6 text-gray-800"
             >
     A Reliable Partner for HVAC Contractors & Resellers
 
@@ -447,7 +451,7 @@ export default function FireExtinguisher() {
             </motion.h2>
             <motion.p 
               variants={fadeInVariants}
-              className="text-gray-700 leading-relaxed mb-8"
+              className="text-gray-700 text-justify text-sm leading-relaxed mb-8"
             >
 
        For contractors, architects, and safety equipment resellers, a reliable supply chain is critical. You need a master fire extinguisher dealer in Delhi who can provide a wide range of certified products, competitive pricing, and timely delivery. Adhunik FireXpert is that partner. We offer our dealer network access to our extensive inventory of top brands, ensuring you can meet the diverse needs of your clients. We provide the technical backup and product knowledge you need to confidently bid on projects, knowing you have a trusted supplier supporting you at every step.
@@ -465,20 +469,20 @@ export default function FireExtinguisher() {
           >
             <motion.h2 
               variants={fadeInVariants}
-              className="text-3xl font-bold mb-4 text-gray-800"
+              className=" text-lg text-center md:text-left md:text-2xl font-bold mb-4 text-gray-800"
             >
             A Complete Product Portfolio for Every Risk
 
             </motion.h2>
             <motion.p 
               variants={fadeInVariants}
-              className="text-gray-700 leading-relaxed mb-8"
+              className="text-gray-700  text-sm text-justify  leading-relaxed mb-8"
             >
             As a premier fire extinguisher dealer in Delhi, we maintain a comprehensive inventory of high-quality, certified fire extinguishers to meet the specific risks of any environment.
 
             </motion.p>
 
-         <div className="     min-h-screen py-6 px-4 md:px-8">
+         <div className="     min-h-screen md:py-6 px-4 md:px-8">
       <div className="container mx-auto">
         {ABCChemicalFire.map((item, index) => {
           // Check if the current item is the start of a new card group (every 5 items)
@@ -490,7 +494,7 @@ export default function FireExtinguisher() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.3 }}
-                className={`flex flex-col py-8 ${index % 10 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8 my-12`}
+                className={`flex flex-col py-8 ${index % 10 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8 md:my-12`}
               >
                 <div className="md:w-1/2 w-full">
                   <motion.div 
@@ -506,65 +510,77 @@ export default function FireExtinguisher() {
                 </div>
 
                 <div className="md:w-1/2 w-full">
+
                   <motion.h3 
                     variants={fadeInVariants}
-                    className="text-2xl font-bold text-red-600 mb-4"
+                    className=" text-lg text-center  md:text-left md:text-2xl font-bold text-red-600 mb-4"
                   >
                     {item.title}
+
                   </motion.h3>
+
                   {ABCChemicalFire[index + 1] && (
                     <>
                       <motion.h4 
                         variants={fadeInVariants}
-                        className="text-xl font-semibold mb-2"
+                        className=" text-lg  md:text-left text-center md:text-xl font-semibold mb-2"
                       >
                         {ABCChemicalFire[index + 1].title}
                       </motion.h4>
                       <motion.p 
                         variants={fadeInVariants}
-                        className="text-gray-700 mb-4"
+                        className="text-gray-700  text-sm text-justify mb-4"
                       >
                         {ABCChemicalFire[index + 1].description}
                       </motion.p>
                     </>
                   )}
+
+
                   {ABCChemicalFire[index + 2] && (
                     <>
                       <motion.h4 
                         variants={fadeInVariants}
-                        className="text-xl font-semibold mb-2"
+                        className=" text-lg text-center md:text-left md:text-xl font-semibold mb-2"
                       >
                         {ABCChemicalFire[index + 2].title}
                       </motion.h4>
                       <motion.p 
                         variants={fadeInVariants}
-                        className="text-gray-700 mb-4"
+                        className="text-gray-700  md:text-left text-center mb-4"
                       >
                         {ABCChemicalFire[index + 2].description}
                       </motion.p>
                     </>
                   )}
+
+
                   {ABCChemicalFire[index + 3] && (
                     <>
                       <motion.h4 
                         variants={fadeInVariants}
-                        className="text-xl font-semibold mb-2"
+                        className=" text-lg text-center md:text-left md:text-xl font-semibold mb-2"
                       >
                         {ABCChemicalFire[index + 3].title}
                       </motion.h4>
                       <motion.p 
                         variants={fadeInVariants}
-                        className="text-gray-700 mb-6"
+                        className="text-gray-700 text-sm text-center md:text-left mb-6"
                       >
                         {ABCChemicalFire[index + 3].description}
+
                       </motion.p>
                     </>
                   )}
+
+
                   {ABCChemicalFire[index + 4] && (
-                    <motion.div variants={fadeInVariants}>
+                    <motion.div className=' text-center  ' variants={fadeInVariants}>
                       {ABCChemicalFire[index + 4].title}
                     </motion.div>
                   )}
+
+
                 </div>
               </motion.div>
             );
@@ -583,7 +599,7 @@ export default function FireExtinguisher() {
           >
             <motion.h2 
               variants={fadeInVariants}
-              className="text-3xl font-bold mb-6 text-gray-800"
+              className=" text-lg text-center md:text-left md:text-3xl font-bold mb-6 text-gray-800"
             >
              End-to-End Support for Clients & Partners Across Delhi NCR
 
@@ -653,7 +669,7 @@ export default function FireExtinguisher() {
               <div className="w-full flex flex-col justify-center items-center gap-6 text-center text-white">
                 <motion.h2 
                   variants={fadeInVariants}
-                  className="text-2xl md:text-3xl font-bold"
+                  className="text-2xl md:text-2xl font-bold"
                 >
              Ensure Your Facility is Protected. Partner with the Experts.
   </motion.h2>

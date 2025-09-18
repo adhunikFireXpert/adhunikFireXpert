@@ -4,11 +4,11 @@ import FireExtinguisher from './FireExtinguisher'
 
 
 export const metadata = {
+
   title: "Ceasefire & Kanex Fire Extinguisher Dealer | Adhunik FireXpert",
   description: "Leading fire extinguisher dealers & suppliers in Delhi. We provide certified brands like Ceasefire & Kanex, plus refilling, installation & AMC services.",
   
   keywords: [
-
     "Ceasefire fire extinguisher dealer", 
     "Ceasefire fire extinguisher supplier",
     "Kanex fire extinguisher supplier",
@@ -27,7 +27,7 @@ export const metadata = {
     "fire fighting equipment",
     "industrial fire extinguishers",
     "commercial fire safety",
-    
+
   ],
 
   robots: "index, follow",
