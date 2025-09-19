@@ -422,7 +422,7 @@ export default function FireAlarm() {
                                     </div>
 
                                     {/* Paragraphs */}
-                                    <p className="font-sans text-center  w-full">
+                                    <p className="font-sans  text-sm text-justify w-full">
                              
                              Don't settle for ambiguity in an emergency. Protect your facility with the precision and reliability of an addressable fire alarm system.
 
@@ -449,7 +449,7 @@ Contact us today for a free consultation and a detailed quote for your facility 
 
                     </section>
 
-                    {/* Maintenance Section */}
+                    
 
                 </div>
             </section>
