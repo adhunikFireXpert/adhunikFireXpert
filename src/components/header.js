@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 import Fuse from "fuse.js";
+
 import { useRouter } from "next/navigation";
 
 import { Dropdown, DropdownItem } from "flowbite-react";
@@ -20,12 +21,9 @@ function Header() {
 
   const [openDropdown, setOpenDropdown] = useState(null);
 
-
-
   const toggleDropdown = (dropdownIndex) => {
     setOpenDropdown(openDropdown === dropdownIndex ? null : dropdownIndex);
   };
-
 
   const stopPropagation = (e) => {
     e.stopPropagation();
@@ -313,16 +311,13 @@ function Header() {
                   >
                     <p className="font-sans font-thin">Contact Number</p>
                     <p>8287885885</p>
+                    
                   </div>
 
 
                 </div>
-                <div className="row flex flex-col  md:flex-row">
-                  <div className="col flex justify-center items-center">     <i className="px-2 fa-solid fa-magnifying-glass" onClick={() => setShowSearch(!showSearch)}></i>
-                  </div>
 
-
-                </div>
+              
 
 
               </div>

@@ -185,30 +185,31 @@ export default function FireExtinguisher() {
 
   const Why = [
     {
-      title: "ISO 9001:2008 Certified Quality : ",
+      title: "ISO 9001:2008 Certified Quality ",
       description: "All our fire extinguishers and services adhere to stringent international quality management standards."
     },
     {
-      title: "Delhi NCR Local Experts : ",
+      title: "Delhi NCR Local Experts  ",
       description: "Our deep understanding of local regulations and rapid response capabilities ensure unmatched service across Delhi, Gurgaon, Noida, Faridabad, and Ghaziabad."
     },
     {
-      title: "Highly Qualified Team : ",
+      title: "Highly Qualified Team  ",
       description: "Our team of fire safety engineers and technicians is rigorously trained to provide expert advice, seamless installation, and efficient maintenance."
     },
     {
-      title: "Comprehensive Solutions : ",
+      title: "Comprehensive Solutions  ",
       description: "From product supply to refilling, AMC, training, and NOC consultancy, we are your single point of contact for all fire safety needs."
     },
     {
-      title: "Customer-Centric Approach : ",
+      title: "Customer-Centric Approach  ",
       description: "We prioritize your safety and satisfaction, offering personalized solutions and dedicated after-sales support."
     },
     {
-      title: "Proven Track Record : ",
+      title: "Proven Track Record  ",
       description: "As a testament to our dedication, Adhunik FireXpert has successfully secured countless lives and properties, consistently delivering excellence in fire safety for many years."
     }
   ];
+
 
   const faqs = [
     {
@@ -620,9 +621,14 @@ export default function FireExtinguisher() {
                   whileHover={{ scale: 1.03 }}
                   className="bg-white flex md:justify-start justify-center items-center flex-col p-6 rounded-xl shadow-md border border-gray-100 "
                 >
-                  <h3 className=" text-center text-xl font-bold text-red-600 mb-3">{service.title}</h3>
+                  <h3 className=" text-center md:text-left text-xl font-bold text-red-600 mb-3">
+                  {service.title}
+                  </h3>
+
                   {service.description && (
-                    <p className="text-gray-700">{service.description}</p>
+                    <p className="text-gray-700 text-center md:text-left">
+                    {service.description}
+                    </p>
                   )}
                 </motion.div>
               ))}
@@ -638,10 +644,12 @@ export default function FireExtinguisher() {
           >
             <motion.h2 
               variants={fadeInVariants}
-              className="text-3xl font-bold mb-6 text-gray-800"
+              className=" text-lg text-center md:text-left md:text-3xl font-bold mb-6 text-gray-800"
             >
-              Why Delhi NCR Trusts Adhunik FireXpert: Our Unbeatable Advantages
+              Why Delhi NCR Trusts Adhunik FireXpert : Our Unbeatable Advantages
+
             </motion.h2>
+
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {Why.map((reason, index) => (
@@ -651,13 +659,20 @@ export default function FireExtinguisher() {
                   whileHover={{ y: -5 }}
                   className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <h3 className="text-xl font-bold text-red-600 mb-3">{reason.title}</h3>
+                  <h3 className="text-lg md:text-xl text-center md:text-left font-bold text-red-600 mb-3">
+                  {reason.title}
+                  </h3>
                   
-                  <p className="text-gray-700">{reason.description}</p>
+                  <p className="text-gray-700  text-sm text-center md:text-left">
+                  {reason.description}
+                  </p>
 
                 </motion.div>
               ))}
             </div>
+
+
+
           </motion.div>
 
           {/* Final CTA */}
@@ -669,13 +684,13 @@ export default function FireExtinguisher() {
               <div className="w-full flex flex-col justify-center items-center gap-6 text-center text-white">
                 <motion.h2 
                   variants={fadeInVariants}
-                  className="text-2xl md:text-2xl font-bold"
+                  className=" text-lg md:text-2xl   font-bold"
                 >
-             Ensure Your Facility is Protected. Partner with the Experts.
+             Ensure Your Facility is Protected. Partner with the Experts
   </motion.h2>
                 <motion.p 
                   variants={fadeInVariants}
-                  className="max-w-2xl"
+                  className="max-w-2xl text-sm"
                 >
 
            Whether you need to equip a new factory, upgrade your office extinguishers, or source reliable products for your clients, our team is ready to help.
@@ -684,7 +699,7 @@ export default function FireExtinguisher() {
                 </motion.p>
                 <motion.p 
                   variants={fadeInVariants}
-                  className="max-w-2xl"
+                  className="max-w-2xl text-sm"
                 >
 Contact us today for a free consultation and a quote on our fire extinguisher solutions and services!
 
@@ -697,7 +712,7 @@ Contact us today for a free consultation and a quote on our fire extinguisher so
                     className="inline-block rounded-lg relative overflow-hidden group items-center justify-center px-6 py-3 m-1 cursor-pointer border-b-4 border-l-2 active:border-white active:shadow-none shadow-lg bg-white text-red-600 font-bold hover:bg-gray-50 transition"
                   >
                     <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-red-100 rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                    <span className="relative">Request a Free Quote Today!</span>
+                    <span className="relative text-sm">Request a Free Quote Today!</span>
                   </a>
                 </motion.div>
               </div>
