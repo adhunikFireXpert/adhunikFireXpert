@@ -320,16 +320,16 @@ export default function FireHydrantSystem() {
  
 
 
-                        <p className="text-gray-700  text-justify md:text-left ">
+                        <p className="text-gray-700  text-sm  text-justify md:text-left ">
                        A compliant and effective fire hydrant system is an integrated network of high-quality components working in perfect synergy. As your expert fire contractor, we ensure every part of your system is designed and installed to the highest standards.
 
                         </p>
 
 
-                        <ul className="list-disc pl-6 space-y-2 text-gray-700 py-2">
+                        <ul className="list-disc pl-6 space-y-2 text-sm text-gray-700 py-2">
                             {FireHydrantsystem.map((item, index) => (
                                 <li key={index} className='text-justify md:text-left'>
-                                    <span className="font-semibold  ">{item.title}</span>      {item.description}
+                                    <span className="font-semibold text-red-500  ">{item.title}</span>      {item.description}
                                 </li>
                             ))}
                         </ul>
@@ -350,17 +350,17 @@ export default function FireHydrantSystem() {
                         </div>
  
 
-                        <p className="text-gray-700 ">
+                        <p className="text-gray-700  text-sm">
                         
                         We specialize in the installation of different types of hydrant systems to meet the specific needs and climatic conditions of your property.
 
                         </p>
 
 
-                        <ul className="list-disc pl-6 space-y-2 text-gray-700 py-2">
+                        <ul className="list-disc pl-6 text-sm space-y-2 text-gray-700 py-2">
                             {FireHydrantservices.map((item, index) => (
                                 <li key={index} className='text-justify md:text-left'>
-                                    <span className="font-semibold  ">{item.title}</span>      {item.description}
+                                    <span className="font-semibold text-red-500 ">{item.title}</span>    {item.description}
                                 </li>
                             ))}
                         </ul>
@@ -371,7 +371,7 @@ export default function FireHydrantSystem() {
                         <div className="box hidden md:block ">
                             <div className=" inline-flex relative py-5  items-center justify-center w-full mx-auto my-4">
                                 <hr className="w-full h-px my-8 bg-gray-300 border-0" />
-                                <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[16px] md:text-xl font-semibold font-sans">
+                                <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[16px] md:text-xl font-semibold  font-sans">
 
                                     Our Range of Fire Hydrant Systems and Components for Delhi NCR & India
 
@@ -380,25 +380,25 @@ export default function FireHydrantSystem() {
                         </div>
 
 
-                        <h2 className="text-2xl md:hidden  font-bold mb-4 text-center md:text-left">
+                        <h2 className=" md:text-2xl  py-4 md:hidden  font-bold mb-4 text-center md:text-left">
 
                             Our Range of Fire Hydrant Systems and Components for Delhi NCR & India
                         </h2>
 
-                        <p className="text-gray-700  md:text-left text-center ">
+                        <p className="text-gray-700 text-justify   md:text-left  text-sm ">
                             At Adhunik FireXpert, we offer a variety of Fire Hydrant Systems and components to suit diverse applications across Delhi NCR and India
 
                         </p>
 
-                        <ul className="list-disc pl-6 space-y-2 text-gray-700 py-2">
+                        <ul className=" text-sm list-disc pl-6 space-y-2 text-gray-700 py-2">
                             {FireHydranttypes.map((item, index) => (
                                 <li key={index} className='text-justify md:text-left ' >
-                                    <span className="font-semibold  ">{item.title}</span>  {item.description}
+                                    <span className="font-semibold  text-red-500 ">{item.title}</span>  {item.description}
                                 </li>
                             ))}
                         </ul>
 
-                        <ul className="  list-decimal py-1  ps-8 space-y-2 text-gray-700">
+                        <ul className="  text-sm list-decimal py-1  ps-8 space-y-2 text-gray-700">
                             {FireHydranttypes2.map((item, index) => (
                                 <li key={index} className='text-justify md:text-left  list-outside'>
                                     <span className="font-semibold ">  {item.title}</span>
@@ -421,20 +421,19 @@ export default function FireHydrantSystem() {
                         </div>
 
 
-                        <h2 className="text-2xl md:hidden py-3  font-bold mb-4 text-center md:text-left">
+                        <h2 className=" py-4 md:text-2xl md:hidden  text-red-700  font-bold mb-4 text-center md:text-left">
 
                             Our Comprehensive Installation Process Across Delhi NCR & India
                         </h2>
 
-                        <p className="text-gray-700  text-center ">
-                            Adhunik FireXpert follows a meticulous and professional installation process for Fire Hydrant Systems in Delhi, the NCR, and throughout India:
-
+                        <p className="text-gray-700  text-sm text-center ">
+                            Adhunik FireXpert follows a meticulous and professional installation process for Fire Hydrant Systems in Delhi, the NCR, and throughout India
                         </p>
 
-                        <ul className="list-disc pl-6 space-y-2 text-gray-700 py-2">
+                        <ul className="list-disc pl-6 text-sm space-y-2 text-gray-700 py-2 ">
                             {FireHydranttypes3.map((item, index) => (
                                 <li key={index} className='text-justify md:text-left'>
-                                    <span className="font-semibold  ">{item.title}</span>      {item.description}
+                                    <span className="font-semibold  text-red-500 ">{item.title}</span>      {item.description}
                                 </li>
                             ))}
                         </ul>
@@ -454,18 +453,20 @@ export default function FireHydrantSystem() {
                         </div>
 
 
-                        <h2 className="text-2xl   py-3 font-bold mb-4 text-center md:text-left">
+                        <h2 className="  md:text-2xl  text-red-700  py-3 font-bold mb-4 text-center md:text-left">
 
-                         The reliability of your fire hydrant system depends entirely on the quality of its design and the precision of its installation.
+                         The reliability of your fire hydrant system depends entirely on the quality of its design and the precision of its installation
 
                         </h2>
 
-                        <ul className="list-disc pl-6 space-y-2 text-gray-700 py-2">
+                        <ul className="list-disc text-sm pl-6 space-y-2 text-gray-700 py-2">
+
                             {FireHydranttypes4.map((item, index) => (
                                 <li key={index} className='text-justify md:text-left'>
-                                    <span className="font-semibold  ">{item.title}</span>      {item.description}
+                                    <span className="font-semibold text-red-500  ">{item.title}</span>      {item.description}
                                 </li>
                             ))}
+
                         </ul>
 
 
@@ -483,12 +484,12 @@ export default function FireHydrantSystem() {
                         </div>
 
 
-                        <h2 className="text-2xl md:hidden py-3  font-bold mb-4 text-center md:text-left">
+                        <h2 className=" text-red-700 md:text-2xl md:hidden py-3  font-bold mb-4 text-center md:text-left">
 
                             Contact Adhunik FireXpert Today for Your Fire Hydrant System Needs in Delhi NCR & India
                         </h2>
 
-                        <p className="text-gray-700  text-center ">
+                        <p className="text-gray-700  text-center  text-sm text-justify">
                             Don't compromise on fire safety, no matter your location. Protect your property and loved ones with a reliable <strong>Fire Hydrant System</strong> from <strong>Adhunik FireXpert</strong>, your trusted partner across <strong>Delhi NCR and India</strong>.
                             We are committed to ensuring the safety and security of properties across <strong>Delhi, the NCR, and India</strong> with our superior <strong>Fire Hydrant System</strong> solutions. Choose Adhunik FireXpert for peace of mind, nationwide.
 
@@ -509,7 +510,7 @@ export default function FireHydrantSystem() {
                                     </div>
 
                                     {/* Paragraphs */}
-                                    <p className="font-sans text-center  w-full">
+                                    <p className="font-sans text-center  text-sm w-full">
                                 Don't compromise on the most fundamental component of your fire safety plan. Partner with a fire hydrant contractor whose expertise is built on a legacy of trust and engineering excellence.
                                     </p>
 
