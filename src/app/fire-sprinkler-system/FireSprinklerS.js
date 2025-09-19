@@ -245,13 +245,13 @@ export default function FireSprinklerS() {
                         </div>
 
                         <div className="lg:w-6/12 w-full">
-                            <h1 className=" w-10/12 text-3xl font-bold mb-4 text-center md:text-left" > 
-                            
+                            <h1 className=" w-full md:w-10/12  text-gray-700 text-lg md:text-3xl font-bold mb-4 text-center md:text-left" > 
+
                             Automatic Fire Sprinkler Systems  Your 24/7 Fire Protection
 
                             </h1>
 
-                            <h2 className="  text-justify mb-4" >
+                            <h2 className="  text-justify mb-4  text-sm" >
                               The Most Effective First Line of Defense Against Fire. Adhunik FireXpert is a leading fire sprinkler contractor in Delhi NCR, specializing in the design, installation, and maintenance of reliable, compliant fire sprinkler systems for commercial and industrial facilities.
                             </h2>
 
@@ -261,9 +261,9 @@ export default function FireSprinklerS() {
 
                     <div className="row py-5">
 
-                        <div className="relative py-5 inline-flex items-center justify-center w-full mx-auto my-4">
+                        <div className="relative md:py-5 inline-flex items-center justify-center w-full mx-auto my-4">
                             <hr className="w-full h-px my-8 bg-gray-300 border-0" />
-                            <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[16px] md:text-xl font-semibold font-sans">
+                            <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-sm  md:text-xl font-semibold font-sans">
 
                           Why a Fire Sprinkler System is a Non-Negotiable Asset
 ?
@@ -273,12 +273,12 @@ export default function FireSprinklerS() {
 
 
 
-                        <p className="text-gray-700  text-justify md:text-left">
+                        <p className="text-gray-700  text-justify md:text-left text-sm">
                         In the event of a fire, immediate, automated suppression is the single most effective way to protect lives, minimize property damage, and ensure business continuity. A professionally installed fire sprinkler system acts as a silent guardian, providing constant 24/7 protection. It is designed to detect the heat from a fire and activate automatically, often controlling or completely extinguishing the blaze long before the fire department can arrive. This rapid response is critical in containing a fire to its point of origin and preventing a minor incident from escalating into a catastrophic loss.
                         </p>
 
                         
-                        <p className="text-gray-700  text-justify md:text-left">
+                        <p className="text-gray-700 text-sm pt-2  text-justify md:text-left">
               
               At Adhunik FireXpert, we bring a 19+ year legacy of engineering excellence to every installation. We don't just install pipes and heads; we engineer a life-saving solution meticulously tailored to the unique risks and architectural complexities of your facility.
 
@@ -286,23 +286,24 @@ export default function FireSprinklerS() {
 
 
 
-                        <h2 className="text-2xl pt-4 font-bold mb-4 text-center md:text-left">
+                        <h2 className=" md:text-2xl pt-4 font-bold mb-4 text-center md:text-left">
 
                           Tailored Sprinkler Solutions for Every Environment
 
                         </h2>
 
-                              <p className="text-gray-700  text-justify md:text-left">
+                              <p className="text-gray-700 text-sm  text-justify md:text-left">
 
             A one-size-fits-all approach is not an option in fire safety. As an expert fire sprinkler contractor in Delhi, we possess deep expertise in designing and installing all major types of fire sprinkler systems to provide the optimal level of protection for your specific environment.
 
                         </p>
 
 
-                        <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                        <ul className="list-disc pl-6 pt-2 space-y-2 text-gray-700">
                             {sprinklertypes.map((item, index) => (
-                                <li key={index} className=' py-1 text-justify md:text-left'>
-                                    <span className="font-semibold  ">{item.title}</span> :  {item.description}
+                                <li key={index} className=' text-sm py-1 text-justify md:text-left'>
+                                    <span className="font-semibold  ">
+                                    {item.title} </span> :  {item.description}
                                 </li>
                             ))}
                         </ul>
@@ -315,14 +316,14 @@ export default function FireSprinklerS() {
 
                             <div className="lg:w-6/12 w-full">
 
-                                <h2 className="text-2xl font-bold mb-4 text-center md:text-left">
+                                <h2 className=" md:text-2xl font-bold mb-4 text-center md:text-left">
                                     Key Features of Adhunik FireXpert Sprinkler Systems for Delhi NCR
                                 </h2>
 
                                 <ul className="  list-disc pl-6 space-y-2 text-gray-700">
                                     {sprinklerfeatures.map((item, index) => (
-                                        <li key={index} className=' py-2 text-justify md:text-left'>
-                                            <span className="font-semibold  ">{item.title}</span> {item.description}
+                                        <li key={index} className=' text-sm py-2 text-justify md:text-left'>
+                                            <span className="font-semibold   ">{item.title}</span> {item.description}
                                         </li>
                                     ))}
                                 </ul>
@@ -337,27 +338,30 @@ export default function FireSprinklerS() {
                                 />
 
                             </div>
+
                         </div>
 
-                        <div className="mt-12">
+                        <div className=" md:mt-12">
 
                             <div className="relative py-5 inline-flex items-center justify-center w-full mx-auto my-4">
                                 <hr className="w-full h-px my-8 bg-gray-300 border-0" />
-                                <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[16px] md:text-xl font-semibold font-sans">
+                                <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[16px] md:text-xl font-semibold font-sans text-sm">
                                     Adhunik FireXpert Product Range for Delhi NCR
                                 </h2>
                             </div>
 
 
-                            <p className="text-gray-700 py-2  text-justify md:text-left">
-                                We offer an extensive selection of fire sprinkler system components readily available for supply and installation across Delhi NCR :
+                            <p className="text-gray-700 py-2 text-sm  text-justify md:text-left">
+                                We offer an extensive selection of fire sprinkler system components readily available for supply and installation across Delhi NCR 
 
                             </p>
                             <ul className="list-disc pl-6 space-y-2 text-gray-700">
 
                                 {sprinklerHeads.map((item, index) => (
-                                    <li key={index} className=' py-2 text-justify md:text-left'>
+                                    <li key={index} className=' text-sm py-2 text-justify md:text-left'>
+
                                         <span className="font-semibold ">{item.title}</span> {item.description}
+
                                     </li>
                                 ))}
 
@@ -365,7 +369,7 @@ export default function FireSprinklerS() {
 
                             <ul className=" px-8  py-2  list-decimal    text-gray-700">
                                 {sprinklerHeadstypes.map((item, index) => (
-                                    <li key={index} className='text-justify   md:text-left  '>
+                                    <li key={index} className=' text-sm py-2 text-justify   md:text-left  '>
                                         <span className="font-semibold "> {item.title}</span> {item.description}
                                     </li>
                                 ))}
@@ -374,7 +378,7 @@ export default function FireSprinklerS() {
 
                             <ul className="list-disc py-2 pl-6 space-y-2 text-gray-700">
                                 {sprinklerHeads2.map((item, index) => (
-                                    <li key={index} className='text-justify md:text-left'>
+                                    <li key={index} className='text-justify text-sm md:text-left'>
                                         <span className="font-semibold ">{item.title}</span> {item.description}
                                     </li>
                                 ))}
@@ -398,11 +402,12 @@ export default function FireSprinklerS() {
                         </div>
 
 
-                        <p className="text-gray-700  text-justify md:text-left ">Adhunik FireXpert sprinkler systems are ideal for a wide spectrum of applications within Delhi NCR, including :
+                        <p className="text-gray-700 text-sm  text-justify md:text-left ">
+                        Adhunik FireXpert sprinkler systems are ideal for a wide spectrum of applications within Delhi NCR, including 
                         </p>
 
 
-                        <ul className="list-disc pl-6 space-y-2 text-gray-700 py-2">
+                        <ul className="list-disc text-sm pl-6 space-y-2 text-gray-700 py-2">
                             {sprinklerApplications.map((item, index) => (
                                 <li key={index} className='text-justify md:text-left'>
                                     {item.description}
@@ -413,11 +418,11 @@ export default function FireSprinklerS() {
 
 
                     <div className="row">
-                        <h2 className="text-2xl pt-3 py-2 font-bold mb-4 text-center md:text-left">
+                        <h2 className=" text-lg md:text-2xl pt-3 py-2 font-semibold mb-4 text-center md:text-left">
                     Why Choose Adhunik FireXpert as Your Fire Sprinkler Contractor ?
  </h2>
 
- <p>
+ <p className=' text-sm'>
     The long-term reliability of your fire sprinkler system depends entirely on the quality of its design and installation.
 
  </p>
@@ -426,7 +431,7 @@ export default function FireSprinklerS() {
 
                         <ul className="list-disc pl-6 py-2 space-y-2 text-gray-700">
                             {sprinklerwhychoose.map((item, index) => (
-                                <li key={index} className='text-justify md:text-left'>
+                                <li key={index} className=' text-sm text-justify md:text-left'>
                                     <span className="font-semibold ">{item.title}</span>   :   {item.description}
                                 </li>
                             ))}
@@ -448,7 +453,7 @@ export default function FireSprinklerS() {
                                     </div>
 
                                     {/* Paragraphs */}
-                                    <p className="   font-sans text-center  w-full">
+                                    <p className="  text-sm text-justify  font-sans text-center  w-full">
                                 Don't compromise on your first and most effective line of defense against fire. Partner with a fire sprinkler contractor whose expertise is built on a legacy of trust and engineering excellence. 
 
                                 <br />
