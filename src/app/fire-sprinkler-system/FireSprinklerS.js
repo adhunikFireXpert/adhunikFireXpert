@@ -464,8 +464,6 @@ export default function FireSprinklerS() {
 
                                   
 
-
-
                                     {/* Button */}
                                     <div className="w-full flex justify-center">
                                         <a

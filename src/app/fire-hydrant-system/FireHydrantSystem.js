@@ -5,31 +5,29 @@ export default function FireHydrantSystem() {
    const FireHydrantsystem = [
 
         {
-            title: "Reliable Water Source – ",
-            description: "Provides firefighters with a readily accessible and high-volume water supply to combat fires effectively, regardless of location in Delhi NCR or India.",
-        },
-
-
-        {
-            title: "Enhanced Firefighting Efficiency – ",
-            description: " Allows for quicker and more efficient suppression of fires, minimizing damage and potential loss of life across Delhi NCR and India.",
+            title: "Fire Fighting Pumps & Pump House : ",
+            description: "The heart of the system, comprising jockey, main, and standby pumps that ensure a consistent and high-pressure water supply.",
         },
 
         {
-            title: "Regulatory Compliance – ",
-            description: "  Many buildings and industries in Delhi NCR and across India are mandated by local fire safety regulations to have a functional fire hydrant system.",
+            title: "Piping Network :  ",
+            description: "A durable network of pipes, strategically laid out to cover all vulnerable areas of your facility.",
         },
 
         {
-            title: "Increased Safety – ",
-            description: "  Creates a safer environment for occupants, employees, and visitors in any property throughout Delhi NCR and India.",
+            title: "Hydrant Valves & Landing Valves : ",
+            description: "The crucial access points where firefighters connect their hoses to the water supply.",
         },
 
         {
-            title: "Property Protection – ",
-            description: "   Helps to contain and extinguish fires before they cause extensive damage to your valuable assets, whether in Delhi, its surrounding NCR, or other parts of India.",
+            title: "Hose Reels, Hoses & Cabinets : ",
+            description: "Securely stored and easily accessible hoses and nozzles, strategically placed throughout the building.",
         },
 
+        {
+            title: "Fire Department Connection (FDC) : ",
+            description: "An external connection point that allows the fire brigade to pump additional water into your system if required.",
+        },
 
 
     ];
@@ -37,35 +35,16 @@ export default function FireHydrantSystem() {
 
     const FireHydrantservices = [
 
-        {
-            title: "Manufacturing – ",
-            description: "We manufacture a wide array of high-quality hydrant components, ensuring durability and performance suitable for diverse Indian climates and conditions.",
-        },
-
-
 
         {
-            title: "Supply – ",
-            description: " We supply a comprehensive range of fire hydrant system components, from hydrants and valves to pipes and pumps, across Delhi NCR and the entire nation. ",
+            title: "Wet Riser / Wet Barrel Hydrant Systems : ",
+            description: "The most common type of system in Delhi NCR and most parts of India where freezing is not a concern. The pipes in a wet riser system are constantly filled with water under pressure, providing immediate water access the moment a valve is opened. This makes it ideal for high-rise commercial buildings, hospitals, and hotels.",
         },
-
-
 
         {
-            title: "Dealership – ",
-            description: "  As authorized dealers, we offer access to top-of-the-line fire safety equipment available throughout India. ",
+            title: "Dry Riser / Dry Barrel Hydrant Systems",
+            description: "Essential for unheated spaces or regions where pipes are at risk of freezing. In a dry riser system, the pipes are filled with pressurized air. When a landing valve is opened, the air pressure drops, triggering the main pump to fill the pipes with water. This system is crucial for protecting parking garages, loading docks, and certain types of industrial facilities.",
         },
-
-
-
-
-        {
-            title: "Installation – ",
-            description: "Our team of experienced and certified technicians provides professional and efficient installation services, adhering to all relevant safety standards and local regulations in Delhi, the NCR, and all over India.",
-        },
-
-
-
 
 
     ];
@@ -217,53 +196,30 @@ export default function FireHydrantSystem() {
     const FireHydranttypes4 = [
 
         {
-            title: "Extensive Geographical Reach – ",
-            description: "We provide our services across Delhi, the entire NCR region, and all over India.",
+            title: "Deep Engineering Expertise : ",
+            description: "Our approach is built on the award-winning legacy of Adhunik Powertech, ensuring every system is designed with a deep understanding of hydraulic calculations, pressure requirements, and optimal layout for maximum coverage.",
         },
 
 
         {
-            title: "Local Expertise – ",
-            description: "We have a deep understanding of fire safety regulations and specific requirements in various regions of India.",
+            title: "Uncompromising Compliance : ",
+            description: "We are experts in the National Building Code (NBC) and all relevant local fire safety regulations. We ensure your system is fully compliant, facilitating a smooth Fire NOC approval process.",
         },
 
 
         {
-            title: "Quality Assurance – ",
-            description: " We are committed to providing high-quality products and services nationwide.",
+            title: "True Turnkey Project Management : ",
+            description: "From the initial site assessment and customized system design to flawless installation, testing, and final commissioning, we manage the entire project with a single point of accountability.",
         },
 
 
         {
-            title: "Comprehensive Solutions – ",
-            description: "  We offer end-to-end services, from manufacturing and supply to installation and maintenance, throughout India.",
+            title: "Quality Assurance : ",
+            description: "We use only high-quality, ISI-marked pipes, valves, pumps, and components from trusted manufacturers to guarantee the long-term reliability and performance of your system.",
         },
 
 
-        {
-            title: " Experienced Team – ",
-            description: " Our team of experts has the knowledge and skills to deliver reliable and effective fire hydrant systems across diverse Indian environments.",
-        },
-
-
-        {
-            title: " Customer Focus – ",
-            description: "  We prioritize customer satisfaction and work closely with you to meet your specific needs, wherever you are in India.",
-        },
-
-
-        {
-            title: " Competitive Pricing – ",
-            description: "  We offer cost-effective solutions without compromising on quality, across Delhi NCR and India.",
-        },
-
-
-
-
-
-
-
-
+        
 
     ];
 
@@ -316,13 +272,33 @@ export default function FireHydrantSystem() {
                     </div>
 
                     <div className="lg:w-6/12">
-                        <h1 className="text-3xl font-bold mb-4 text-center md:text-left"> Fire Hydrant System in Delhi NCR & India: Your Trusted Partner - Adhunik FireXpert
+                        <h1 className=" text-lg   font-bold mb-4 text-center md:text-left"> 
+                     Fire Hydrant Systems : The Backbone of Your Fire Defence
+
                         </h1>
 
-                        <p className="text-gray-700  text-justify md:text-left">
-                            Protecting lives and property from fire hazards across  <strong>Delhi, the National Capital Region (NCR), and India</strong> requires robust and reliable fire suppression systems. At <strong>Adhunik FireXpert</strong>, we are your trusted <strong>manufacturer, supplier, dealer, and installer of high-quality Fire Hydrant Systems</strong>. With years of expertise and a steadfast commitment to safety, we provide comprehensive solutions tailored to your specific needs, ensuring maximum protection for your premises throughout <strong>Delhi NCR and India</strong>.
+                        <p className="text-gray-700  text-sm text-justify ">
+
+                       Providing a Powerful and Reliable Water Supply for Emergency Response. Adhunik FireXpert is a leading fire fighting contractor in Delhi NCR, specializing in the design, installation, and maintenance of robust, compliant fire hydrant systems.
+
 
                         </p>
+                        
+                        <h2 className=" pt-3 text-lg font-bold mb-4 text-center md:text-left"> 
+                   Why a Fire Hydrant System is a Critical, Non-Negotiable Asset ?
+
+                        </h2>
+
+                        <p className="text-gray-700  text-sm  text-justify  ">
+
+                   In the critical moments of a fire emergency, a readily accessible and high-pressure water source is the most powerful tool for firefighters. A professionally installed fire hydrant system is the backbone of a facility's fire safety plan, providing a reliable network that allows for rapid and effective fire suppression. It is a fundamental requirement for protecting lives, minimizing property damage, and ensuring your building is compliant with national safety regulations.
+
+                   At Adhunik FireXpert, we bring a 19+ year legacy of engineering excellence to every installation. We don't just install pipes and valves; we engineer a life-saving infrastructure tailored to the unique risks and layout of your facility, ensuring that when it's needed most, it performs flawlessly.
+
+
+
+                        </p>
+
                     </div>
                 </div>
 
@@ -330,28 +306,22 @@ export default function FireHydrantSystem() {
 
                     <div className="row">
 
-                        <div className="box hidden md:block ">
+                        <div className="box  ">
                             <div className=" inline-flex relative py-5  items-center justify-center w-full mx-auto my-4">
                                 <hr className="w-full h-px my-8 bg-gray-300 border-0" />
                                 <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[16px] md:text-xl font-semibold font-sans">
 
-                                    Why a Fire Hydrant System is Crucial for Properties in Delhi NCR & India
+                                 Anatomy of a Robust Fire Hydrant System
 
                                 </h2>
                             </div>
                         </div>
 
-
-                        <h2 className="text-2xl md:hidden py-3  font-bold mb-4 text-center md:text-left">
-
-                            Why a Fire Hydrant System is Crucial for Properties in Delhi NCR & India
-                        </h2>
-
-
+ 
 
 
                         <p className="text-gray-700  text-justify md:text-left ">
-                            Delhi, the NCR (including areas like Gurgaon, Noida, Faridabad, and Ghaziabad), and various regions across India face diverse fire safety challenges due to varying infrastructure and building types. A well-designed and installed Fire Hydrant System offers numerous critical benefits:
+                       A compliant and effective fire hydrant system is an integrated network of high-quality components working in perfect synergy. As your expert fire contractor, we ensure every part of your system is designed and installed to the highest standards.
 
                         </p>
 
@@ -367,27 +337,22 @@ export default function FireHydrantSystem() {
 
 
 
-                        <div className="box hidden md:block ">
+                        <div className="box  ">
                             <div className=" inline-flex relative py-5  items-center justify-center w-full mx-auto my-4">
                                 <hr className="w-full h-px my-8 bg-gray-300 border-0" />
                                 <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[16px] md:text-xl font-semibold font-sans">
 
-                                    Adhunik FireXpert : Your End-to-End Fire Hydrant System Solution Across Delhi NCR & India
+                                  Tailored Hydrant Systems for Every Type of Facility
+
 
                                 </h2>
                             </div>
                         </div>
+ 
 
-
-                        <h2 className="text-2xl md:hidden  py-3 font-bold mb-4 text-center md:text-left">
-
-                            Adhunik FireXpert : Your End-to-End Fire Hydrant System Solution Across Delhi NCR & India
-                        </h2>
-
-
-                        <p className="text-gray-700  text-center  ">
-                            As a leading player in the fire safety industry in Delhi NCR and India, Adhunik FireXpert offers a complete range of services for your Fire Hydrant System requirements :
-
+                        <p className="text-gray-700 ">
+                        
+                        We specialize in the installation of different types of hydrant systems to meet the specific needs and climatic conditions of your property.
 
                         </p>
 
@@ -420,23 +385,23 @@ export default function FireHydrantSystem() {
                             Our Range of Fire Hydrant Systems and Components for Delhi NCR & India
                         </h2>
 
-                        <p className="text-gray-700  text-center ">
-                            At Adhunik FireXpert, we offer a variety of Fire Hydrant Systems and components to suit diverse applications across Delhi NCR and India :
+                        <p className="text-gray-700  md:text-left text-center ">
+                            At Adhunik FireXpert, we offer a variety of Fire Hydrant Systems and components to suit diverse applications across Delhi NCR and India
 
                         </p>
 
                         <ul className="list-disc pl-6 space-y-2 text-gray-700 py-2">
                             {FireHydranttypes.map((item, index) => (
-                                <li key={index} className='text-justify md:text-left'>
-                                    <span className="font-semibold  ">{item.title}</span>      {item.description}
+                                <li key={index} className='text-justify md:text-left ' >
+                                    <span className="font-semibold  ">{item.title}</span>  {item.description}
                                 </li>
                             ))}
                         </ul>
 
-                        <ul className=" list-none py-1   px-6 space-y-2 text-gray-700">
+                        <ul className="  list-decimal py-1  ps-8 space-y-2 text-gray-700">
                             {FireHydranttypes2.map((item, index) => (
-                                <li key={index} className='text-justify px-6 md:text-left list-outside'>
-                                    <span className="font-semibold "> * {item.title}</span>
+                                <li key={index} className='text-justify md:text-left  list-outside'>
+                                    <span className="font-semibold ">  {item.title}</span>
                                 </li>
                             ))}
                         </ul>
@@ -477,21 +442,22 @@ export default function FireHydrantSystem() {
 
 
 
-                        <div className="box hidden md:block ">
+                        <div className="box  ">
                             <div className=" inline-flex relative py-5  items-center justify-center w-full mx-auto my-4">
                                 <hr className="w-full h-px my-8 bg-gray-300 border-0" />
                                 <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[16px] md:text-xl font-semibold font-sans">
 
-                                    Why Choose Adhunik FireXpert for Your Fire Hydrant System Needs in Delhi NCR & India?
+                                Why Choose Adhunik FireXpert for Your Fire Hydrant Installation ?
 
                                 </h2>
                             </div>
                         </div>
 
 
-                        <h2 className="text-2xl md:hidden  py-3 font-bold mb-4 text-center md:text-left">
+                        <h2 className="text-2xl   py-3 font-bold mb-4 text-center md:text-left">
 
-                            Why Choose Adhunik FireXpert for Your Fire Hydrant System Needs in Delhi NCR & India?
+                         The reliability of your fire hydrant system depends entirely on the quality of its design and the precision of its installation.
+
                         </h2>
 
                         <ul className="list-disc pl-6 space-y-2 text-gray-700 py-2">
@@ -538,14 +504,13 @@ export default function FireHydrantSystem() {
                                     <div className="relative inline-flex py-2 items-center justify-center w-full mx-auto my-7 md:mb-0">
                                         <hr className="w-[90%] h-px my-8 bg-gray-300 border-0" />
                                         <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[15px] md:text-2xl capitalize font-semibold font-sans">
-                                            Get Expert Advice for Your Fire Safety Solution Needs
+                                          Ensure Your Facility Has the Ultimate Fire Fighting Backbone
                                         </h2>
                                     </div>
 
                                     {/* Paragraphs */}
                                     <p className="font-sans text-center  w-full">
-                                        Contact us today for a consultation and quote for your Fire Hydrant System in Delhi NCR or anywhere in India.
-
+                                Don't compromise on the most fundamental component of your fire safety plan. Partner with a fire hydrant contractor whose expertise is built on a legacy of trust and engineering excellence.
                                     </p>
 
 
@@ -556,7 +521,7 @@ export default function FireHydrantSystem() {
                                             className="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
                                         >
                                             <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                                            <span className="relative">Contact Adhunik FireXpert Expert</span>
+                                            <span className="relative">Contact  Expert</span>
                                         </a>
                                     </div>
 
