@@ -712,7 +712,9 @@ Contact us today for a free consultation and a quote on our fire extinguisher so
                     className="inline-block rounded-lg relative overflow-hidden group items-center justify-center px-6 py-3 m-1 cursor-pointer border-b-4 border-l-2 active:border-white active:shadow-none shadow-lg bg-white text-red-600 font-bold hover:bg-gray-50 transition"
                   >
                     <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-red-100 rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
+
                     <span className="relative text-sm">Request a Free Quote Today!</span>
+                    
                   </a>
                 </motion.div>
               </div>

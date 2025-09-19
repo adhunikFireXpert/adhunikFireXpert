@@ -18,34 +18,60 @@ export default function FireAlarm() {
 
     const features = [
         {
-            title: "Control panel",
-            description: "At the heart of the addressable fire alarm system lies a sophisticated control panel. This powerful central processing unit receives and analyzes signals from all connected devices, providing real-time information and enabling precise control over the entire system. Its intuitive interface offers clear status updates and facilitates easy system management.",
+            title: "Precision and Rapid Response",
+            description: "This is the most significant advantage. By pinpointing the exact location of the threat, an addressable system shaves critical minutes off response times for both internal teams and emergency services. In a large warehouse or a multi-story office building in Gurgaon, this level of precision is invaluable.",
         },
+
+
         {
             title: "Addressable devices",
-            description: "em utilizes a comprehensive range of addressable devices, including highly sensitive smoke detectors, reliable heat detectors, and easily accessible manual call points. Each device has a unique digital address, allowing the control panel to instantly identify the exact location of an alarm activation, leading to faster and more targeted responses."
+            description: "Enhanced Reliability and Fault Finding: Addressable systems are 'intelligent.' They continuously monitor the status of every device on the loop. If a single smoke detector becomes dirty, malfunctions, or gets disconnected, the control panel will report the exact device that needs attention. Conventional systems can only report a general fault on a zone, leaving maintenance teams to manually inspect dozens of devices to find the problem. This proactive monitoring makes maintenance faster and more efficient."
         },
         {
-            title: "Notification devices",
-            description: "In the event of a fire, clear and immediate notification is paramount. The systems support a variety of notification devices, including loud and distinct bells, powerful horns, attention-grabbing strobe lights, and clear voice evacuation speakers, ensuring all occupants are effectively alerted, regardless of their location within the building."
+            title: "Drastic Reduction in False Alarms",
+            description: "False alarms are costly, disruptive, and can lead to complacency, a phenomenon known as 'alarm fatigue'. The intelligent detectors in an addressable system can be programmed for different sensitivities and can often differentiate between real smoke and non-threatening particles like dust or steam. This significantly reduces the frequency of false alarms, a common issue in industrial and commercial settings."
         },
+
         {
-            title: "Monitoring software",
-            description: "The System offers advanced monitoring software that provides remote access to the system's status and detailed information about individual devices. This allows for real-time oversight, proactive maintenance alerts, and comprehensive reporting, ensuring optimal system performance and faster response coordination, even from off-site locations."
+            title: "Greater Cost-Effectiveness and Scalability",
+            description: "While the initial cost of the components may be higher, addressable systems require significantly less wiring. All devices are connected on a single loop that runs through the entire building, as opposed to the extensive, separate wiring required for each zone in a conventional system. This reduces installation time and labor costs. Furthermore, adding or moving devices on an addressable system is simple, making it a highly scalable and future-proof investment for a growing business."
         },
+      
+
+    ]
+
+    const features2 = [
+
         {
-            title: "Battery backup",
-            description: "Recognizing the critical need for continuous operation during power outages, the addressable fire alarm system includes a reliable battery backup. This ensures the system remains fully functional, providing uninterrupted fire detection and notification capabilities, even when primary power is lost"
-        }
+         
+            title: "Hospitals & Healthcare Facilities",
+            description: "Where immediate, precise location information is critical for complex patient evacuation procedures.",
+
+        },
+
+
+        {
+            title: "Hotels & High-Rise Commercial Buildings",
+            description: "Large, multi-floor buildings where finding the source of an alarm quickly is a major challenge."
+        },
+
+        {
+            title: "Industrial Plants & Warehouses",
+            description: "Sprawling facilities where a zonal alarm would be insufficient to direct a response team effectively."
+        },
+
+        {
+            title: "Data Centers & IT Infrastructure",
+            description: "Environments where even a small fire can cause millions in damages, and where a false alarm from a conventional system could trigger an unnecessary and costly shutdown of operations."
+        },
+      
+
     ]
 
 
 
     const WhyChoose = [
-        {
-            title: "Unmatched Accuracy and Lightning-Fast Response",
-            description: "Adhunik FireXpert's advanced addressable technology assigns a unique identifier to each device, providing precise location details that instantly trigger an alarm. This eliminates guesswork, allowing first responders to act decisively and efficiently, potentially reducing damage and saving lives.",
-        },
+        
 
         {
             title: "Effortless Maintenance and Future-Proof Scalability ",
@@ -196,12 +222,14 @@ export default function FireAlarm() {
                             <div className="mb-6">
 
                                 <h1 className="  text:2xl md:text-3xl font-bold text-center  md:text-left mb-4">
+
                                     Intelligent Fire Detection : Addressable Fire Alarm Systems
+
                                 </h1>
 
                                 <p className="text-gray-700 text-justify md:text-left">
 
-                                Pinpoint the Exact Location of a Threat in Seconds. Adhunik FireXpert specializes in the design, installation, and maintenance of advanced addressable fire alarm systems for commercial and industrial facilities in Delhi, Gurgaon, and Noida.
+                           Pinpoint the Exact Location of a Threat in Seconds. Adhunik FireXpert specializes in the design, installation, and maintenance of advanced addressable fire alarm systems for commercial and industrial facilities in Delhi, Gurgaon, and Noida.
 
                                 </p>
 
@@ -218,12 +246,48 @@ export default function FireAlarm() {
                             <div className="py-6 pt-10">
 
                                 <h1 className="  text:2xl md:text-3xl font-bold text-center  md:text-left mb-4">
-                                    Intelligent Fire Detection : Addressable Fire Alarm Systems
+                                    Beyond the Beep : Why an Addressable System is a Non-Negotiable for Modern Facilities
+
                                 </h1>
 
                                 <p className="text-gray-700 text-justify md:text-left">
                                 
-                                Pinpoint the Exact Location of a Threat in Seconds. Adhunik FireXpert specializes in the design, installation, and maintenance of advanced addressable fire alarm systems for commercial and industrial facilities in Delhi, Gurgaon, and Noida.
+                               In a fire emergency, every single second is critical. The time it takes to locate the source of a fire can be the difference between a minor incident and a catastrophic event. For years, conventional fire alarm systems have served a basic purpose: they tell you that smoke or heat has been detected somewhere in a general area or "zone." While this is better than no warning at all, it leaves emergency responders with a dangerous and time-consuming guessing game, especially in large, complex buildings.
+
+
+                                </p>
+
+                                <p className=" py-2 text-gray-700 text-justify md:text-left">
+                                
+                            In today's modern commercial and industrial environments, ambiguity is a risk you cannot afford. This is where an Addressable Fire Alarm System represents a quantum leap in safety technology, providing the intelligent, real-time information needed for a rapid and effective response. As a leading fire safety contractor in Delhi NCR, we believe that understanding this technology is the first step toward creating a truly safe and resilient facility.
+
+
+                                </p>
+
+
+                            </div>
+                        </div>
+
+
+                            <div className="  w-full">
+                            <div className="py-6 pt-10">
+
+                                <h1 className="  text:2xl md:text-3xl font-bold text-center  md:text-left mb-4">
+                                 What Exactly is an Addressable Fire Alarm System ?
+
+                                </h1>
+
+                                <p className="text-gray-700 text-justify md:text-left">
+                                
+                           Think of it like the difference between a pin code and a full street address. A conventional system tells you there's a problem in a general pin code or "zone"—for example, the 5th floor. An addressable system gives you the exact house number: "Smoke Detector - 5th Floor, Conference Room B."
+
+
+                                </p>
+
+                                <p className=" py-2 text-gray-700 text-justify md:text-left">
+                                
+                            An addressable fire alarm system is an intelligent network where every single device—be it a smoke detector, heat detector, manual call point, or sounder—has its own unique digital address on the system's wiring loop. When any device is activated or experiences a fault, it sends a detailed signal to the main Fire Alarm Control Panel (FACP). The panel then displays the precise device and its programmed location, eliminating guesswork and allowing for an immediate, targeted response.
+
 
                                 </p>
 
@@ -232,8 +296,14 @@ export default function FireAlarm() {
                         </div>
 
                         <h2 className="  pt-8 capitalize text:2xl md:text-3xl font-bold text-center  md:text-left mb-4">
-                            The addressable fire alarm panel typically includes the following features :
-                        </h2>
+                  The Critical Difference : Addressable vs. Conventional Systems
+
+                      </h2>
+
+                      <p>
+                        While both systems are designed to detect fires, their capabilities are worlds apart. For any medium to large-scale facility, the advantages of an addressable system are undeniable, impacting everything from response time to long-term maintenance costs.
+
+                      </p>
 
                         <ul className=' list-disc px-4 text-justify '>
                             {features.map((items, index) => (
@@ -246,46 +316,38 @@ export default function FireAlarm() {
 
                         </ul>
 
+
+                        <h2 className="  pt-8 capitalize text:2xl md:text-3xl font-bold text-center  md:text-left mb-4">
+                Which Facilities Absolutely Need an Addressable System ?
+
+
+                      </h2>
+
+                      <p>
+
+                    While any facility benefits from this technology, for certain types of buildings, an addressable system is an essential standard of care. This includes :
+
+                      </p>
+
+                        <ul className=' list-disc px-4 text-justify '>
+                            {features2.map((items, index) => (
+
+                                <li key={index} className=' py-2'>
+                                    <strong>{items.title} : </strong> {items.description}
+
+                                </li>
+
+                            ))}
+
+                        </ul>
+
+
+
                     </section>
 
 
                     {/* Key Components & Benefits */}
-                    <div className="flex flex-col-reverse lg:flex-row   gap-12 mt-16">
-                        <div className="lg:w-6/12 w-full space-y-10">
-                            {fireAlarmDetails.map((section, index) => (
-                                <div key={index}>
-                                    <h2 className="text-2xl font-bold mb-4 text-center md:text-left">{section.title}</h2>
-                                    <ul className="list-disc pl-6 text-gray-700 space-y-2">
-                                        {section.items.map((item, idx) => (
-                                            <li key={idx}>
-                                                <span className="font-semibold">{item.label}</span> {item.desc}
-                                            </li>
-                                        ))}
-
-
-                                    </ul>
-                                </div>
-                            ))}
-
-                            <div className="mt-16">
-                                <h2 className="text-2xl font-bold mb-4 text-center md:text-left">Types of Fire Alarm Systems</h2>
-                                <ul className="list-disc px-5 list-outside text-gray-700 space-y-2">
-                                    <li className='text-justify md:text-left'><span className="font-semibold">Conventional Systems -</span> Divide the building into zones, identifying the affected area when an alarm is triggered. Ideal for smaller buildings.</li>
-                                    <li className='text-justify md:text-left'><span className="font-semibold">Addressable Systems -</span> Assign a unique address to each detector, allowing precise identification of the unit that activated the alarm for a faster response.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-
-                        <div className="lg:w-6/12 flex justify-start items-start py-4">
-                            <img
-                                src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/Fire-Alarm_qlh32m.webp"
-                                alt="Fire Alarm Components"
-
-                                className="rounded-2xl"
-                            />
-                        </div>
-                    </div>
+                  
 
                     <section>
 
@@ -296,9 +358,20 @@ export default function FireAlarm() {
                             <div className="relative py-5 inline-flex items-center justify-center w-full mx-auto my-4">
                                 <hr className="w-full h-px my-8 bg-gray-300 border-0" />
                                 <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[16px] md:text-xl font-semibold font-sans">
-                                    Why Choose Adhunik FireXpert Addressable Fire Alarm Systems ?
+
+                                   Why Choose Adhunik FireXpert for Your Installation ?
+
                                 </h2>
                             </div>
+
+<p className=" pb-4">
+    The intelligence of an addressable system is only as good as its design and installation. At Adhunik FireXpert, our approach is built on a 19+ year legacy of engineering excellence. Our certified technicians are experts in designing, installing, programming, and commissioning these complex systems. We ensure that every device is placed for optimal coverage, that the system is programmed with clear and accurate location descriptions, and that it is fully compliant with the National Building Code (NBC)
+</p>
+
+<p className=" pb-4">
+  We provide a true turnkey solution, from the initial consultation and system design to flawless installation and long-term Annual Maintenance Contracts (AMCs).
+
+</p>
 
                             <ul className=' list-disc px-4  text-justify'>
                                 {WhyChoose.map((items, index) => (
@@ -343,14 +416,19 @@ export default function FireAlarm() {
                                     <div className="relative inline-flex py-2 items-center justify-center w-full mx-auto my-7 md:mb-0">
                                         <hr className="w-[90%] h-px my-8 bg-gray-300 border-0" />
                                         <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[15px] md:text-2xl capitalize font-semibold font-sans">
-                                            Get Expert Advice for Your Fire Safety Solution Needs
+                                          Upgrade to a Smarter, Safer Fire Alarm System
+
                                         </h2>
                                     </div>
 
                                     {/* Paragraphs */}
                                     <p className="font-sans text-center  w-full">
-                                        Need a Custom Fire Safety Solution in Delhi and NCR? Contact Our Experts Now!
-                                    </p>
+                             
+                             Don't settle for ambiguity in an emergency. Protect your facility with the precision and reliability of an addressable fire alarm system.
+
+Contact us today for a free consultation and a detailed quote for your facility in Delhi NCR.
+
+                                </p>
 
 
                                     {/* Button */}
@@ -360,7 +438,7 @@ export default function FireAlarm() {
                                             className="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
                                         >
                                             <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                                            <span className="relative">Contact Adhunik FireXpert Expert</span>
+                                            <span className="relative">Contact  Experts</span>
                                         </a>
                                     </div>
 
