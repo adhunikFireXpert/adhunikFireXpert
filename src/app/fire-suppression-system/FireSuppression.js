@@ -5,47 +5,18 @@ export default function FireSuppressionPage() {
      const fireSuppressionComponents = [
 
     {
-      title: "Early Detection and Rapid Response –",
+      title: "These advanced systems –",
       description:
-        "Our systems are engineered for swift fire detection and immediate activation, minimizing the time for a fire to escalate and cause extensive damage.",
+        "are designed to detect a fire at its earliest incipient stage and extinguish it rapidly using specialized agents that are safe for your most sensitive equipment, often leaving no residue behind. This immediate, automated response is crucial for protecting high-value assets, preventing catastrophic data loss, and ensuring business continuity.",
     },
 
     {
-      title: "Minimized Property Damage and Loss –",
+      title: "At Adhunik FireXpert –",
       description:
-        "By quickly suppressing fires at their source, our systems help reduce structural damage, equipment loss, and business interruption. Many of our clean agent systems leave no residue, allowing for quicker recovery and minimal downtime",
+        "we bring a 19+ year legacy of engineering excellence to the design and installation of these complex systems. As a leading fire safety contractor in Delhi NCR, we ensure your most valuable assets have the ultimate level of protection.",
     },
     
-    {
-      title: "Enhanced Occupant Safety –",
-      description:
-        "Protecting lives is paramount. Our fire suppression systems provide crucial time for safe evacuation and reduce the risk of injuries or fatalities.",
-    },
-
-    {
-      title: "Compliance with Safety Regulations –",
-      description:
-        "Installing a compliant fire suppression system ensures adherence to local and national fire safety codes, preventing potential legal and financial repercussions.",
-    },
-
-    {
-      title: "24/7 Uninterrupted Protection –",
-      description:
-        "Our automatic fire suppression systems offer continuous monitoring and protection, even when facilities are unoccupied.",
-    },
-
-    {
-      title: "Protection of Critical Assets –",
-      description:
-        "For businesses dealing with sensitive equipment or irreplaceable data, such as data centers and archives, our specialized systems offer crucial protection against fire and water damage (in the case of clean agent systems).",
-    },
-
-    {
-      title: "Potential Insurance Benefits –",
-      description:
-        "Many insurance providers offer reduced premiums for properties equipped with certified fire suppression systems.",
-    },
-
+    
 
   ];
 
@@ -54,28 +25,70 @@ export default function FireSuppressionPage() {
   const qualityChecklist = [
 
     {
-      title: "Manufacturing Excellence –",
+      title: "Clean Agent Gas Suppression Systems (FM-200, Novec 1230) –",
       description:
-        "As an ISO 9001:2008 certified manufacturer, we leverage our expertise to produce high-quality components and systems, adhering to stringent quality management principles and industry standards.",
+        <>
+          <p>The gold standard for protecting electronics and irreplaceable assets. Clean agent systems use safe, non-toxic gases that extinguish a fire by absorbing heat and interrupting the chemical reaction at a molecular level. These agents are electrically non-conductive and evaporate instantly, leaving absolutely zero residue. This means your operations can be back up and running almost immediately after an event, with no costly cleanup or water damage to your sensitive equipment.
+          </p>
+
+          <ul className=' ps-4 pt-2 list-decimal'>
+            <li>
+              <strong>  Ideal For : </strong>
+
+              Data Centers, Server Rooms, IT Infrastructure, Museums, Archives, Telecommunication Hubs, and Control Rooms.
+
+            </li>
+          </ul>
+        </>,
     },
 
+ 
     {
-      title: "Wide Range of Supply –",
+      title: "CO2 (Carbon Dioxide) Suppression Systems –",
       description:
-        "We offer a diverse selection of fire suppression systems and related equipment to meet various requirements and budgets.",
+        <>
+          <p>
+         A highly effective and fast-acting solution for unmanned industrial applications. A high-pressure CO2 system works by rapidly displacing oxygen in a protected area, effectively smothering a fire. As an inert gas, CO2 is highly effective on Class B (flammable liquid) and Class C (electrical) fires. Due to the life-safety risks associated with oxygen displacement, these systems are only suitable for enclosed, unoccupied areas and are equipped with extensive safety and warning mechanisms.
+
+          </p>
+
+          <ul className=' ps-4 pt-2 list-decimal'>
+            <li>
+              <strong>  Ideal For : </strong>
+
+            Electrical Control Rooms, Power Generator Rooms, Machinery Spaces, Industrial Processes, and Flammable Liquid Storage Rooms.
+
+            </li>
+          </ul>
+
+        </>,
     },
 
+ 
     {
-      title: "Reliable Dealership –",
+      title: "Kitchen Fire Suppression Systems –",
       description:
-        "As authorized dealers for leading brands, we provide access to a wide array of cutting-edge fire safety technologies.",
+        <>
+          <p>
+
+        Commercial kitchens are one of the highest-risk environments for fires, specifically Class K fires involving cooking oils and fats. Water is ineffective and dangerous on these types of fires. Our specialized kitchen suppression systems are installed directly within the kitchen hood and are designed to automatically detect a fire. Upon activation, they discharge a proprietary wet chemical agent that smothers the flames and reacts with the cooking oils in a process called saponification, creating a thick, soapy foam that prevents re-ignition.
+
+
+          </p>
+
+          <ul className=' ps-4 pt-2 list-decimal'>
+            <li>
+              <strong>  Ideal For :  </strong>
+
+           Hotel Kitchens, Restaurants, Food Courts, and Industrial Canteens.
+
+            </li>
+          </ul>
+
+        </>,
     },
 
-    {
-      title: "Professional Installation –",
-      description:
-        "Our certified and experienced technicians ensure the correct and efficient installation of your fire suppression system, guaranteeing optimal performance.",
-    },
+ 
 
   ];
 
@@ -160,29 +173,29 @@ export default function FireSuppressionPage() {
 
   const fireSuppression2 = [
     {
-      title: "Certified Quality : ",
-      description: "As an ISO 9001:2008 certified company, we adhere to stringent quality management systems, ensuring superior product and service delivery ."
+      title: "Deep Engineering Expertise : ",
+      description: "Our approach is built on the award-winning legacy of Adhunik Powertech. Our team has a deep understanding of agent concentration calculations, flow dynamics, and safety protocols required for these complex systems."
       ,
     },
 
 
     {
-      title: "Direct from the Source : ",
-      description: "As a manufacturer, we offer competitive pricing and greater control over product quality ."
+      title: "Uncompromising Compliance : ",
+      description: " We are experts in the National Building Code (NBC) and relevant global NFPA (National Fire Protection Association) standards. We ensure your system is fully compliant, facilitating a smooth approval process and guaranteeing its effectiveness."
       ,
     },
 
 
     {
-      title: "Comprehensive Service : ",
-      description: "Benefit from our expertise as your single point of contact for supply, dealing, and installation ."
+      title: "True Turnkey Project Management : ",
+      description: "From the initial hazard analysis and system design to flawless installation, testing, and final commissioning, we manage the entire project with a single point of accountability."
       ,
     },
 
 
     {
-      title: "Local Expertise : ",
-      description: "We have a deep understanding of the specific fire safety challenges and regulations in the Delhi NCR region ."
+      title: "Certified Components : ",
+      description: "We use only high-quality, UL-listed, and certified cylinders, nozzles, detectors, and control panels from trusted global manufacturers to guarantee the reliability and performance of your system."
       ,
     },
     
@@ -286,13 +299,17 @@ export default function FireSuppressionPage() {
               <div className="lg:w-6/12 w-full mt-8 lg:mt-0">
 
                 <h1 className=" md:text-3xl text-center md:text-left font-bold mb-4">
-                Advanced Fire Suppression Systems in Delhi NCR : Your End-to-End Solution by Adhunik FireXpert - An ISO 9001:2008 Certified Company
+
+             Advanced Fire Suppression Systems
+
                 </h1>
 
-                <p className="text-gray-700 text-justify md:text-left">
-                  Fires pose a significant threat to businesses and properties in the bustling Delhi NCR region. At Adhunik FireXpert, we understand the critical importance of having reliable and effective fire suppression systems in place to safeguard your valuable assets and ensure the safety of occupants. As a leading  <strong>manufacturer, supplier, dealer, and installer of fire suppression systems in Delhi NCR</strong>, Adhunik FireXpert offers a complete suite of advanced fire protection solutions, providing unparalleled protection against fire hazards in Delhi, Noida, Gurgaon, Faridabad, and Ghaziabad. We are proud to be an <strong>ISO 9001:2008 certified company</strong>, demonstrating our commitment to quality management and customer satisfaction.
+                <p className="  text-gray-700 text-justify   ">
 
-                </p>
+         Automated, Rapid, and Residue-Free Fire Protection for Your Most Critical Assets. Adhunik FireXpert specializes in the design, installation, and maintenance of advanced fire suppression systems for high-value and sensitive environments in Delhi, Gurgaon, and Noida.
+ 
+               </p>
+
               </div>
             </div>
 
@@ -311,11 +328,17 @@ export default function FireSuppressionPage() {
                 <div className="lg:w-6/12 w-full mt-8 lg:mt-0">
 
                   <h2 className="  md:text-3xl text-center md:text-left font-bold mb-6">
-                    Why is a Robust Fire Suppression System Essential in Delhi NCR ?
+                  Beyond Sprinklers : Protecting What Water Can't
+
                   </h2>
-                  <p className="text-gray-700 text-justify md:text-left" >Delhi NCR's dynamic environment, encompassing commercial hubs, industrial complexes, data centers, and residential areas, faces diverse fire risks. A well-designed fire suppression system offers numerous benefits:
+
+                  <p className="text-gray-700 text-justify " >
+                 In many of today's most critical commercial and industrial environments, water from a traditional sprinkler system can be as destructive as the fire it's meant to extinguish. For facilities housing invaluable data centers, sensitive electronics, irreplaceable archives, or hazardous materials, a specialized fire suppression system is not just an option—it is an absolute necessity.
                   </p>
-                  <ul className="list-disc text-justify md:text-left px-3 py-2 space-y-4 text-gray-700">
+
+               
+
+                  <ul className="list-disc text-justify   px-3 py-2 space-y-4 text-gray-700">
                     {fireSuppressionComponents.map((item, index) => (
                       <li key={index}>
                         <span className="font-semibold">{item.title}</span> {item.description}
@@ -331,17 +354,30 @@ export default function FireSuppressionPage() {
             </div>
 
             <div className="mt-20">
-              <h2 className="md:text-3xl font-bold mb-6 text-center  md:text-left">Your Trusted Manufacturer, Supplier, Dealer, and Installer of Fire Suppression Systems in Delhi NCR - An ISO 9001:2008 Certified Company</h2>
+
+              <h2 className="md:text-3xl font-bold mb-6 text-center  md:text-left">
+
+          Tailored Suppression Solutions for Every Critical Hazard
+
+              </h2>
+
               <p className="text-gray-700 mb-4 text-center md:text-left">
-                As a comprehensive provider committed to quality, Adhunik FireXpert manages every stage of your fire suppression system needs, ensuring excellence and seamless integration :
+               
+               As an expert fire fighting contractor, we possess deep expertise in a wide range of advanced suppression technologies. We don't believe in a one-size-fits-all approach; we analyze your specific risks to engineer the right solution for your hazard.
+
               </p>
+
               <ul className="list-disc text-justify md:text-left pl-5 space-y-4 text-gray-700">
                 {qualityChecklist.map((item, index) => (
                   <li key={index}>
-                    <span className="font-semibold">{item.title}</span> {item.description}
+                    <span className=" text-red-500 font-bold">
+                    {item.title}
+                    </span>
+                    {item.description}
                   </li>
                 ))}
               </ul>
+
             </div>
 
 
@@ -365,13 +401,21 @@ export default function FireSuppressionPage() {
             <div className="mt-20">
 
               <h2 className=" md:text-3xl font-bold mb-6 text-center  md:text-left">
-               Why Choose Adhunik FireXpert for Your Fire Suppression Needs in Delhi NCR ?
+
+            Why Trust Adhunik FireXpert for Your Suppression System ?
+
               </h2>
               
+              <p className=' py-2'>
+                The effectiveness of an advanced suppression system is entirely dependent on the precision of its design, the quality of its installation, and the expertise of the contractor.
+
+              </p>
+
               <ul className="list-disc text-justify md:text-left pl-5 space-y-4 text-gray-700">
                 {fireSuppression2.map((item, index) => (
                   <li key={index}>
-                    <span className="font-semibold">{item.title}</span> {item.description}
+                    <span className="font-bold text-red-500">{item.title}</span> 
+                    {item.description}
                   </li>
                 ))}
               </ul>
@@ -398,12 +442,17 @@ export default function FireSuppressionPage() {
                                     <div className="relative inline-flex py-2 items-center justify-center w-full mx-auto my-7 md:mb-0">
                                         <hr className="w-[90%] h-px my-8 bg-gray-300 border-0" />
                                         <h2 className="absolute text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[15px] md:text-2xl capitalize font-semibold font-sans">
-                                            Get Expert Advice for Your Fire Safety Solution Needs
+                                        
+                                        Protect Your Most Valuable Assets with a Smarter Solution
+
                                         </h2>
                                     </div>
 
                                     {/* Paragraphs */}
-                                    <p className="font-sans text-center  w-full">
+                                    <p className="font-sans   w-full text-justify ">
+
+                                    Don't let a fire destroy what's irreplaceable. Partner with a fire suppression contractor whose expertise is built on a legacy of trust and engineering excellence.
+<br />
                                         Protect your  Don't wait for a fire incident to recognize the importance of a reliable fire suppression system. Contact Adhunik FireXpert today for a consultation and let our experts, as your local <strong>ISO 9001:2008 certified manufacturer, supplier, dealer, and installer</strong>, help you choose, implement, and maintain the best fire suppression solution to safeguard your property and ensure the safety of everyone in your Delhi NCR premises.
                                     </p>
 
@@ -415,7 +464,7 @@ export default function FireSuppressionPage() {
                                             className="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
                                         >
                                             <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                                            <span className="relative">Contact Adhunik FireXpert Expert</span>
+                                            <span className="relative">Contact  Expert</span>
                                         </a>
                                     </div>
 
