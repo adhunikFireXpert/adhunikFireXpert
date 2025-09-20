@@ -122,13 +122,84 @@ export default function WaterLeakDetection() {
     },
   ];
 
-  const Why = [
+
+  const advanced2 = [
+
     {
-      title: "Unwavering Commitment to Serving Delhi",
+      title: "Data Centers & Server Rooms",
       description:
-        "Adhunik FireXpert is deeply committed to providing top-tier Water Leak Detection Devices and unparalleled service to our valued clients throughout Delhi and the National Capital Region.",
+        "To protect servers, storage arrays, and networking equipment from leaks from overhead pipes or sub-floor cooling systems. This is the number one application for WLD technology.",
     },
 
+    {
+      title: "Electrical Control Rooms & Panel Rooms",
+      description:
+        "To safeguard the heart of your facility's power distribution from fire-causing short circuits and power outages.",
+    },
+
+    {
+      title: "Basements, Plant Rooms & Utility Corridors",
+
+      description:
+        "To provide early warning of leaks from chillers, pumps, and plumbing before they can cause widespread structural damage.",
+    },
+
+    {
+      title: "Museums, Archives & Libraries",
+      description:
+        "To protect irreplaceable artifacts, documents, and collections from water damage.",
+    },
+
+    {
+      title: " Hospitals & Laboratories ",
+      description: " To protect sensitive medical and research equipment and maintain the integrity of sterile environments."
+    },
+    {
+      title: "Healthcare Institutions across Delhi",
+      description:
+        "Hospitals, clinics, and laboratories requiring stringent environmental control.",
+    },
+
+    {
+      title: "Educational Institutions in Delhi",
+      description:
+        "Schools, colleges, and universities safeguard valuable resources and ensure a safe learning environment.",
+    },
+    {
+      title: "Government Buildings and Public Sector Undertakings in Delhi",
+      description:
+        "Protecting vital assets and ensuring uninterrupted public services.",
+    },
+  ];
+
+
+
+
+  const Why = [
+    {
+      title: "Instantaneous Early Warning",
+      description:
+        "The system detects water at the earliest possible stage—often just a few drops—providing your team with the critical time needed to intervene and prevent a major incident.",
+    },
+{
+  title:"Prevention of Catastrophic Damage",
+  description:"By enabling a rapid response, a WLD system prevents minor leaks from escalating into floods that can destroy sensitive electronics, compromise structural integrity, and lead to millions in damages.",
+},
+
+{
+  title:"Reduced Operational Downtime",
+   description:"Water damage is a leading cause of unplanned downtime in data centers and critical facilities. A WLD system is one of the most cost-effective insurance policies against business interruption.",
+
+},
+{
+  title:"24/7 Automated Monitoring",
+  description:"Once installed, the system provides continuous, round-the-clock protection without requiring any manual intervention. It is a silent guardian, always on alert",
+},
+
+{
+  title:"Pin-Point Accuracy",
+  description:"Advanced linear sensor cables can identify the exact location of a leak to within one meter, eliminating the need for time-consuming searches under raised floors or in complex utility corridors",
+},
     {
       title: "In-Depth Understanding of Delhi's Unique Needs",
       description:
@@ -202,11 +273,14 @@ export default function WaterLeakDetection() {
             <div className="lg:w-6/12 w-full">
               <div className="space-y-4">
                 <h1 className=" text-center md:text-left text-2xl py-3 font-bold text-gray-800">
-                  Water Leak Detection Device (WLD) for Complete Protection in
-                  Delhi
+                 Water Leak Detection (WLD) Systems
+
                 </h1>
 
-                <p className="text-gray-700 text-justify md:text-left">
+                <p className="text-gray-700 text-justify ">
+                Detect the Threat Before It Becomes a Catastrophe. Adhunik FireXpert specializes in the design and expert installation of advanced Water Leak Detection (WLD) systems for mission-critical commercial and industrial facilities in Delhi, Gurgaon, and Noida.
+<br />
+<br />
                   Adhunik FireXpert is the premier provider of cutting-edge Water Leak
                   Detection Devices (WLD) in Delhi and the National Capital
                   Region. Our sophisticated systems are engineered to deliver
@@ -218,6 +292,7 @@ export default function WaterLeakDetection() {
                   industrial infrastructure in the outskirts of Delhi, our WLD
                   solutions offer unparalleled peace of mind.
                 </p>
+
               </div>
             </div>
           </div>
@@ -225,31 +300,36 @@ export default function WaterLeakDetection() {
           {/* How It Works */}
           <div className="mt-16">
             <p className="text-gray-700 mb-4 text-justify md:text-left">
-              <strong>
-                The Critical Need for a Reliable Water Leak Detection Device in
-                Delhi :
-              </strong>{" "}
-              Delhi's diverse climate and aging infrastructure make properties
-              particularly susceptible to water leaks. From burst pipes during
-              temperature fluctuations to slow, insidious leaks within walls and
-              under floors, the potential for significant damage is
-              ever-present. Undetected water leaks can lead to structural
-              weakening, mold growth, electrical hazards, and exorbitant repair
-              costs. A proactive approach is essential, and a high-quality Water
-              Leak Detection Device (WLD) from Adhunik FireXpert provides that crucial
-              early warning system. Our WLD technology is designed to identify
-              leaks at their nascent stage, allowing for timely intervention and
-              preventing minor issues from escalating into major disasters that
-              can disrupt your life or business operations in Delhi.
+
+              <strong className=" text-red-500 text-2xl">
+               The Silent Threat That Can Cripple Your Operations
+
+              </strong>{" "} <br />
+             In any critical facility, the most significant threats are often the ones you don't anticipate. While fire is a primary concern, an undetected water leak can be just as silent, swift, and catastrophic. A slow drip from a faulty pipe, a cracked HVAC condensation line, or a backed-up drain can release a devastating amount of water into your most sensitive areas, leading to equipment failure, irreversible data loss, and costly operational downtime.
+
+             The damage from water is multifaceted. It can cause immediate short circuits in electrical panels, corrode sensitive server components, and lead to long-term structural damage and mold growth. In a data center or a critical control room, the financial impact of such an event can be immense.
+
+
+At Adhunik FireXpert, we understand that a comprehensive safety strategy must protect your facility from all potential hazards. We provide a modern, highly effective solution to this pervasive threat: the advanced Water Leak Detection (WLD) System.
+
             </p>
           </div>
 
           {/* Benefits Section */}
           <div className="mt-16">
             <h2 className="text-2xl text-center md:text-left font-bold text-gray-800 mb-4">
-              Why Choose Adhunik FireXpert's Advanced Water Leak Detection Device (WLD)
-              in Delhi ?
+           How Our Water Leak Detection Systems Work
+?
             </h2>
+            <p>
+              A Water Leak Detection System is a state-of-the-art monitoring solution that provides instantaneous, 24/7 protection against fluid leaks. The system is comprised of two main components: a control panel and specialized sensor cables or spot detectors. When the sensor comes into contact with even a small amount of conductive liquid like water, it triggers an immediate alarm at the control panel, which can also be integrated with your Building Management System (BMS).
+
+            </p>
+
+            <p>
+              The key advantage of a modern WLD system is its ability to provide a precise, pinpoint location of the leak along the sensor cable, allowing your facility team to respond to the exact source of the problem immediately, before it can spread.
+
+            </p>
 
             <ul className="list-disc py-4 text-justify md:text-left pl-5 space-y-4 text-gray-700">
               {features.map((items, index) => (
@@ -298,7 +378,10 @@ export default function WaterLeakDetection() {
               ))}
             </ul>
 
-            <h2 className="text-2xl  text-center  py-5 font-bold text-gray-800 mb-4">
+
+
+
+            <h2 className="text-2xl  md:text-left text-center  py-5 font-bold text-gray-800 mb-4">
               Applications: Protecting Delhi's Diverse Infrastructure with Our
               Advanced WLD Devices :
             </h2>
@@ -317,10 +400,38 @@ export default function WaterLeakDetection() {
               ))}
             </ul>
 
+
+
+
+
+            <h2 className="text-2xl  md:text-left text-center  py-5 font-bold text-gray-800 mb-4">
+            Essential Protection for Mission-Critical Environments
+
+            </h2>
+            <p className="text-gray-700 mb-4">
+          Water damage can be catastrophic in any business, but it is especially critical in certain high-value sectors. We are experts in designing and installing WLD systems in </p>
+
+            <ul className="list-disc py-4 text-justify md:text-left pl-5 space-y-4 text-gray-700">
+              {advanced2.map((items, index) => (
+                <li key={index} className=" py-1">
+                  <span className="font-semibold">{items.title} – </span>{" "}
+                  {items.description}
+                </li>
+              ))}
+            </ul>
+
+
+
+
             <h2 className=" text-center md:text-left text-2xl  py-5 font-bold text-gray-800 ">
               Why Choose Adhunik FireXpert as Your Trusted Water Leak Detection Device
               Provider in Delhi ?
             </h2>
+
+            <p>
+              Our advanced systems offer numerous advantages, providing a superior level of protection for modern commercial and industrial facilities.
+
+            </p>
 
             <ul className="list-disc py-4 text-justify md:text-left pl-5 space-y-4 text-gray-700">
               {Why.map((items, index) => (
@@ -330,6 +441,31 @@ export default function WaterLeakDetection() {
                 </li>
               ))}
             </ul>
+
+
+
+   <h2 className=" text-center  text-2xl  py-5 font-bold text-gray-800 ">
+            Why Trust Adhunik FireXpert for Your WLD Installation ?
+
+            </h2>
+
+            <p>
+          The reliability of a Water Leak Detection System is entirely dependent on its strategic design and professional installation. Our approach, built on a 19+ year legacy of engineering excellence, ensures your system is configured for maximum coverage and flawless performance. Our certified technicians conduct a thorough site assessment to identify all potential leak sources and critical areas. We then strategically route the sensor cables to create a comprehensive safety net, ensuring every vulnerable space is protected. This is not just an add-on; it is a critical component of your facility's overall risk management and business continuity strategy.
+
+
+            </p>
+   <h2 className=" text-center  text-2xl  py-5 font-bold text-gray-800 ">
+       Don't Wait for a Disaster. Secure Your Facility Today.
+
+            </h2>
+
+            <p>
+      Proactively protect your facility from the costly and devastating threat of water damage. Partner with an expert who understands the critical link between environmental monitoring and total facility safety.
+
+Contact us today for a free consultation and a quote for a Water Leak Detection System installation.
+
+            </p>
+
 
             <div className="w-full md:p-7 rounded-xl">
               <div className="flex items-center justify-center h-full">
