@@ -36,7 +36,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.adhunikfirexpert.com/images/wld-system-preview.jpg",  
+        url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618664/Zedexfire2_cvaopn.webp",  
         width: 1200, 
         height: 630, 
         alt: "A water leak detection sensor cable installed in a data center.",
@@ -52,7 +52,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Protect Critical Assets with Water Leak Detection | Adhunik FireXpert",
     description: "Prevent catastrophic downtime. We install advanced Water Leak Detection (WLD) systems for data centers, server rooms, and critical facilities in Delhi NCR.",
-    image: "https://www.adhunikfirexpert.com/images/wld-system-preview.jpg", 
+    image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618664/Zedexfire2_cvaopn.webp", 
   },
 };
 

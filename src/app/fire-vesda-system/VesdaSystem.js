@@ -92,8 +92,52 @@ export default function VesdaSystem() {
 
   ];
 
+      const WhyChoose2 = [
+        
+    {
+      title: "Continuous Air Sampling – ",
+      description:
+        "A powerful aspirator (fan) in the main detector unit continuously draws air from the environment into the pipe network through precisely drilled sampling holes.",
+    },
+    {
+      title: "Advanced Laser Detection –",
+      description:
+        "The air sample is passed through a dual-stage filter to remove dust and dirt before entering a laser detection chamber. Inside this chamber, a highly sensitive laser scans the air for the presence of microscopic smoke particles created during the incipient (pre-combustion) stage of a fire. ",
+    },
+    {
+      title: "Scalable and Flexible Solutions –",
+      description:
+        <>
+          <p>
+            Intelligent Alarm Triggers: The system is incredibly intelligent. It can be programmed with multiple alarm thresholds. For example:
 
-  const FeaturesBenefits = [
+          </p>
+          <ul>
+            <li>
+              <strong>Alert (Level 1) : </strong>  Detects the very first, almost invisible traces of smoke, giving your team time to investigate a potential issue.
+
+            </li>
+
+            <li>
+              <strong>Action (Level 2) : </strong>  Confirms the presence of smoke, triggering a more urgent response.
+
+            </li>
+
+            <li>
+              <strong>Fire (Level 3) : </strong>  Activates the main fire alarm and can be integrated to trigger a fire suppression system.
+
+
+            </li>
+          </ul>
+        </>,
+    },
+
+
+
+
+  ];
+
+ const FeaturesBenefits = [
     {
       title: "Extensive Experience –",
       description:
@@ -128,6 +172,86 @@ export default function VesdaSystem() {
         "Our dedicated support team in Delhi NCR is readily available to provide prompt assistance and ongoing maintenance. ",
     },
 
+
+
+
+  ];
+
+  const FeaturesBenefits2 = [
+    {
+      title: "The Earliest Possible Warning –",
+      description:
+        "VESDA systems can detect smoke up to 1,000 times more sensitive than standard smoke detectors. They identify the microscopic particles released in the overheating, pre-combustion stage, providing the absolute earliest warning.",
+    },
+
+
+    {
+      title: "Elimination of False Alarms –",
+      description:
+        "The system's intelligent filtration and multiple alarm thresholds allow it to distinguish between dust, pollution, and real smoke particles, virtually eliminating the costly and disruptive false alarms common with standard detectors in sensitive environments.",
+    },
+
+
+    {
+      title: "Reliable Detection in High Airflow –",
+      description:
+        "In environments with high airflow, like data centers, smoke from a fire can be diluted and dispersed before it ever reaches a ceiling-mounted detector. VESDA's active air sampling process overcomes this challenge, ensuring reliable detection no matter the conditions.",
+    },
+
+
+    {
+      title: "Discreet & Unobtrusive Installation –",
+      description:
+        "The sampling pipes can be completely concealed, leaving only tiny, almost invisible sampling holes visible. This makes it the perfect choice for environments where aesthetics is important, such as museums, heritage buildings, and executive boardrooms.",
+    },
+
+
+    
+
+
+
+
+  ];
+
+  const FeaturesBenefits4 = [
+
+    {
+      title: "Data Centers, Server Rooms & IT Facilities –",
+      description:
+        "To protect invaluable data and prevent catastrophic downtime.",
+    },
+
+
+    {
+      title: "Cleanrooms (Pharmaceutical & Semiconductor) –",
+      description:
+        "To detect overheating in sterile environments without compromising cleanliness.",
+    },
+
+
+    {
+      title: "Hospitals & Healthcare Facilities –",
+      description:
+        "To provide early warning in critical areas like MRI rooms and laboratories.",
+    },
+
+
+    {
+      title: "Telecommunication Hubs & Control Rooms –",
+      description:
+        "To safeguard the nerve centers of our modern infrastructure.",
+    },
+
+{
+  title:"Warehouses & High-Ceiling Spaces",
+  description:"Where smoke stratification can make standard detection unreliable.",
+
+}
+    ,
+    {
+      title:"Museums, Archives & Heritage Buildings",
+      description:"To protect irreplaceable artifacts and collections",
+    }
 
 
 
@@ -194,10 +318,15 @@ export default function VesdaSystem() {
             {/* Right Content */}
             <div className="lg:w-6/12 w-full">
               <div className="space-y-3">
-                <h1 className=" text-2xl md:text-3xl font-bold text-gray-800 py-3">VESDA System in Delhi NCR: Early Fire Detection by Adhunik FireXpert</h1>
-                <p className=" text-sm md:text-lg font-medium text-gray-700 pb-2">Protect Your Critical Assets Sooner with Advanced VESDA Technology in Delhi NCR
+                <h1 className=" text-2xl md:text-3xl font-bold text-gray-800 py-3">
+               VESDA : Very Early Warning Smoke Detection
+
+                </h1>
+                <p className=" text-sm font-medium text-gray-700 pb-2">Detect the Hidden Threat of Fire Long Before It Ignites. Adhunik FireXpert is a leading installer of advanced VESDA aspirating smoke detection systems for mission-critical facilities in Delhi, Gurgaon, and Noida.
+
                 </p>
-                <p className="text-gray-700 text-justify">
+
+                <p className="text-gray-700 text-sm text-justify">
                   In high-value and mission-critical environments across Delhi NCR, every second counts when it comes to fire safety. Adhunik FireXpert brings you the unparalleled protection of <strong>VESDA (Very Early Smoke Detection Apparatus) systems</strong> , the world's leading aspirating smoke detection technology. Unlike conventional smoke detectors that react to smoke already present, VESDA actively samples the air, identifying potential fire threats at their earliest, invisible stages. This proactive approach provides you with crucial extra time to investigate, intervene, and prevent significant damage, downtime, and potential loss of life.
 
                 </p>
@@ -207,6 +336,34 @@ export default function VesdaSystem() {
 
           {/* Features Section */}
           <div className="mt-16">
+
+            <div className="  w-full">
+              <div className="space-y-3">
+                <h1 className=" text-2xl md:text-3xl font-bold text-gray-800 py-3">
+
+             Beyond Standard Detection : Identifying a Fire Before You Can See or Smell It
+
+                </h1>
+                <p className=" text-sm font-medium text-gray-700 pb-2">Detect In a mission-critical environment like a data center or a cleanroom, a standard smoke detector is often too late. By the time enough smoke has accumulated to trigger a conventional detector, a fire may have already taken hold, causing irreversible damage to your most valuable assets. For these environments, you don't just need detection; you need pre-emptive warning.
+
+
+                </p>
+
+                <p className="text-gray-700 text-sm text-justify">
+              This is where a <strong>VESDA (Very Early Smoke Detection Apparatus) </strong>system provides an unparalleled level of protection. VESDA is not a smoke detector; it is an advanced aspirating smoke detection (ASD) system that actively and continuously samples the air, providing the earliest possible warning of a potential fire, often long before any visible smoke or flames appear.
+
+
+                </p>
+                <p className="text-gray-700 text-sm text-justify">
+             At Adhunik FireXpert, we bring our <strong>19+ year legacy of engineering excellence</strong> to the design and installation of these sophisticated life-safety systems, ensuring your facility has the ultimate protection against the threat of fire.
+
+                </p>
+
+                
+              </div>
+            </div>
+
+
             <div className="flex flex-col-reverse lg:flex-row items-center gap-10">
               {/* Text Content */}
               <div className="lg:w-12/12 w-full">
@@ -230,11 +387,40 @@ export default function VesdaSystem() {
               </div>
 
               {/* Feature Image */}
+              
+
+              {/* Feature Image */}
 
             </div>
           </div>
 
           {/* Benefits Section */}
+
+          <div className="lg:w-12/12 w-full">
+                <h2 className=" text-2xl md:text-3xl py-4 font-bold text-gray-800 mb-4">
+                 How Aspirating Smoke Detection Works: The Science of Early Warning
+
+                </h2>
+                <p className=' text-justify'>
+               Unlike traditional smoke detectors that passively wait for smoke to reach them, a VESDA system is an active detection solution. It works through a network of small, unobtrusive pipes that are strategically installed throughout a protected area.
+
+                </p>
+
+                <ul className="list-disc py-3 list-outside pl-5 space-y-2 text-gray-700">
+                  {WhyChoose2.map((item, index) => (
+                    <li key={index} className=' py-2 text-justify'>
+                      <span className="font-semibold">{item.title}</span> {item.description}
+                    </li>
+                  ))}
+                </ul>
+
+                  <p className=' text-justify pt-3'>
+            This multi-stage warning system provides the invaluable gift of time, allowing you to manage a potential threat long before it becomes a disaster.
+
+                </p>
+
+
+              </div>
 
           <div className="container-fluid mx-auto justify-around  items-center flex flex-col-reverse  md:flex-row h-full w-full">
             <div className="box md:w-5/12 w-full">
@@ -271,6 +457,91 @@ export default function VesdaSystem() {
             <div className="box   w-full">
               <div className="mt-16">
                 <h2 className=" text-2xl text-center md:text-left md:text-3xl font-bold py-3 text-gray-800 mb-4">
+               
+               Why a VESDA System is Essential for Critical Facilities
+?
+                </h2>
+
+                <p className=' pb-4 text-justify md:text-left'>
+                For a high-value facility, the benefits of a VESDA system are profound, extending far beyond those of conventional detectors.
+</p>
+
+
+                <ul className="list-disc list-outside text-justify pl-5 space-y-2 text-gray-700">
+                  {FeaturesBenefits2.map((item, index) => (
+                    <li key={index} className=' py-1'>
+                      <span className="font-semibold">{item.title}</span> {item.description}
+                    </li>
+                  ))}
+                </ul>
+  
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div className="container-fluid mx-auto  ">
+            <div className="box   w-full">
+              <div className="mt-16">
+                <h2 className=" text-2xl text-center md:text-left md:text-3xl font-bold py-3 text-gray-800 mb-4">
+               
+              Essential Protection for Mission-Critical Environments
+
+                </h2>
+
+                <p className=' pb-4 text-justify md:text-left'>
+               A VESDA system is the gold standard for protecting assets and ensuring business continuity in a wide range of industries. We are experts in designing and installing these systems in
+</p>
+
+
+                <ul className="list-disc list-outside text-justify pl-5 space-y-2 text-gray-700">
+                  {FeaturesBenefits4.map((item, index) => (
+                    <li key={index} className=' py-1'>
+                      <span className="font-semibold">{item.title}</span> {item.description}
+                    </li>
+                  ))}
+                </ul>
+  
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+          <div className="container-fluid mx-auto  ">
+            <div className="box   w-full">
+              <div className="mt-16">
+                <h2 className=" text-2xl text-center md:text-left md:text-3xl font-bold py-3 text-gray-800 mb-4">
+              Why Trust Adhunik FireXpert for Your VESDA Installation ?
+
+                </h2>
+
+                <p className=' pb-4 text-justify md:text-left'>
+
+               The unparalleled sensitivity of a VESDA system demands an unparalleled level of expertise in its design and installation. Our approach, built on a 19+ year legacy of engineering excellence, ensures your system is configured for flawless performance. Our certified technicians conduct a thorough site assessment and use specialized software to design the optimal pipe network layout for your unique environment, guaranteeing reliable and accurate detection.
+
+                   </p>
+
+
+             
+
+               
+
+              </div>
+            </div>
+
+          </div>
+
+
+          <div className="container-fluid mx-auto  ">
+            <div className="box   w-full">
+              <div className="mt-16">
+
+                <h2 className=" text-2xl text-center md:text-left md:text-3xl font-bold py-3 text-gray-800 mb-4">
                   Why Choose Adhunik FireXpert as Your VESDA Partner in Delhi NCR ?
                 </h2>
 
@@ -286,7 +557,10 @@ export default function VesdaSystem() {
                   ))}
                 </ul>
 
-                <h2 className="text-2xl font-bold text-gray-800 mb-4 py-6 text-center md:text-left ">Protect Your Future Today with VESDA Systems from Adhunik FireXpert in Delhi NCR.
+                <h2 className="text-2xl font-bold text-gray-800 mb-4 py-6 text-center md:text-left ">
+
+                Protect Your Future Today with VESDA Systems from Adhunik FireXpert in Delhi NCR.
+                
                 </h2>
 
 
@@ -298,13 +572,15 @@ export default function VesdaSystem() {
                       <div className="relative inline-flex py-2 items-center justify-center w-full mx-auto my-7 md:mb-0">
                         <hr className="w-[90%] h-px my-8 bg-gray-300 border-0" />
                         <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[15px] md:text-2xl capitalize font-semibold font-sans">
-                          Contact us today to discuss your VESDA system needs in Delhi NCR.
+                          Contact us today to discuss your VESDA system needs in Delhi NCR.  
 
                         </h2>
                       </div>
 
                       {/* Paragraphs */}
                       <p className="font-sans text-justify md:text-center  w-full">
+                      Proactively protect your most valuable assets with the world's leading very early warning smoke detection system.
+
                         Don't wait for a fire to threaten your valuable assets and operations. Invest in the proactive protection of a VESDA system from Adhunik FireXpert, your trusted, ISO 9001:2008 Certified Partner for Advanced Fire Detection Systems in Delhi NCR.
                       </p>
 
@@ -316,7 +592,7 @@ export default function VesdaSystem() {
                           className="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer border-b-4 border-l-2 active:border-blue-600 active:shadow-none shadow-lg bg-gradient-to-tr from-blue-600 to-blue-500 border-blue-700 text-white"
                         >
                           <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
-                          <span className="relative">Contact Adhunik FireXpert Expert</span>
+                          <span className="relative">Contact Expert</span>
                         </a>
                       </div>
 
