@@ -33,7 +33,7 @@ export default function FireSuppressionPage() {
 
           <ul className=' ps-4 pt-2 list-decimal'>
             <li>
-              <strong>  Ideal For : </strong>
+              <strong className=' text-red-500'>  Ideal For : </strong>
 
               Data Centers, Server Rooms, IT Infrastructure, Museums, Archives, Telecommunication Hubs, and Control Rooms.
 
@@ -54,7 +54,7 @@ export default function FireSuppressionPage() {
 
           <ul className=' ps-4 pt-2 list-decimal'>
             <li>
-              <strong>  Ideal For : </strong>
+              <strong className=' text-red-500'>  Ideal For : </strong>
 
             Electrical Control Rooms, Power Generator Rooms, Machinery Spaces, Industrial Processes, and Flammable Liquid Storage Rooms.
 
@@ -69,6 +69,7 @@ export default function FireSuppressionPage() {
       title: "Kitchen Fire Suppression Systems –",
       description:
         <>
+
           <p>
 
         Commercial kitchens are one of the highest-risk environments for fires, specifically Class K fires involving cooking oils and fats. Water is ineffective and dangerous on these types of fires. Our specialized kitchen suppression systems are installed directly within the kitchen hood and are designed to automatically detect a fire. Upon activation, they discharge a proprietary wet chemical agent that smothers the flames and reacts with the cooking oils in a process called saponification, creating a thick, soapy foam that prevents re-ignition.
@@ -78,7 +79,7 @@ export default function FireSuppressionPage() {
 
           <ul className=' ps-4 pt-2 list-decimal'>
             <li>
-              <strong>  Ideal For :  </strong>
+              <strong className=' text-red-500'>  Ideal For :  </strong>
 
            Hotel Kitchens, Restaurants, Food Courts, and Industrial Canteens.
 
@@ -102,20 +103,20 @@ export default function FireSuppressionPage() {
           </p>
 
           <ul className=' list-disc md:list-inside py-3'>
-            <li >
-              <span className="font-semibold">Wet Pipe Systems : </span> Ideal for environments where freezing is not a concern, such as offices and retail spaces.
+            <li  >
+              <span className="font-semibold text-red-500 ">Wet Pipe Systems : </span> Ideal for environments where freezing is not a concern, such as offices and retail spaces.
             </li>
             <li >
-              <span className="font-semibold">Dry Pipe Systems : </span> Used in areas subject to freezing temperatures, such as unheated warehouses or parking garages.
+              <span className="font-semibold text-red-500 ">Dry Pipe Systems : </span> Used in areas subject to freezing temperatures, such as unheated warehouses or parking garages.
             </li>
             <li >
-              <span className="font-semibold">Pre-Action Systems : </span> Ideal for protecting sensitive areas like museums, libraries, and data centers, preventing accidental water discharge .
+              <span className="font-semibold text-red-500 ">Pre-Action Systems : </span> Ideal for protecting sensitive areas like museums, libraries, and data centers, preventing accidental water discharge .
             </li>
             <li >
-              <span className="font-semibold">Deluge Systems : </span> Designed for high-hazard environments where rapid fire spread is a risk, such as chemical plants and power stations .
+              <span className="font-semibold text-red-500 ">Deluge Systems : </span> Designed for high-hazard environments where rapid fire spread is a risk, such as chemical plants and power stations .
             </li>
             <li >
-              <span className="font-semibold">Water Mist Systems : </span> Suitable for areas where minimizing water damage is crucial.
+              <span className="font-semibold text-red-500 ">Water Mist Systems : </span> Suitable for areas where minimizing water damage is crucial.
             </li>
           </ul>
 
@@ -131,14 +132,14 @@ export default function FireSuppressionPage() {
 
           <ul className=' list-disc md:list-inside py-3'>
             <li >
-              <span className="font-semibold">FM-200 Systems : </span> A widely used clean agent known for its effectiveness and safety.
+              <span className="font-semibold text-red-500 ">FM-200 Systems : </span> A widely used clean agent known for its effectiveness and safety.
             </li>
             <li >
-              <span className="font-semibold">Novec 1230 Systems : </span> An environmentally friendly clean agent with a high safety margin .
+              <span className="font-semibold text-red-500 ">Novec 1230 Systems : </span> An environmentally friendly clean agent with a high safety margin .
 
             </li>
             <li >
-              <span className="font-semibold">Inert Gas Systems (Argonite, Inergen) : </span> Using naturally occurring gases to reduce oxygen levels and suppress fires.
+              <span className="font-semibold text-red-500 ">Inert Gas Systems (Argonite, Inergen) : </span> Using naturally occurring gases to reduce oxygen levels and suppress fires.
 
 
             </li>
@@ -298,50 +299,49 @@ export default function FireSuppressionPage() {
 
               <div className="lg:w-6/12 w-full mt-8 lg:mt-0">
 
-                <h1 className=" md:text-3xl text-center md:text-left font-bold mb-4">
-
+                <h1 className=" text-lg text-red-500 md:text-3xl text-center md:text-left font-bold mb-4">
              Advanced Fire Suppression Systems
-
                 </h1>
 
-                <p className="  text-gray-700 text-justify   ">
+                <p className="  text-gray-700 text-justify text-sm  ">
 
          Automated, Rapid, and Residue-Free Fire Protection for Your Most Critical Assets. Adhunik FireXpert specializes in the design, installation, and maintenance of advanced fire suppression systems for high-value and sensitive environments in Delhi, Gurgaon, and Noida.
  
                </p>
-
               </div>
             </div>
 
 
-            <div className="mt-20">
+            <div className=" pt-6 md:mt-20">
               <div className="flex flex-col gap-6 lg:flex-row-reverse items-center">
                 <div className="lg:w-6/12 w-full">
+
                   <img
                     src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618768/fire-suppression-system-2_wgxcfe.jpg"
                     alt="Key Components of a Fire Suppression System"
-
                     className="rounded-xl w-full h-auto"
+
                   />
+
                 </div>
 
                 <div className="lg:w-6/12 w-full mt-8 lg:mt-0">
 
-                  <h2 className="  md:text-3xl text-center md:text-left font-bold mb-6">
+                  <h2 className="  text-red-500 text-lg md:text-3xl text-center md:text-left font-bold mb-6">
                   Beyond Sprinklers : Protecting What Water Can't
 
                   </h2>
 
-                  <p className="text-gray-700 text-justify " >
+                  <p className="text-gray-700 text-justify text-sm " >
                  In many of today's most critical commercial and industrial environments, water from a traditional sprinkler system can be as destructive as the fire it's meant to extinguish. For facilities housing invaluable data centers, sensitive electronics, irreplaceable archives, or hazardous materials, a specialized fire suppression system is not just an option—it is an absolute necessity.
                   </p>
 
                
 
-                  <ul className="list-disc text-justify   px-3 py-2 space-y-4 text-gray-700">
+                  <ul className=" text-sm list-disc text-justify   px-3 py-2 space-y-4 text-gray-700">
                     {fireSuppressionComponents.map((item, index) => (
                       <li key={index}>
-                        <span className="font-semibold">{item.title}</span> {item.description}
+                        <span className="font-bold text-red-500">{item.title}</span> {item.description}
                       </li>
                     ))}
                   </ul>
@@ -355,22 +355,22 @@ export default function FireSuppressionPage() {
 
             <div className="mt-20">
 
-              <h2 className="md:text-3xl font-bold mb-6 text-center  md:text-left">
+              <h2 className="md:text-3xl text-red-500 font-bold mb-6 text-center  md:text-left">
 
           Tailored Suppression Solutions for Every Critical Hazard
 
               </h2>
 
-              <p className="text-gray-700 mb-4 text-center md:text-left">
+              <p className="text-gray-700 mb-4 text-sm text-justify  px-4 md:text-left">
                
                As an expert fire fighting contractor, we possess deep expertise in a wide range of advanced suppression technologies. We don't believe in a one-size-fits-all approach; we analyze your specific risks to engineer the right solution for your hazard.
 
               </p>
 
-              <ul className="list-disc text-justify md:text-left pl-5 space-y-4 text-gray-700">
+              <ul className="list-disc text-justify text-sm md:text-left pl-5 space-y-4 text-gray-700">
                 {qualityChecklist.map((item, index) => (
                   <li key={index}>
-                    <span className=" text-red-500 font-bold">
+                    <span className="  text-red-500 font-bold">
                     {item.title}
                     </span>
                     {item.description}
@@ -382,16 +382,18 @@ export default function FireSuppressionPage() {
 
 
             <div className="mt-20">
-              <h2 className=" text-2xl md:text-3xl font-bold mb-6 text-center  md:text-left">
+
+              <h2 className=" text-red-500 text-2xl md:text-3xl font-bold mb-6 text-center  md:text-left">
                 Our Comprehensive Range of Fire Suppression Systems in Delhi NCR
               </h2>
-              <p className="text-gray-700 mb-4 text-center md:text-left">
+
+              <p className="text-gray-700 mb-4  text-justify md:text-left">
                 Adhunik FireXpert offers a diverse portfolio of fire suppression systems tailored to meet the unique needs of various applications in Delhi NCR :
               </p>
               <ul className="list-disc text-justify md:text-left pl-5 space-y-4 text-gray-700">
                 {fireSuppression1.map((item, index) => (
                   <li key={index}>
-                    <span className="font-semibold">{item.title}</span> {item.description}
+                    <span className="font-semibold text-red-500">{item.title}</span> {item.description}
                   </li>
                 ))}
               </ul>
@@ -400,7 +402,7 @@ export default function FireSuppressionPage() {
             
             <div className="mt-20">
 
-              <h2 className=" md:text-3xl font-bold mb-6 text-center  md:text-left">
+              <h2 className=" md:text-3xl text-red-700 font-bold mb-6 text-center  md:text-left">
 
             Why Trust Adhunik FireXpert for Your Suppression System ?
 
@@ -426,7 +428,7 @@ export default function FireSuppressionPage() {
 
             <div className="mt-20">
 
-              <h2 className=" md:text-2xl font-bold mb-6 text-justify  md:text-left">
+              <h2 className="  md:text-2xl font-bold mb-6 text-justify text-sm md:text-left">
                Protect Your Delhi NCR Property Today with Adhunik FireXpert - Your ISO 9001:2008 Certified Manufacturer, Supplier, Dealer, and Installer
               </h2>
               
@@ -449,7 +451,7 @@ export default function FireSuppressionPage() {
                                     </div>
 
                                     {/* Paragraphs */}
-                                    <p className="font-sans   w-full text-justify ">
+                                    <p className="font-sans text-sm   w-full text-justify ">
 
                                     Don't let a fire destroy what's irreplaceable. Partner with a fire suppression contractor whose expertise is built on a legacy of trust and engineering excellence.
 <br />
