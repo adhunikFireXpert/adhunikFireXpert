@@ -43,41 +43,41 @@ export default function VesdaSystem() {
       description: <>
         <p>
 
-          <strong>Versatile Applications - </strong> VESDA systems are adaptable to a wide range of environments in Delhi NCR, including
+          <strong className=' text-red-500'>Versatile Applications - </strong> VESDA systems are adaptable to a wide range of environments in Delhi NCR, including
 
         </p>
 
         <ul className=" list-decimal py-3 list-outside pl-5 space-y-2 text-gray-700">
 
           <li className=' py-2'>
-            <span className="font-semibold">Data Centers and Server Rooms : </span> Protecting critical IT infrastructure from even the slightest smoke.
+            <span className="font-semibold text-red-500">Data Centers and Server Rooms : </span> Protecting critical IT infrastructure from even the slightest smoke.
 
           </li>
           <li className=' py-2'>
-            <span className="font-semibold">Cleanrooms and Pharmaceutical Facilities : </span>Maintaining sterile environments with early contamination detection.
-
-
-          </li>
-          <li className=' py-2'>
-            <span className="font-semibold">Telecommunication Facilities : </span> Ensuring uninterrupted network operations.
+            <span className="font-semibold text-red-500">Cleanrooms and Pharmaceutical Facilities : </span>Maintaining sterile environments with early contamination detection.
 
 
           </li>
           <li className=' py-2'>
-            <span className="font-semibold">Warehouses and Logistics Centers : </span>  Safeguarding valuable inventory and minimizing potential losses.
+            <span className="font-semibold text-red-500">Telecommunication Facilities : </span> Ensuring uninterrupted network operations.
+
+
+          </li>
+          <li className=' py-2'>
+            <span className="font-semibold text-red-500">Warehouses and Logistics Centers : </span>  Safeguarding valuable inventory and minimizing potential losses.
           </li>
 
           <li className=' py-2'>
-            <span className="font-semibold">Historical Buildings and Museums :</span> Providing discreet and highly sensitive protection for irreplaceable assets.
+            <span className="font-semibold text-red-500">Historical Buildings and Museums :</span> Providing discreet and highly sensitive protection for irreplaceable assets.
           </li>
 
 
           <li className=' py-2'>
-            <span className="font-semibold">Commercial Buildings and Offices :</span> Enhancing life safety and minimizing business disruption.
+            <span className="font-semibold text-red-500">Commercial Buildings and Offices :</span> Enhancing life safety and minimizing business disruption.
           </li>
 
           <li className=' py-2'>
-            <span className="font-semibold">Industrial Facilities :</span> Detecting potential hazards in challenging and demanding environments.
+            <span className="font-semibold text-red-500">Industrial Facilities :</span> Detecting potential hazards in challenging and demanding environments.
 
           </li>
 
@@ -114,17 +114,17 @@ export default function VesdaSystem() {
           </p>
           <ul>
             <li>
-              <strong>Alert (Level 1) : </strong>  Detects the very first, almost invisible traces of smoke, giving your team time to investigate a potential issue.
+              <strong className=' text-red-500'>Alert (Level 1) : </strong>  Detects the very first, almost invisible traces of smoke, giving your team time to investigate a potential issue.
 
             </li>
 
             <li>
-              <strong>Action (Level 2) : </strong>  Confirms the presence of smoke, triggering a more urgent response.
+              <strong className=' text-red-500'>Action (Level 2) : </strong>  Confirms the presence of smoke, triggering a more urgent response.
 
             </li>
 
             <li>
-              <strong>Fire (Level 3) : </strong>  Activates the main fire alarm and can be integrated to trigger a fire suppression system.
+              <strong className=' text-red-500'> Fire (Level 3) : </strong>  Activates the main fire alarm and can be integrated to trigger a fire suppression system.
 
 
             </li>
@@ -243,13 +243,13 @@ export default function VesdaSystem() {
     },
 
 {
-  title:"Warehouses & High-Ceiling Spaces",
+  title:"Warehouses & High-Ceiling Spaces -",
   description:"Where smoke stratification can make standard detection unreliable.",
 
 }
     ,
     {
-      title:"Museums, Archives & Heritage Buildings",
+      title:"Museums, Archives & Heritage Buildings - ",
       description:"To protect irreplaceable artifacts and collections",
     }
 
@@ -318,10 +318,11 @@ export default function VesdaSystem() {
             {/* Right Content */}
             <div className="lg:w-6/12 w-full">
               <div className="space-y-3">
-                <h1 className=" text-2xl md:text-3xl font-bold text-gray-800 py-3">
-               VESDA : Very Early Warning Smoke Detection
 
+                <h1 className=" text-center md:text-left text-lg text-red-700  md:text-2xl font-bold  py-3">
+               VESDA : Very Early Warning Smoke Detection
                 </h1>
+
                 <p className=" text-sm font-medium text-gray-700 pb-2">Detect the Hidden Threat of Fire Long Before It Ignites. Adhunik FireXpert is a leading installer of advanced VESDA aspirating smoke detection systems for mission-critical facilities in Delhi, Gurgaon, and Noida.
 
                 </p>
@@ -339,7 +340,7 @@ export default function VesdaSystem() {
 
             <div className="  w-full">
               <div className="space-y-3">
-                <h1 className=" text-2xl md:text-3xl font-bold text-gray-800 py-3">
+                <h1 className=" text-lg text-center md:text-left text-red-700 md:text-2xl   font-bold  py-3">
 
              Beyond Standard Detection : Identifying a Fire Before You Can See or Smell It
 
@@ -349,7 +350,7 @@ export default function VesdaSystem() {
 
                 </p>
 
-                <p className="text-gray-700 text-sm text-justify">
+                <p className="text-gray-700 text-sm  text-justify">
               This is where a <strong>VESDA (Very Early Smoke Detection Apparatus) </strong>system provides an unparalleled level of protection. VESDA is not a smoke detector; it is an advanced aspirating smoke detection (ASD) system that actively and continuously samples the air, providing the earliest possible warning of a potential fire, often long before any visible smoke or flames appear.
 
 
@@ -357,9 +358,7 @@ export default function VesdaSystem() {
                 <p className="text-gray-700 text-sm text-justify">
              At Adhunik FireXpert, we bring our <strong>19+ year legacy of engineering excellence</strong> to the design and installation of these sophisticated life-safety systems, ensuring your facility has the ultimate protection against the threat of fire.
 
-                </p>
-
-                
+                </p>                
               </div>
             </div>
 
@@ -367,18 +366,18 @@ export default function VesdaSystem() {
             <div className="flex flex-col-reverse lg:flex-row items-center gap-10">
               {/* Text Content */}
               <div className="lg:w-12/12 w-full">
-                <h2 className=" text-2xl md:text-3xl py-4 font-bold text-gray-800 mb-4">
+                <h2 className=" text-lg text-center text-red-700 md:text-left md:text-2xl py-4 font-bold mb-4">
                   Why Choose VESDA Systems from Adhunik FireXpert in Delhi NCR ?
                 </h2>
-                <p className=' text-justify'>
+                <p className=' text-justify text-sm'>
                   At Adhunik FireXpert, we understand the unique fire safety challenges faced by businesses in Delhi NCR, from sensitive data centers and bustling commercial complexes to historical buildings and industrial facilities. We are your trusted partner for the supply, installation, and maintenance of cutting-edge VESDA systems. As an ISO 9001:2008 certified company, Adhunik FireXpert adheres to stringent quality management systems, ensuring the highest standards in our products, services, and customer satisfaction. We offer:
 
                 </p>
 
-                <ul className="list-disc py-3 list-outside pl-5 space-y-2 text-gray-700">
+                <ul className="list-disc text-sm py-3 list-outside pl-5 space-y-2 text-gray-700">
                   {WhyChoose.map((item, index) => (
                     <li key={index} className=' py-2 text-justify'>
-                      <span className="font-semibold">{item.title}</span> {item.description}
+                      <span className=" text-red-500 font-semibold">{item.title}</span> {item.description}
                     </li>
                   ))}
                 </ul>
@@ -397,11 +396,11 @@ export default function VesdaSystem() {
           {/* Benefits Section */}
 
           <div className="lg:w-12/12 w-full">
-                <h2 className=" text-2xl md:text-3xl py-4 font-bold text-gray-800 mb-4">
-                 How Aspirating Smoke Detection Works: The Science of Early Warning
+                <h2 className=" text-center md:text-left text-lg text-red-700 md:text-2xl   py-4 font-bold   mb-4 ">
+                 How Aspirating Smoke Detection Works : The Science of Early Warning
 
                 </h2>
-                <p className=' text-justify'>
+                <p className=' text-sm text-justify'>
                Unlike traditional smoke detectors that passively wait for smoke to reach them, a VESDA system is an active detection solution. It works through a network of small, unobtrusive pipes that are strategically installed throughout a protected area.
 
                 </p>
@@ -409,12 +408,12 @@ export default function VesdaSystem() {
                 <ul className="list-disc py-3 list-outside pl-5 space-y-2 text-gray-700">
                   {WhyChoose2.map((item, index) => (
                     <li key={index} className=' py-2 text-justify'>
-                      <span className="font-semibold">{item.title}</span> {item.description}
+                      <span className="font-semibold text-red-500">{item.title}</span> {item.description}
                     </li>
                   ))}
                 </ul>
 
-                  <p className=' text-justify pt-3'>
+                  <p className=' text-justify px-4 text-sm py-3'>
             This multi-stage warning system provides the invaluable gift of time, allowing you to manage a potential threat long before it becomes a disaster.
 
                 </p>
@@ -425,16 +424,16 @@ export default function VesdaSystem() {
           <div className="container-fluid mx-auto justify-around  items-center flex flex-col-reverse  md:flex-row h-full w-full">
             <div className="box md:w-5/12 w-full">
               <div className="mt-16">
-                <h2 className=" text-2xl text-center md:text-left md:text-3xl font-bold text-gray-800 mb-4">
-                  Key Features and Benefits of VESDA Systems :
+                <h2 className=" text-lg text-red-700 md:text-2xl text-center md:text-left  font-bold  mb-4">
+                  Key Features and Benefits of VESDA Systems 
 
                 </h2>
-                <ul className="list-disc text-justify list-outside pl-5 space-y-2 text-gray-700">
+                <ul className="list-disc text-sm text-justify list-outside pl-5 space-y-2 text-gray-700">
+
                   {FeaturesBenefits.map((item, index) => (
 
-
                     <li key={index}>
-                      <span className="font-semibold">{item.title}</span> {item.description}
+                      <span className="font-bold text-red-500">{item.title}</span> {item.description}
                     </li>
                   ))}
                 </ul>
@@ -456,21 +455,21 @@ export default function VesdaSystem() {
           <div className="container-fluid mx-auto  ">
             <div className="box   w-full">
               <div className="mt-16">
-                <h2 className=" text-2xl text-center md:text-left md:text-3xl font-bold py-3 text-gray-800 mb-4">
+                <h2 className=" text-lg text-red-700 md:text-2xl text-center md:text-left  font-bold py-3 text-gray-800 mb-4">
                
                Why a VESDA System is Essential for Critical Facilities
 ?
                 </h2>
 
-                <p className=' pb-4 text-justify md:text-left'>
+                <p className=' pb-4 text-justify text-sm px-4 md:text-left'>
                 For a high-value facility, the benefits of a VESDA system are profound, extending far beyond those of conventional detectors.
 </p>
 
 
-                <ul className="list-disc list-outside text-justify pl-5 space-y-2 text-gray-700">
+                <ul className="list-disc text-sm list-outside text-justify pl-5 space-y-2 text-gray-700">
                   {FeaturesBenefits2.map((item, index) => (
                     <li key={index} className=' py-1'>
-                      <span className="font-semibold">{item.title}</span> {item.description}
+                      <span className="font-bold text-red-500">{item.title}</span> {item.description}
                     </li>
                   ))}
                 </ul>
@@ -485,21 +484,21 @@ export default function VesdaSystem() {
           <div className="container-fluid mx-auto  ">
             <div className="box   w-full">
               <div className="mt-16">
-                <h2 className=" text-2xl text-center md:text-left md:text-3xl font-bold py-3 text-gray-800 mb-4">
+                <h2 className=" text-lg text-red-700  md:text-2xl text-center md:text-left  font-bold py-3  mb-4">
                
               Essential Protection for Mission-Critical Environments
 
                 </h2>
 
-                <p className=' pb-4 text-justify md:text-left'>
+                <p className=' pb-4 text-justify text-sm md:text-left'>
                A VESDA system is the gold standard for protecting assets and ensuring business continuity in a wide range of industries. We are experts in designing and installing these systems in
 </p>
 
 
-                <ul className="list-disc list-outside text-justify pl-5 space-y-2 text-gray-700">
+                <ul className="list-disc text-sm list-outside text-justify pl-5 space-y-2 text-gray-700">
                   {FeaturesBenefits4.map((item, index) => (
                     <li key={index} className=' py-1'>
-                      <span className="font-semibold">{item.title}</span> {item.description}
+                      <span className="font-bold text-red-500">{item.title}</span> {item.description}
                     </li>
                   ))}
                 </ul>
@@ -515,12 +514,12 @@ export default function VesdaSystem() {
           <div className="container-fluid mx-auto  ">
             <div className="box   w-full">
               <div className="mt-16">
-                <h2 className=" text-2xl text-center md:text-left md:text-3xl font-bold py-3 text-gray-800 mb-4">
+                <h2 className=" text-lg md:text-2xl text-red-700 text-center md:text-left  font-bold py-3  mb-4">
               Why Trust Adhunik FireXpert for Your VESDA Installation ?
 
                 </h2>
 
-                <p className=' pb-4 text-justify md:text-left'>
+                <p className=' pb-4 text-justify md:text-left text-sm px-4'>
 
                The unparalleled sensitivity of a VESDA system demands an unparalleled level of expertise in its design and installation. Our approach, built on a 19+ year legacy of engineering excellence, ensures your system is configured for flawless performance. Our certified technicians conduct a thorough site assessment and use specialized software to design the optimal pipe network layout for your unique environment, guaranteeing reliable and accurate detection.
 
@@ -541,25 +540,25 @@ export default function VesdaSystem() {
             <div className="box   w-full">
               <div className="mt-16">
 
-                <h2 className=" text-2xl text-center md:text-left md:text-3xl font-bold py-3 text-gray-800 mb-4">
+                <h2 className=" text-lg text-red-700 md:text-2xl text-center md:text-left   font-bold py-3  mb-4">
                   Why Choose Adhunik FireXpert as Your VESDA Partner in Delhi NCR ?
                 </h2>
 
-                <p className=' pb-4 text-justify md:text-left'>
-                  As an <strong>ISO 9001:2008 certified company</strong>, Adhunik FireXpert is a trusted and established fire safety solutions provider in Delhi NCR with a strong commitment to quality and customer satisfaction. When you choose us for your VESDA system needs, you benefit from: </p>
+                <p className=' pb-4 text-justify md:text-left text-sm'>
+                  As an <strong className=' text-red-500'>ISO 9001:2008 certified company</strong>, Adhunik FireXpert is a trusted and established fire safety solutions provider in Delhi NCR with a strong commitment to quality and customer satisfaction. When you choose us for your VESDA system needs, you benefit from: </p>
 
 
-                <ul className="list-disc list-outside text-justify pl-5 space-y-2 text-gray-700">
+                <ul className="list-disc text-sm list-outside text-justify pl-5 space-y-2 text-gray-700">
                   {FeaturesBenefits.map((item, index) => (
                     <li key={index} className=' py-1'>
-                      <span className="font-semibold">{item.title}</span> {item.description}
+                      <span className="font-bold text-red-500">{item.title}</span> {item.description}
                     </li>
                   ))}
                 </ul>
 
-                <h2 className="text-2xl font-bold text-gray-800 mb-4 py-6 text-center md:text-left ">
+                <h2 className=" text-red-700 md:text-2xl font-bold  mb-4 py-6 text-center md:text-left ">
 
-                Protect Your Future Today with VESDA Systems from Adhunik FireXpert in Delhi NCR.
+                Protect Your Future Today with VESDA Systems from Adhunik FireXpert in Delhi NCR
                 
                 </h2>
 
@@ -572,13 +571,13 @@ export default function VesdaSystem() {
                       <div className="relative inline-flex py-2 items-center justify-center w-full mx-auto my-7 md:mb-0">
                         <hr className="w-[90%] h-px my-8 bg-gray-300 border-0" />
                         <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[15px] md:text-2xl capitalize font-semibold font-sans">
-                          Contact us today to discuss your VESDA system needs in Delhi NCR.  
+                          Contact us today to discuss your VESDA system needs in Delhi NCR  
 
                         </h2>
                       </div>
 
                       {/* Paragraphs */}
-                      <p className="font-sans text-justify md:text-center  w-full">
+                      <p className="font-sans text-sm px-4 text-justify md:text-center  w-full">
                       Proactively protect your most valuable assets with the world's leading very early warning smoke detection system.
 
                         Don't wait for a fire to threaten your valuable assets and operations. Invest in the proactive protection of a VESDA system from Adhunik FireXpert, your trusted, ISO 9001:2008 Certified Partner for Advanced Fire Detection Systems in Delhi NCR.
