@@ -3,90 +3,66 @@ import React from "react";
 export default function TublingSystem() {
 
   const WhyChoose = [
+
     {
-      title: "Automatic and Rapid Activation :",
-      desc: "Illuminated signs utilizing photoluminescent materials or integrated lighting to enhance visibility, especially in low-light or emergency situations",
+      title: "Detection : ",
+      desc: "The tubing is strategically routed throughout the inside of the enclosure, directly above the wires, circuits, and components where a fire is most likely to start. The tube is pressurized with nitrogen, and this pressure is constantly monitored.",
+
     },
 
     {
-      title: "Early Fire Detection :",
-      desc: "The linear heat-sensitive tube detects fire in its initial stages, allowing for swift suppression before it escalates and causes significant damage.",
-    },
-    {
-      title: "Clean Agent Suppression :",
-      desc: "We offer systems utilizing environmentally friendly clean agents like FM-200 and Novec 1230, which effectively extinguish fires without leaving harmful residue, ensuring minimal damage to sensitive electronic equipment common in Delhi NCR's industries.",
-    },
-
-    {
-      title: "Cost-Effective Fire Safety :",
-      desc: "Our Fire Tube Suppression Systems are easy to install and require minimal maintenance, offering a long-term, cost-efficient fire safety solution for businesses in Delhi NCR.",
-    },
-
-    {
-      title: " Space-Saving Design :",
-      desc: "The compact nature of our tubing systems makes them ideal for protecting equipment with limited space, a common constraint in many Delhi NCR facilities.",
-    },
-    {
-      title: "Protection for Multiple Fire Classes :",
-      desc: "Our systems are compatible with Class A (ordinary combustibles), Class B (flammable liquids), Class C (electrical fires), and even offer solutions for specific electrical hazards prevalent in Delhi NCR's industrial sector.",
-    },
-    {
-      title: "Enhanced Safety and Compliance :",
-      desc: "Investing in Adhunik FireXpert's Fire Tube Suppression Systems helps businesses in Delhi NCR meet stringent safety regulations and potentially reduce insurance premiums.",
-    },
-    {
-      title: "Expert Installation and Support in Delhi NCR :",
-      desc: "Our experienced team provides comprehensive installation, maintenance, and support services across Delhi, Noida, Gurugram, Faridabad, and Ghaziabad, ensuring your system operates effectively.",
-    },
-    {
-      title: "Trusted ISO 9001:2008 Certified Quality :",
-      desc: "As an ISO 9001:2008 Certified Company, Adhunik FireXpert adheres to the highest quality standards in the design, manufacturing, and installation of our Fire Tube Suppression Systems, providing you with reliable and effective fire protection in Delhi NCR.",
-    },
-    {
-      title: (
-        <>
-          <p className=" py-2 font-normal">
-            <span className=" font-semibold">
-              {" "}
-              Direct and Indirect Suppression Technology
-            </span>{" "}
-            : Choose the ideal system for your specific needs.
-          </p>
-        </>
-      ),
-      desc: (
-        <>
-          <ul className=" py-3 space-y-4 text-justify md:text-left  pl-4 list-disc list-inside text-gray-700">
-            <li className=" list-outside">
-              <span className="font-semibold"> Direct System : </span>
-              For localized protection, the heat-sensitive tube bursts at the
-              fire source, directly releasing the extinguishing agent for
-              immediate suppression. Ideal for electrical panels, small
-              enclosures, and individual pieces of equipment.
-            </li>
-
-            <li className=" list-outside">
-              <span className="font-semibold">Indirect Systems : </span>
-              For larger enclosures, the detection tube triggers a valve,
-              releasing the extinguishing agent through strategically placed
-              nozzles, ensuring even distribution and comprehensive coverage.
-            </li>
-          </ul>
-        </>
-      ),
-    },
+      title:"Activation : ",
+      desc:" If a fire ignites, the intense heat at that specific point causes the tube to burst. This rupture is precisely located at the hottest spot, directly over the source of the fire.",
+    }
+,
+{
+  title:" Suppression : ",
+  desc:" The sudden drop in pressure from the rupture activates the system. This triggers the release of a clean extinguishing agent (such as FM-200, Novec 1230, or CO2) which is then discharged to suppress the fire in a matter of seconds.",
+  
+}
+    
   ];
 
   const DirectandIndirect = [
-    {
-      title: "Direct Fire Tube Suppression Systems",
-      desc: "In this system, the detection tube itself acts as the delivery mechanism. When exposed to fire, the tube bursts at the hottest point, releasing the extinguishing agent directly onto the fire source. This is ideal for protecting smaller, enclosed spaces like electrical panels where the fire source is likely localized.",
-    },
 
     {
-      title: "Indirect Fire Tube Suppression Systems",
-      desc: "Here, the detection tube senses the fire and triggers a valve on a separate extinguishing agent cylinder. The agent is then discharged through nozzles strategically placed within the protected enclosure. This system is better suited for larger enclosures where a more widespread distribution of the extinguishing agent is required.",
+      title: "Direct Fire Tube Suppression Systems",
+      desc: <>
+        <p>
+          In a Direct system, the tubing itself is filled with the extinguishing agent. When the tube bursts from the heat of a fire, the rupture point itself becomes a highly effective discharge nozzle. The clean agent is released directly onto the fire source, providing a swift and localized suppression. This is a simple, cost-effective, and highly reliable solution for smaller, compact enclosures.
+        </p>
+        <ul>
+          <li>
+           <strong>
+              Ideal For : {" "}
+           </strong>
+           Electrical Control Panels, Small Server Racks, and CNC Machine control cabinets.
+
+          </li>
+        </ul>
+      </>,
     },
+
+ 
+    {
+      title: "Indirect Release System",
+      desc: <>
+        <p>
+          In an Indirect system, the tubing acts purely as a detection device. When the tube bursts, the resulting drop in pressure acts as a signal, activating a valve on a separate, larger cylinder of extinguishing agent. This agent is then discharged through a network of dedicated nozzles strategically placed within the enclosure. This provides a faster flood and broader coverage for larger, more complex spaces.
+        </p>
+        <ul>
+          <li>
+           <strong>
+              Ideal For : {" "}
+           </strong>
+       Large Server Racks and Data Centers, Fume Hoods, and larger machinery enclosures.
+
+          </li>
+        </ul>
+      </>,
+    },
+
+ 
   ];
 
   const Why = [
@@ -109,6 +85,41 @@ export default function TublingSystem() {
       desc: "A commitment to protecting your valuable assets and ensuring the safety of your personnel in Delhi NCR.",
     },
   ];
+
+
+  const Why2 = [
+    {
+      title:"Rapid, Automatic 24/7 Protection : ",
+      desc: "Provides constant, automated fire suppression without the need for human intervention, extinguishing a fire in its earliest stages before it can cause significant damage.",
+    },
+    {
+      title:"Prevents Escalation and Collateral Damage :",
+      desc:"By suppressing a fire at the source, it prevents a small equipment fire from spreading and triggering a larger, facility-wide sprinkler system, thus preventing massive water damage to surrounding assets.",
+
+    },
+    {
+      title: "  Zero Damage to Assets : "
+      ,
+      desc:
+      " Utilizes clean agents that are electrically non-conductive and leave no residue, ensuring your sensitive electronics and machinery are unharmed after a discharge."
+    }
+,
+{
+  title:"Cost-Effective & Low Maintenance : ",
+  desc: "A highly affordable solution for protecting high-value assets. The system's simple mechanical design requires minimal maintenance and no electrical power to operate.",
+
+},
+{
+  title:"Flexible & Space-Saving Installation : ",
+  desc:"The flexible tubing can be installed in even the most cramped and complex enclosures where other fire suppression systems cannot fit.",
+
+}
+  
+  ];
+
+ 
+
+
 
   const Applications = [
     {
@@ -180,56 +191,58 @@ export default function TublingSystem() {
                 <img
                   src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/tubling_ts7kec.webp"
                   alt="Fire Tubing System"
-                  className=" object-contain rounded-lg"
+                  className=" object-contain h-full w-full rounded-lg"
                 />
 
               </div>
             </div>
             <div className="lg:w-5/12 w-full py-4">
               <h1 className=" md:text-2xl  text-center md:text-left font-bold mb-4">
-                Fire Tube Suppression System in Delhi NCR - Advanced Fire
-                Protection by Adhunik FireXpert
+               Fire Tubing Systems : Automatic, Localized Fire Suppression
+
               </h1>
 
               <h2 className="text-gray-700 py-3 font-semibold text-justify md:text-left">
-                Safeguard Your Critical Assets with Adhunik FireXpert Tube Suppression
-                Systems in Delhi NCR
+            Detect and Suppress a Fire at its Source, Before It Can Spread. Adhunik FireXpert is a leading installer of advanced fire tubing systems for mission-critical equipment and micro-environments in Delhi, Gurgaon, and Noida.
+
               </h2>
 
-              <p className=" text-sm text-justify md:text-left">
-                In the bustling industrial and commercial landscape of Delhi
-                NCR, the risk of fire incidents poses a significant threat to
-                businesses. Electrical panels, machinery, and other vital
-                equipment are particularly vulnerable.{" "}
-                <strong>Adhunik FireXpert</strong>, an{" "}
-                <strong>ISO 9001:2008 Certified Company</strong>, brings you
-                cutting-edge <strong>Fire Tube Suppression Systems</strong>{" "}
-                designed for rapid detection and effective suppression of fires
-                right at the source. Our advanced technology ensures minimal
-                damage, reduced downtime, and enhanced safety for your valuable
-                assets in Delhi, Noida, Gurugram, Faridabad, and Ghaziabad.
+
+<h3 className="text-gray-700 text-sm py-3 font-semibold text-justify md:text-left">
+  The Hidden Danger Within Your Most Valuable Equipment
+
+</h3>
+              <p className=" text-sm text-justify  ">
+
+            In any modern facility, the most valuable and vulnerable assets are often housed within small, enclosed spaces: electrical panels, server racks, CNC machines, and fume hoods. A fire in one of these micro-environments can be catastrophic, leading to massive operational downtime, irreversible data loss, and potentially escalating into a much larger blaze that puts the entire facility at risk.
+Traditional room-level fire protection, like ceiling-mounted smoke detectors and sprinklers, is essential for overall safety, but it is often too slow to react to these localized incidents. By the time smoke reaches a detector high on the ceiling, the fire inside the panel may have already destroyed the critical components within.
+This is where a Fire Tubing System provides an unparalleled level of rapid, localized protection. It is an innovative and highly effective automatic fire detection and suppression solution that is installed directly inside high-risk enclosures, extinguishing a fire in seconds, right where it starts. At Adhunik FireXpert, we bring our 19+ year legacy of engineering excellence to the design and installation of these sophisticated life-saving systems, ensuring your most critical assets have the ultimate, targeted protection.
+
               </p>
             </div>
           </div>
 
           <div className="mt-12 w-full">
             <h2 className=" text-lg md:text-2xl font-bold mb-6 md:text-left  text-center">
-              Why Choose Adhunik FireXpert Tube Suppression Systems in Delhi NCR ?
+              How It Works : The Simplicity of Advanced Protection
+
             </h2>
 
             <p className=" text-center text-sm  md:text-lg md:text-left  font-semibold py-3 pb-5 ">
-              At Adhunik FireXpert, we understand the unique fire safety challenges
-              faced by businesses in Delhi NCR. Our Fire Tube Suppression
-              Systems offer a multitude of benefits :
+           The genius of a fire tubing system lies in its simplicity and reliability. The core of the system is a flexible, pressurized polymer tube that is sensitive to heat. This tube acts as both the fire detector and, in some cases, the delivery system, requiring no complex electronics or wiring to function.
+
             </p>
 
             <ul className=" text-sm space-y-4 text-justify md:text-left  pl-4 list-disc list-inside text-gray-700">
+
               {WhyChoose.map((item, index) => (
                 <li key={index} className=" list-outside py-1">
                   <span className="font-semibold"> {item.title} </span>
                   {item.desc}
                 </li>
               ))}
+
+
             </ul>
           </div>
 
@@ -252,16 +265,16 @@ export default function TublingSystem() {
             </ul>
           </div>
 
+
           <div className="mt-12 w-full">
             <h2 className=" md:text-2xl font-semibold md:font-bold mb-5 md:text-left  text-center">
-              Direct vs. Indirect Fire Tube Suppression Systems : Choosing the
-              Right Solution for Your Needs in Delhi NCR
+
+          Direct vs. Indirect Systems : Choosing the Right Solution
+
             </h2>
 
             <p className=" text-sm py-3  text-justify md:text-left">
-              Understanding the difference between direct and indirect{" "}
-              <strong>Fire Tube Suppression Systems </strong>is crucial for
-              selecting the optimal protection for your assets in Delhi NCR :
+          We engineer the right type of tubing system based on the size, complexity, and nature of the asset you need to protect.
             </p>
 
             <ul className="space-y-4 text-sm py-4 text-justify md:text-left  pl-4 list-disc list-inside text-gray-700">
@@ -274,14 +287,6 @@ export default function TublingSystem() {
                 </li>
               ))}
             </ul>
-
-            <p className=" text-sm py-4 text-center md:text-left">
-              Our experts at Adhunik FireXpert can assess your specific requirements in
-              Delhi NCR and recommend the most effective{" "}
-              <strong>Fire Tube Suppression System</strong> for your application
-              .
-            </p>
-
           </div>
 
           <div className="py-4">
@@ -307,6 +312,46 @@ export default function TublingSystem() {
               ))}
             </ul>
 
+
+                 <h2 className=" md:text-2xl py-4 font-semibold md:font-bold mb-6 md:text-left  text-center">
+
+            Why a Fire Tubing System is Essential for Critical Equipment ?
+
+            </h2>
+            
+            <ul className=" text-sm space-y-4 text-justify md:text-left  pl-4 list-disc list-inside text-gray-700">
+              {Why2.map((item, index) => (
+                <li key={index} className=" list-outside">
+                  <p> <strong>{item.title}</strong> {item.desc}</p>
+                </li>
+              ))}
+            </ul>
+
+
+
+                 <h2 className=" md:text-2xl py-4 font-semibold md:font-bold mb-6 md:text-left  text-center">
+            Why Trust Adhunik FireXpert for Your Installation ?
+
+            </h2>
+
+            <ul className=" text-sm space-y-4 text-justify md:text-left  pl-4 list-disc list-inside text-gray-700">
+              
+                <li className=" list-outside">
+                  <p> <strong>
+                The reliability of a fire tubing system
+                  </strong>
+
+                  depends entirely on its correct design and professional installation. Our approach, built on a 19+ year legacy of engineering excellence, ensures your system is configured for flawless performance. Our certified technicians conduct a thorough assessment of each piece of equipment to determine the optimal tubing route, the correct agent concentration, and the most effective system type, guaranteeing your most valuable assets are completely protected.
+
+                  </p>
+                </li>
+             
+            </ul>
+
+
+
+
+
             <h2 className=" text-sm font-semibold py-4 text-center md:text-left">
               Adhunik FireXpert - Your Trusted Partner for Fire Safety in Delhi NCR -
               ISO 9001:2008 Certified Company, Contact Adhunik FireXpert Today for the
@@ -320,12 +365,16 @@ export default function TublingSystem() {
                   <div className="relative inline-flex py-2 items-center justify-center w-full mx-auto my-7 md:mb-0">
                     <hr className="w-[90%] h-px my-8 bg-gray-300 border-0" />
                     <h2 className="absolute px-2 md:px-3 text-gray-700 -translate-x-1/2 bg-white left-1/2 text-center text-[15px] md:text-2xl capitalize font-semibold font-sans">
-                      Get Expert Advice for Your Fire Safety Solution Needs
-                    </h2>
+                  Don't Leave Your Most Valuable Assets Unprotected
+
+                  </h2>
                   </div>
 
                   
-                  <p className=" text-sm font-sans text-justify md:text-center  w-full">
+                  <p className=" text-sm font-sans text-justify   w-full">
+
+                  Proactively protect your critical equipment from the inside out with a fast, reliable, and automatic fire tubing system.
+
                     Don't wait for a fire incident to threaten your business.
                     Invest in the proactive fire protection offered by Adhunik
                     FireXpert advanced Fire Tube Suppression Systems in Delhi NCR.
@@ -333,6 +382,7 @@ export default function TublingSystem() {
                     of experts is ready to help you choose the right system to
                     safeguard your critical assets in Delhi, Noida, Gurugram,
                     Faridabad, and Ghaziabad.
+                    Contact us today for a free consultation and a quote for a fire tubing system installation.
                   </p>
 
                   
@@ -343,14 +393,19 @@ export default function TublingSystem() {
                     >
                       <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
                       <span className="relative">
-                        Contact Adhunik FireXpert Expert
+                        Contact Expert
                       </span>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
+
+
           </div>
+
+
+
         </div>
       </section>
     </>

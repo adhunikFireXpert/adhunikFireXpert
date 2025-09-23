@@ -3,6 +3,7 @@ import VesdaSystem from './VesdaSystem'
 
 
 export const metadata = {
+
   title: "VESDA Smoke Detection, Delhi NCR | Adhunik FireXpert",
   description: "Protect your data center or cleanroom with a VESDA system. Adhunik FireXpert are expert installers of aspirating smoke detection in Delhi NCR. Get a quote!",
   
@@ -30,7 +31,8 @@ export const metadata = {
   robots: "index, follow",
 
   openGraph: {
-    title: "VESDA: The Earliest Warning Smoke Detection | Adhunik FireXpert",
+
+    title: "VESDA : The Earliest Warning Smoke Detection | Adhunik FireXpert",
     description: "Discover how aspirating smoke detection (ASD) provides the earliest possible warning of a fire, protecting your most critical assets long before traditional alarms.",
     url: "https://www.adhunikfirexpert.com/fire-vesda-system", 
     type: "article", 
