@@ -219,19 +219,19 @@ export default function FireDoor() {
         <>
           <ul className=" py-3 list-decimal text-justify md:text-left pl-5 space-y-4 text-gray-700">
             <li>
-              <span className="font-semibold"> Steel Fire Doors :</span>{" "}
+              <span className="font-bold text-red-500"> Steel Fire Doors :</span>{" "}
               Constructed with galvanized steel sheets, often with a double-skin
               design and internal insulation (honeycomb or mineral wool).
             </li>
 
             <li>
-              <span className="font-semibold"> Wooden Fire Doors :</span>{" "}
+              <span className="font-bold text-red-500"> Wooden Fire Doors :</span>{" "}
               Crafted from durable hardwood with calcium silicate boards and
               intumescent seals for enhanced fire protection.
             </li>
 
             <li>
-              <span className="font-semibold"> Vision Panels :</span> Integrated
+              <span className="font-bold text-red-500"> Vision Panels :</span> Integrated
               with fire-rated glass (borosilicate).
             </li>
           </ul>
@@ -245,35 +245,35 @@ export default function FireDoor() {
         <>
           <ul className=" py-3 list-decimal text-justify md:text-left pl-5 space-y-4 text-gray-700">
             <li>
-              <span className="font-semibold"> Frame :</span> Typically made
+              <span className="font-bold text-red-500"> Frame :</span> Typically made
               from galvanized steel with a double rebate profile for a secure
               and airtight fit.
             </li>
 
             <li>
-              <span className="font-semibold"> Shutter / Leaf :</span> Smooth,
+              <span className="font-bold text-red-500"> Shutter / Leaf :</span> Smooth,
               double-skin structure with fire-resistant insulation (mineral wool
               or honeycomb).
             </li>
 
             <li>
-              <span className="font-semibold"> Intumescent Seals :</span> Expand
+              <span className="font-bold text-red-500"> Intumescent Seals :</span> Expand
               under heat to seal gaps and block smoke and flames.
             </li>
 
             <li>
-              <span className="font-semibold"> Hardware :</span> Includes
+              <span className="font-bold text-red-500"> Hardware :</span> Includes
               fire-rated hinges, locks, and door closers.
             </li>
 
             <li>
-              <span className="font-semibold"> Insulation :</span> Internal
+              <span className="font-bold text-red-500"> Insulation :</span> Internal
               insulation with fire-resistant materials for optimal thermal and
               flame resistance.
             </li>
 
             <li>
-              <span className="font-semibold"> Finish :</span> Durable powder
+              <span className="font-bold text-red-500"> Finish :</span> Durable powder
               coating or wood stain and lacquer for protection and aesthetics.
             </li>
           </ul>
@@ -286,16 +286,16 @@ export default function FireDoor() {
         <>
           <ul className="  py-3 list-decimal text-justify md:text-left pl-5 space-y-4 text-gray-700">
             <li>
-              <span className="font-semibold"> IS 3614 :</span> Compliant with
+              <span className="font-bold text-red-500"> IS 3614 :</span> Compliant with
               the requirements and specifications for fire-check doors.
             </li>
 
             <li>
-              <span className="font-semibold"> CBRI Certified :</span> Tested
+              <span className="font-bold text-red-500"> CBRI Certified :</span> Tested
               and certified by the Central Building Research Institute.
             </li>
             <li>
-              <span className="font-semibold"> Other Certifications :</span> May
+              <span className="font-bold text-red-500"> Other Certifications :</span> May
               also carry certifications from international bodies like
               Warrington, TBW, and UL.
             </li>
@@ -309,27 +309,27 @@ export default function FireDoor() {
         <>
           <ul className=" py-3 list-decimal text-justify md:text-left pl-5 space-y-4 text-gray-700">
             <li>
-              <span className="font-semibold"> Shutter Thickness :</span> Ranges
+              <span className="font-bold text-red-500"> Shutter Thickness :</span> Ranges
               from 46mm to 63mm depending on fire rating and application
             </li>
 
             <li>
-              <span className="font-semibold"> Frame Dimensions :</span>{" "}
+              <span className="font-bold text-red-500"> Frame Dimensions :</span>{" "}
               Standard profiles around 143 x 57 mm (may vary).
             </li>
             <li>
-              <span className="font-semibold"> Vision Lite :</span> Fire-rated
+              <span className="font-bold text-red-500"> Vision Lite :</span> Fire-rated
               glass panels can be integrated based on the manufacturer's
               guidelines.
             </li>
 
             <li>
-              <span className="font-semibold"> Pair of Doors :</span> Integrated
+              <span className="font-bold text-red-500"> Pair of Doors :</span> Integrated
               astragals for double door configurations.
             </li>
 
             <li>
-              <span className="font-semibold"> Half Frames :</span> Adaptable to
+              <span className="font-bold text-red-500"> Half Frames :</span> Adaptable to
               walls of varying thicknesses.
             </li>
           </ul>
@@ -389,14 +389,14 @@ export default function FireDoor() {
 
               <div className="lg:w-6/12 w-full mt-8 lg:mt-0">
 
-                <h1 className=" md:text-2xl  text-center md:text-left font-bold mb-4">
+                <h1 className=" text-red-500 text-lg md:text-2xl text-center md:text-left font-bold mb-4">
 
                  Certified Fire Door Supplier & Installation Service in Delhi NCR
 
 
                 </h1>
 
-                <h2 className="  font-semibold py-4 text-center md:text-left">
+                <h2 className="  text-md py-4 text-center md:text-left">
              Robust, Reliable Fire Doors to Safeguard Your People and Property.
 
                 </h2>
@@ -410,7 +410,7 @@ export default function FireDoor() {
             </div>
 
             <div className="box pt-6">
-              <h2 className=" md:text-2xl text-center md:text-left font-semibold py-5">
+              <h2 className=" text-lg text-red-500 md:text-2xl text-center md:text-left font-bold py-5">
                 Your Trusted Fire Door Manufacturer, Supplier, Dealer, and
                 Installation Partner in Delhi NCR
               </h2>
@@ -441,14 +441,14 @@ export default function FireDoor() {
 
                 <div className="lg:w-6/12 w-full mt-8 lg:mt-0">
 
-                  <h2 className=" md:text-2xl  py-2 text-center md:text-left font-bold mb-6">
+                  <h2 className=" text-lg text-red-500 md:text-2xl  py-2 text-center md:text-left font-bold mb-6">
                     Key Features of Adhunik FireXpert  Doors and Services in Delhi NCR 
                   </h2>
 
                   <ul className="list-disc text-sm text-justify md:text-left pl-5 space-y-4 text-gray-700">
                     {keyfeature.map((items, index) => (
                       <li key={index} className="py-1 px-4">
-                        <span className="font-semibold"> {items.title} –</span>{" "}
+                        <span className="font-bold text-red-500"> {items.title} –</span>{" "}
                         {items.description}
                       </li>
                     ))}
@@ -461,12 +461,12 @@ export default function FireDoor() {
 
 
    <div className="py-5">
-              <h2 className="  md:text-2xl  font-bold py-2 mt-10 mb-6 text-center md:text-left">
+              <h2 className="  text-lg text-red-500 md:text-2xl  font-bold py-2 mt-10 mb-6 text-center md:text-left">
            Why Are Certified Fire Doors Mission-Critical for Your Facility ?
 
               </h2>
 
-              <p>
+              <p className=" text-sm text-justify px-4 pb-2">
                 While any door can provide privacy and access control, only a certified fire-rated door is engineered to perform under the extreme conditions of a fire. Installing a compliant fire door assembly is a non-negotiable regulatory requirement and a fundamental component of any responsible fire safety strategy.
 
               </p>
@@ -485,19 +485,19 @@ export default function FireDoor() {
 
 
    <div className="py-5">
-              <h2 className="  md:text-2xl  font-bold py-2 mt-10 mb-6 text-center md:text-left">
+              <h2 className=" text-xl text-red-500  md:text-2xl  font-bold py-2 mt-10 mb-6 text-center md:text-left">
 
          Our Comprehensive Fire Door Solutions
 
               </h2>
 
-              <p>
+              <p className=" text-sm text-justify px-2">
           Adhunik FireXpert provides a complete, end-to-end service for all your fire door needs. We ensure every product we supply and install meets the highest standards of safety, quality, and compliance.
 
               </p>
 
 
-              <h2 className=" py-2 font-bold">
+              <h2 className=" md:text-left  text-center text-red-700 py-2 font-bold">
                 Our Range of Fire Doors :
               </h2>
 
@@ -512,7 +512,7 @@ export default function FireDoor() {
 
 
 
-              <h2 className=" py-2 font-bold">
+              <h2 className=" md:text-left  text-center text-red-700 py-2 font-bold">
                Our Expert Services :
 
               </h2>
@@ -533,13 +533,14 @@ export default function FireDoor() {
 
 
 
- <div className="py-5">
-              <h2 className="  md:text-2xl  font-bold py-2 mt-10 mb-6 text-center md:text-left">
+ <div className="md:py-5">
+              <h2 className="  md:text-2xl  font-bold py-2 mt-10 mb-6 text-center md:text-left text-lg text-red-500">
+
          Why Trust Adhunik FireXpert for Your Installation ?
 
               </h2>
 
-              <p>
+              <p className=" text-sm px-1 pb-2">
 
              The effectiveness of a fire door is determined by two critical factors: the quality of the door itself and the precision of its installation. Our legacy of engineering excellence guarantees a solution configured for flawless performance.
 
@@ -559,30 +560,31 @@ export default function FireDoor() {
 
 
 
-            <div className="py-5">
-              <h2 className="  md:text-2xl  font-bold py-2 mt-10 mb-6 text-center md:text-left">
+            <div className=" md:py-5">
+              <h2 className="  text-lg text-red-500 md:text-2xl  font-bold py-2 mt-10 mb-6 text-center md:text-left">
                 Why Choose Adhunik FireXpert for Your Fire Door Needs in Delhi NCR ?
               </h2>
 
               <ul className="list-disc text-sm text-justify md:text-left pl-5 space-y-4 text-gray-700">
                 {Why.map((items, index) => (
                   <li key={index} className=" py-1">
-                    <span className="font-semibold"> {items.title} –</span>{" "}
+                    <span className="font-bold text-red-500"> {items.title} –</span>{" "}
                     {items.description}
                   </li>
                 ))}
               </ul>
+
             </div>
 
             <div className=" py-5 md:mt-20">
-              <h2 className="  md:text-2xl py-2 font-bold mb-6 text-center  md:text-left">
+              <h2 className=" text-lg text-red-500  md:text-2xl py-2 font-bold mb-6 text-center  md:text-left">
                 Explore Our Range of Fire Doors 
               </h2>
 
               <ul className="list-disc text-sm text-justify md:text-left pl-5 space-y-4 text-gray-700">
                 {Explore.map((items, index) => (
                   <li key={index} className=" py-1">
-                    <span className="font-semibold">{items.title} –</span>{" "}
+                    <span className="font-bold text-red-500">{items.title} –</span>{" "}
                     {items.description}
                   </li>
                 ))}
@@ -591,14 +593,14 @@ export default function FireDoor() {
 
             <div className=" py-5 md:mt-20">
             
-              <h2 className="  md:text-2xl font-bold mb-6 text-center  md:text-left">
+              <h2 className="  text-lg text-red-500 md:text-2xl font-bold mb-6 text-center  md:text-left">
                 Technical Specifications of Adhunik FireXpert  Doors 
               </h2>
 
               <ul className=" text-sm list-disc text-justify md:text-left pl-5 space-y-4 text-gray-700">
                 {Technical.map((items, index) => (
                   <li key={index} className=" py-1">
-                    <span className="font-semibold">{items.title} – </span>{" "}
+                    <span className="font-bold text-red-500">{items.title} – </span>{" "}
                     {items.description}
                   </li>
                 ))}
@@ -619,7 +621,7 @@ export default function FireDoor() {
                   </div>
 
                   {/* Paragraphs */}
-                  <p className=" text-sm font-sans text-justify   w-full">
+                  <p className=" px-4 text-sm font-sans text-justify   w-full">
                   Don't Compromise on a Critical Safety System
 Proactively protect your facility, assets, and—most importantly—the lives of your occupants with certified, professionally installed fire doors from Adhunik FireXpert.
 
@@ -642,7 +644,7 @@ Proactively protect your facility, assets, and—most importantly—the lives of
                     >
                       <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-52 group-hover:h-32 opacity-10"></span>
                       <span className="relative text-sm ">
-                        Contact Adhunik FireXpert Expert
+                        Contact Expert
                       </span>
                     </a>
                     
