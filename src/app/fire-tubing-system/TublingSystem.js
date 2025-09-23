@@ -197,21 +197,23 @@ export default function TublingSystem() {
               </div>
             </div>
             <div className="lg:w-5/12 w-full py-4">
-              <h1 className=" md:text-2xl  text-center md:text-left font-bold mb-4">
+              <h1 className=" text-red-500 text-lg md:text-2xl  text-center md:text-left font-bold mb-4">
+
                Fire Tubing Systems : Automatic, Localized Fire Suppression
 
               </h1>
 
-              <h2 className="text-gray-700 py-3 font-semibold text-justify md:text-left">
+              <h2 className="text-gray-700 text-sm py-3  text-justify md:text-left">
             Detect and Suppress a Fire at its Source, Before It Can Spread. Adhunik FireXpert is a leading installer of advanced fire tubing systems for mission-critical equipment and micro-environments in Delhi, Gurgaon, and Noida.
 
               </h2>
 
 
-<h3 className="text-gray-700 text-sm py-3 font-semibold text-justify md:text-left">
+<h3 className="text-gray-700 text-red-500 py-3 font-semibold text-justify md:text-left">
   The Hidden Danger Within Your Most Valuable Equipment
 
 </h3>
+
               <p className=" text-sm text-justify  ">
 
             In any modern facility, the most valuable and vulnerable assets are often housed within small, enclosed spaces: electrical panels, server racks, CNC machines, and fume hoods. A fire in one of these micro-environments can be catastrophic, leading to massive operational downtime, irreversible data loss, and potentially escalating into a much larger blaze that puts the entire facility at risk.
@@ -219,16 +221,18 @@ Traditional room-level fire protection, like ceiling-mounted smoke detectors and
 This is where a Fire Tubing System provides an unparalleled level of rapid, localized protection. It is an innovative and highly effective automatic fire detection and suppression solution that is installed directly inside high-risk enclosures, extinguishing a fire in seconds, right where it starts. At Adhunik FireXpert, we bring our 19+ year legacy of engineering excellence to the design and installation of these sophisticated life-saving systems, ensuring your most critical assets have the ultimate, targeted protection.
 
               </p>
+
             </div>
           </div>
 
           <div className="mt-12 w-full">
-            <h2 className=" text-lg md:text-2xl font-bold mb-6 md:text-left  text-center">
+
+            <h2 className=" text-lg  text-red-500 md:text-2xl font-bold mb-6 md:text-left  text-center">
               How It Works : The Simplicity of Advanced Protection
 
             </h2>
 
-            <p className=" text-center text-sm  md:text-lg md:text-left  font-semibold py-3 pb-5 ">
+            <p className="  text-justify text-sm   md:text-lg md:text-left  py-3 pb-5 ">
            The genius of a fire tubing system lies in its simplicity and reliability. The core of the system is a flexible, pressurized polymer tube that is sensitive to heat. This tube acts as both the fire detector and, in some cases, the delivery system, requiring no complex electronics or wiring to function.
 
             </p>
@@ -237,7 +241,7 @@ This is where a Fire Tubing System provides an unparalleled level of rapid, loca
 
               {WhyChoose.map((item, index) => (
                 <li key={index} className=" list-outside py-1">
-                  <span className="font-semibold"> {item.title} </span>
+                  <span className="font-bold text-red-500"> {item.title} </span>
                   {item.desc}
                 </li>
               ))}
@@ -247,18 +251,18 @@ This is where a Fire Tubing System provides an unparalleled level of rapid, loca
           </div>
 
           <div className="mt-12 w-full">
-            <h3 className=" md:text-2xl font-bold mb-6 text-center md:text-left">
+            <h3 className=" text-lg text-red-500 md:text-2xl font-bold mb-6 text-center md:text-left">
               Applications of Adhunik FireXpert Tube Suppression Systems in Delhi NCR
             </h3>
 
-            <p className=" text-sm py-3 text-center md:text-left">
-              Our versatile <strong>Fire Tube Suppression Systems</strong> are
+            <p className="  text-sm py-3  text-justify">
+              Our versatile <strong className=" text-red-500 ">Fire Tube Suppression Systems</strong> are
               ideal for a wide range of applications in Delhi NCR, including :
             </p>
 
             <ul className="list-disc text-sm py-4 px-4 list-inside space-y-4 text-gray-700">
               {Applications.map((item, index) => (
-                <li key={index} className=" list-outside">
+                <li key={index}  className=" text-red-600  font-semibold list-outside">
                   {item.desc}
                 </li>
               ))}
@@ -267,21 +271,20 @@ This is where a Fire Tubing System provides an unparalleled level of rapid, loca
 
 
           <div className="mt-12 w-full">
-            <h2 className=" md:text-2xl font-semibold md:font-bold mb-5 md:text-left  text-center">
-
+          
+            <h2 className=" text-lg text-red-500 md:text-2xl font-semibold md:font-bold mb-5 md:text-left  text-center">
           Direct vs. Indirect Systems : Choosing the Right Solution
-
             </h2>
 
             <p className=" text-sm py-3  text-justify md:text-left">
-          We engineer the right type of tubing system based on the size, complexity, and nature of the asset you need to protect.
+          We engineer the right type of tubing system based on the size, complexity, and nature of the asset you need to protect
             </p>
 
             <ul className="space-y-4 text-sm py-4 text-justify md:text-left  pl-4 list-disc list-inside text-gray-700">
               {DirectandIndirect.map((item, index) => (
                 <li key={index} className=" list-outside">
                   <h3>
-                    <span className="font-semibold"> {item.title} : </span>
+                    <span className=" text-red-500 font-semibold"> {item.title} : </span>
                     {item.desc}
                   </h3>
                 </li>
@@ -290,15 +293,15 @@ This is where a Fire Tubing System provides an unparalleled level of rapid, loca
           </div>
 
           <div className="py-4">
-            <h2 className=" md:text-2xl py-4 font-semibold md:font-bold mb-6 md:text-left  text-center">
+            <h2 className=" text-red-500 px-4 md:text-2xl py-4 font-semibold md:font-bold mb-6 md:text-left  text-center">
 
               Why Adhunik FireXpert is Your Trusted Partner for Fire Tube Suppression
-              Systems in Delhi NCR
+              Systems in Delhi NCR ?
 
             </h2>
 
-            <p className=" text-sm py-3  text-center md:text-left">
-              As a leading <strong>ISO 9001:2008 Certified Company</strong>,
+            <p className=" text-sm py-3  text-justify md:text-left">
+              As a leading <strong className=" text-red-500">ISO 9001:2008 Certified Company {" "}</strong>,
               Adhunik FireXpert is committed to providing superior fire safety
               solutions and unparalleled customer service in Delhi NCR. We
               offer :
@@ -313,7 +316,7 @@ This is where a Fire Tubing System provides an unparalleled level of rapid, loca
             </ul>
 
 
-                 <h2 className=" md:text-2xl py-4 font-semibold md:font-bold mb-6 md:text-left  text-center">
+                 <h2 className=" text-lg text-red-500 md:text-2xl py-4 font-semibold md:font-bold mb-6 md:text-left  text-center">
 
             Why a Fire Tubing System is Essential for Critical Equipment ?
 
@@ -322,23 +325,23 @@ This is where a Fire Tubing System provides an unparalleled level of rapid, loca
             <ul className=" text-sm space-y-4 text-justify md:text-left  pl-4 list-disc list-inside text-gray-700">
               {Why2.map((item, index) => (
                 <li key={index} className=" list-outside">
-                  <p> <strong>{item.title}</strong> {item.desc}</p>
+                  <p> <strong className=" text-red-500" >{item.title}</strong> {item.desc}</p>
                 </li>
               ))}
             </ul>
 
 
 
-                 <h2 className=" md:text-2xl py-4 font-semibold md:font-bold mb-6 md:text-left  text-center">
+                 <h2 className=" text-lg md:text-2xl py-4 font-semibold md:font-bold mb-6 md:text-left  text-center text-red-500">
             Why Trust Adhunik FireXpert for Your Installation ?
-
             </h2>
 
             <ul className=" text-sm space-y-4 text-justify md:text-left  pl-4 list-disc list-inside text-gray-700">
               
                 <li className=" list-outside">
-                  <p> <strong>
-                The reliability of a fire tubing system
+                  <p> 
+                  <strong className=" text-red-500">
+                The reliability of a fire tubing system {" "}
                   </strong>
 
                   depends entirely on its correct design and professional installation. Our approach, built on a 19+ year legacy of engineering excellence, ensures your system is configured for flawless performance. Our certified technicians conduct a thorough assessment of each piece of equipment to determine the optimal tubing route, the correct agent concentration, and the most effective system type, guaranteeing your most valuable assets are completely protected.
@@ -349,14 +352,13 @@ This is where a Fire Tubing System provides an unparalleled level of rapid, loca
             </ul>
 
 
-
-
-
-            <h2 className=" text-sm font-semibold py-4 text-center md:text-left">
+            <h2 className=" text-sm font-semibold py-4  text-justify px-4">
               Adhunik FireXpert - Your Trusted Partner for Fire Safety in Delhi NCR -
               ISO 9001:2008 Certified Company, Contact Adhunik FireXpert Today for the
               Best Fire Tube Suppression System Solutions in Delhi NCR{" "}
             </h2>
+
+
 
             <div className="w-full md:p-7 rounded-xl">
               <div className="flex items-center justify-center h-full">
