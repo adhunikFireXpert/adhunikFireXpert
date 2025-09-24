@@ -27,7 +27,7 @@ export const metadata = {
     "Adhunik FireXpert",
   ],
 
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Protect Critical Assets with Water Leak Detection | Adhunik FireXpert",

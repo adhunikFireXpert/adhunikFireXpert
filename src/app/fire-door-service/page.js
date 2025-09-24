@@ -29,7 +29,7 @@ export const metadata = {
 
   ],
   
-  robots: "index, follow",
+  
   
   openGraph: {
     title: "Automatic Fire Protection for Commercial Kitchens | Adhunik FireXpert",
@@ -55,7 +55,7 @@ export const metadata = {
     title: "Automatic Fire Protection for Commercial Kitchens | Adhunik FireXpert",
 
     description: "Grease fires can be devastating. Learn how our automatic wet chemical systems protect restaurants, hotels, and cloud kitchens in Delhi NCR, ensuring safety and minimizing downtime.",
-    
+
     image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618659/kitchenfire_biq0pf.webp",
   },
 };

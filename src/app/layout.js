@@ -54,7 +54,7 @@ export const metadata = {
     "award-winning fire contractor",
   ],
 
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Your Expert Fire Fighting Contractor in Delhi NCR | Adhunik FireXpert",

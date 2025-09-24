@@ -30,7 +30,7 @@ export const metadata = {
   ],
 
 
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Advanced Fire Suppression Systems | Adhunik FireXpert",

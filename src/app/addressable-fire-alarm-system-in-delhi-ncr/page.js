@@ -26,7 +26,7 @@ export const metadata = {
 
   ],
 
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Intelligent Fire Detection: Addressable Fire Alarm Systems | Adhunik FireXpert",

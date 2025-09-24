@@ -20,7 +20,7 @@ export const metadata = {
     "commercial fire protection",
   ],
 
-  robots: "index, follow",
+  
 
   openGraph: {
     title: "Our Story: A Legacy of Engineering Safety | Adhunik FireXpert",
