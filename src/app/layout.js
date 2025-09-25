@@ -56,21 +56,6 @@ export const metadata = {
 
   
 
-  openGraph: {
-    title: "Your Expert Fire Fighting Contractor in Delhi NCR | Adhunik FireXpert",
-    description: "Protect your facility with Adhunik FireXpert. We deliver complete, turnkey fire safety solutions built on a 19+ year legacy of engineering excellence. Request a safety audit today.",
-    url: "https://www.adhunikfirexpert.com", 
-    type: "website",
-    images: [
-      {
-        url: "https://images.unsplash.com/photo-1722227089176-a981d2544b5f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",  
-        width: 1200, 
-        height: 630, 
-        alt: "Adhunik FireXpert - Comprehensive Fire Safety Solutions",
-      },
-    ],
-  },
-
   alternates: {
     canonical: "https://www.adhunikfirexpert.com",  
   },
@@ -139,29 +124,14 @@ export default function RootLayout({ children }) {
         </Script>
 
 
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
-        />
+     
 
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-
-
-        <link
-          rel="preload"
-          href="/fonts/Poppins/Poppins-Medium.ttf"
-          as="font"
-          type="font/ttf"
-          crossOrigin="anonymous"
-        />
+        
 
       </head>
 
 
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} >
+      <body  >
       
       <Analytics/>
 
