@@ -32,7 +32,7 @@ export const metadata = {
   ],
 
   
-
+robots: "index, follow",
   openGraph: {
 
     title: "Expert Fire Sprinkler System Installation | Adhunik FireXpert",
