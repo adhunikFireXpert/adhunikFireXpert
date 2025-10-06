@@ -29,7 +29,7 @@ export const metadata = {
 
   ],
   
-  
+  robots: "index, follow",
   
   openGraph: {
     title: "Automatic Fire Protection for Commercial Kitchens | Adhunik FireXpert",
