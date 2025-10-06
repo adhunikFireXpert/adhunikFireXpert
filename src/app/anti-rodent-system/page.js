@@ -28,7 +28,7 @@ export const metadata = {
     "Adhunik FireXpert",
   ],
 
-  
+  robots: "index, follow",
 
   openGraph: {
     title: "Advanced Ultrasonic Anti-Rodent Systems | Adhunik FireXpert",
