@@ -28,7 +28,7 @@ export const metadata = {
   ],
 
   
-
+robots: "index, follow",
   openGraph: {
     title: "Protect Critical Assets with Water Leak Detection | Adhunik FireXpert",
     description: "Prevent catastrophic downtime. We install advanced Water Leak Detection (WLD) systems for data centers, server rooms, and critical facilities in Delhi NCR.",
