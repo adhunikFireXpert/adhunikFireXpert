@@ -30,7 +30,7 @@ export const metadata = {
 
   ],
 
-  
+  robots: "index, follow",
 
   openGraph: {
     title: "Authorized Ceasefire & Kanex Fire Extinguisher Dealer in Delhi | Adhunik FireXpert",
