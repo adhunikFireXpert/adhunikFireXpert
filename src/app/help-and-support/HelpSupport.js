@@ -95,7 +95,7 @@ export default function HelpSupport() {
         if (validateForm()) {
           
             emailjs
-                .sendForm("service_qo5e9ff", "template_xyeabfr", form.current, {
+                .sendForm("service_hye7moh", "template_xyeabfr", form.current, {
                     publicKey: "QkO5YafX9wIlmgrOL",
                 })
                 .then(() => {
