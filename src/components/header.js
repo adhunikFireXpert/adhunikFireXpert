@@ -250,9 +250,9 @@ function Header() {
 
 
                     <a
-                    href="/Adhunik-FireXpert.pdf" // ✅ file path from public/
-  download="Adhunik-FireXpert.pdf"
-   className={`relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
+                    href="/Adhunik FireXpert Catelogue.pdf" // ✅ file path from public/
+  download="Adhunik-FireXpert-Catalogue.pdf"
+   className={`relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold rounded-full group ${isScrolled
                         ? " text-black hover:text-black border-black"
                         : " text-white hover:text-black "
                         }`}
@@ -263,7 +263,7 @@ function Header() {
                      <svg   xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6 mr-2">
   <path strokeLinecap="round" strokeLinejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 </svg>
-                       Product Catalogue
+                       Company Catalogue
                      
 
                       </span>

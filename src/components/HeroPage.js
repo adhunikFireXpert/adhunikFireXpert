@@ -576,7 +576,7 @@ export default function HeroPage() {
                   {/* It's responsive, switching from a single column on small screens to a row on larger ones. */}
                    <Link href="/help-and-support"
                      
-                      className="relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold   group"
+                      className="relative inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold   group"
                     >
                       <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-red-500 opacity-[3%]"></span>
                       <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-red-500 opacity-100 group-hover:-translate-x-8"></span>
@@ -649,7 +649,7 @@ export default function HeroPage() {
               The Adhunik Advantage : An Award-Winning Legacy of Trust
               </h2>
 
-              <p className="text-base text-sm text-gray-600 mb-8">
+              <p className="text-sm text-gray-600 mb-8">
               Choosing a fire safety partner is a decision built on trust. Our expertise is not new; it is born from the proven, award-winning project execution legacy of the1 renowned Adhunik Powertech.
 
               </p>

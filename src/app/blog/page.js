@@ -22,6 +22,15 @@ export default function BlogHome() {
       tag: "Fire Safety, Fire Fighting Company, Delhi NCR"
     },
  
+{
+      href: '/top-fire-fighting-contractor-delhi-ncr',
+      img: "https://res.cloudinary.com/djablkulv/image/upload/v1762253754/Top_Fire_Fighting_Contractor_In_Delhi_NCR_Adhunik_FireXpert_n8gxyv.webp",
+      alt: "Top Fire Fighting Contractor in Delhi NCR",
+      title: "Top Fire Fighting Contractor in Delhi NCR: A 5-Point Guide",
+      para: "November 2025 by Adhunik FireXpert Company",
+      pub: "Top Fire Fighting Company in Delhi NCR",
+      tag: "Fire Safety, Fire Fighting Company, Delhi NCR"
+    },
 
   ];
   

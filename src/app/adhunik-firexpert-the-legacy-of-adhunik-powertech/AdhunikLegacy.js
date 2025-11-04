@@ -690,7 +690,7 @@ While Adhunik FireXpert represents the future of specialized fire safety, our st
                     Ready to enhance your fire safety ?
                   </a>
                   <Link
-                    href="/support-form"
+                    href="/help-and-support"
                     className="bg-red-900 text-sm md:text-md hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center border border-red-700"
                   >
                     <svg
