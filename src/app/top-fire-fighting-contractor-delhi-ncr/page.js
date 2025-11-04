@@ -114,7 +114,7 @@ export default function TopFireContractorBlogPage() {
                   <strong className="text-xl text-red-600 block text-center mb-2">
                     Our Connection: A Direct Legacy of Engineering Excellence
                   </strong>
-                  <Link href="https://www.adhunikfirexpert.com/" className="text-red py-3"> <strong>Adhunik FireXpert</strong> </Link> is not a new company; it is the strategic evolution of the proven, award-winning fire safety division of <Link href="https://www.adhunikpowertech.com/" className="text-red py-3"> <strong>Adhunik Powertech</strong> </Link>. For over 19+ years, our team built a reputation for engineering excellence within a larger organization. We've now focused that 19-year legacy and a portfolio of 600+ delivered projects into this single, specialized company. When you hire Adhunik Firexpert, you get the agility of a specialist backed by the 19+ year trust and stability of the Adhunik brand.
+                  <Link href="https://www.adhunikfirexpert.com/" className="text-red py-3"> <strong>Adhunik FireXpert</strong> </Link> is not a new company; it is the strategic evolution of the proven, award-winning fire safety division of <Link href="https://www.adhunikpowertech.com/" className="text-red py-3"> <strong>Adhunik Powertech</strong> </Link>. For over 19+ years, our team built a reputation for engineering excellence within a larger organization. We've now focused that 19-year legacy and a portfolio of 600+ delivered projects into this single, specialized company. When you hire Adhunik Firexpert, you get the agility of a specialist backed by the trust and stability of the Adhunik brand.
                 </p>
               </div>
             </div>
