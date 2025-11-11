@@ -32,6 +32,16 @@ export default function BlogHome() {
       tag: "Fire Safety, Fire Fighting Company, Delhi NCR"
     },
 
+   {
+    href: '/fire-hydrant-system-installation', // Matches the canonical URL path
+    img: "https://res.cloudinary.com/djablkulv/image/upload/v1762858929/fire-hydrant_wro1oi.webp", // Use the corresponding image URL
+    alt: "The Unseen Backbone: Critical Fire Hydrant System Installation",
+    title: "The Unseen Backbone: Why Your Fire Hydrant System is Your Most Critical Investment",
+    para: "November 2025 by Adhunik FireXpert", // Keeping consistent format
+    pub: "Fire Hydrant System Experts | Adhunik FireXpert",
+    tag: "Fire Hydrant System, Industrial Fire Protection, Fire NOC Compliance"
+}
+
   ];
   
   return (
