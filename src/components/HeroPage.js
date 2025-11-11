@@ -349,7 +349,7 @@ export default function HeroPage() {
     {
       id: 2,
       alt: "UL Certification",
-      src: "https://logos-world.net/wp-content/uploads/2021/02/IRS-Logo.png",
+      src: "https://res.cloudinary.com/djablkulv/image/upload/v1762860442/UL-logo_w7eapr.webp",
     },
 
     {
