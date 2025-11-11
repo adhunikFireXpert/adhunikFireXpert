@@ -349,7 +349,7 @@ export default function HeroPage() {
     {
       id: 2,
       alt: "UL Certification",
-      src: "https://res.cloudinary.com/djablkulv/image/upload/v1762861467/UL_a3chpl.webp",
+      src: "https://logos-world.net/wp-content/uploads/2021/02/IRS-Logo.png",
     },
 
     {
@@ -367,7 +367,7 @@ export default function HeroPage() {
     {
       id: 5,
       alt: "CE Certification",
-      src: "https://res.cloudinary.com/djablkulv/image/upload/v1762861497/IRS-1_dwvrrl.webp",
+      src: "https://www.polycase.com/wp/wp-content/media/ul-certified-logo.jpg",
     },
   ];
 
