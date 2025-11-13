@@ -2,61 +2,53 @@ import React from 'react'
 import FireDoor from './FireDoor'
 
 export const metadata = {
+  title: "Fire Door Installation & Maintenance Service in Delhi NCR | Adhunik FireXpert",
+  description: "Adhunik FireXpert provides professional fire door installation, repair, and maintenance services across Delhi NCR. Ensure building safety and compliance. Get a free quote!",
 
-  title: "Kitchen Fire Suppression System in Delhi NCR | Adhunik FireXpert",
-  description: "Adhunik FireXpert installs kitchen fire suppression systems in Delhi NCR. Protect your restaurant or hotel with automatic grease fire protection. Get a free quote!",
-  
   keywords: [
-    
-    "kitchen fire suppression system",
-    "automatic fire suppression",
-    "wet chemical fire system",
-    "Class K fire system",
-    "grease fire protection",
-    "commercial kitchen fire safety",
-    "kitchen fire system Delhi",
-    "restaurant fire safety Gurgaon",
-    "hotel fire protection Noida",
-    "Delhi NCR",
-    "restaurant fire suppression",
-    "hotel kitchen safety",
-    "cloud kitchen fire system",
-    "hospital kitchen fire protection",
-    "industrial kitchen safety",
+    "fire door service",
+    "fire door installation",
+    "fire door maintenance",
+    "fire door repair",
+    "fire rated doors",
+    "industrial fire doors",
+    "fire door inspection",
+    "building fire safety",
+    "fire door Delhi NCR",
+    "fire door Gurgaon",
+    "fire door Noida",
     "Adhunik FireXpert",
-    "expert fire system installers",
-    "certified kitchen fire system",
-
+    "expert fire door installers",
+    "certified fire door service",
+    "fire safety compliance",
   ],
-  
+
   robots: "index, follow",
-  
+
   openGraph: {
-    title: "Automatic Fire Protection for Commercial Kitchens | Adhunik FireXpert",
-    description: "Grease fires can be devastating. Learn how our automatic wet chemical systems protect restaurants, hotels, and cloud kitchens in Delhi NCR, ensuring safety and minimizing downtime.",
-    url: "https://www.adhunikfirexpert.com/kitchen-fire-suppression-system",
+    title: "Certified Fire Door Services for Commercial Buildings | Adhunik FireXpert",
+    description: "Protect your property and occupants with our certified fire door installation and maintenance services in Delhi NCR, ensuring regulatory compliance and maximum safety.",
+    url: "https://www.adhunikfirexpert.com/fire-door-service",
     type: "website",
     images: [
       {
-        url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618659/kitchenfire_biq0pf.webp",
-        width: 1200, 
-        height: 630, 
-        alt: "An automatic kitchen fire suppression system with nozzles aimed at commercial cooking appliances.",
+        url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/Fire-Door-Service1_rmxcde.webp", // Placeholder URL - replace with an actual fire door image URL
+        width: 1200,
+        height: 630,
+        alt: "A modern, high-quality fire rated door in a commercial building hallway.",
       },
     ],
   },
-  
+
   alternates: {
-    canonical: "https://www.adhunikfirexpert.com/kitchen-fire-suppression-system",
+    canonical: "https://www.adhunikfirexpert.com/fire-door-service",
   },
-  
+
   twitter: {
     card: "summary_large_image",
-    title: "Automatic Fire Protection for Commercial Kitchens | Adhunik FireXpert",
-
-    description: "Grease fires can be devastating. Learn how our automatic wet chemical systems protect restaurants, hotels, and cloud kitchens in Delhi NCR, ensuring safety and minimizing downtime.",
-
-    image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618659/kitchenfire_biq0pf.webp",
+    title: "Certified Fire Door Services for Commercial Buildings | Adhunik FireXpert",
+    description: "Protect your property and occupants with our certified fire door installation and maintenance services in Delhi NCR, ensuring regulatory compliance and maximum safety.",
+    image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/Fire-Door-Service1_rmxcde.webp", // Placeholder URL - replace with an actual fire door image URL
   },
 };
 
