@@ -36,7 +36,7 @@ export const metadata = {
     images: [
       {
         // Replace with your actual logo or primary hero image URL for best results
-        url: "https://www.adhunikfirexpert.com/logo-og.png",
+        url: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1755763611/next2_d1l72h.webp",
         width: 1200,
         height: 630,
         alt: "Adhunik FireXpert Logo - Fire Safety Experts in Delhi NCR",
@@ -48,7 +48,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Adhunik FireXpert - Comprehensive Fire Safety Solutions",
     description: "Your trusted partner for fire safety and protection systems across Delhi, Gurugram, and Noida. We provide certified installation and maintenance services.",
-    image: "https://www.adhunikfirexpert.com/logo-og.png", // Use the same OpenGraph image for consistency
+    image: "https://res.cloudinary.com/ddkyx2jhh/image/upload/v1755763611/next2_d1l72h.webp", // Use the same OpenGraph image for consistency
   },
 }
 export default function page() {
