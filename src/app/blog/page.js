@@ -13,7 +13,7 @@ export default function BlogHome() {
   const blogsCards = [
     
     {
-      href: '/blog/adhunik-firexpert-the-legacy-of-adhunik-powertech',
+      href: '/adhunik-firexpert-the-legacy-of-adhunik-powertech',
       img: "https://res.cloudinary.com/djablkulv/image/upload/v1758015802/fire_rkopyo.webp",
       alt: "Adhunik FireXpert : The Legacy of Adhunik Powertech",
       title: "Adhunik FireXpert : The Legacy of Adhunik Powertech",
@@ -40,7 +40,18 @@ export default function BlogHome() {
     para: "November 2025 by Adhunik FireXpert", // Keeping consistent format
     pub: "Fire Hydrant System Experts | Adhunik FireXpert",
     tag: "Fire Hydrant System, Industrial Fire Protection, Fire NOC Compliance"
-}
+},
+
+   {
+    href: '/why-choosing-a-certified-fire-contractor-matters', // Matches the canonical URL path
+    img: "https://res.cloudinary.com/djablkulv/image/upload/v1763366956/Choosinga_Certified_Fire_Contractor_Matters_rcyzir.webp", // Placeholder image related to certification/expertise
+    alt: "A contractor shield symbol representing verified certification and compliance.",
+    title: "Why Choosing a Certified Fire Contractor Matters: Protecting Lives and Assets",
+    para: "November 2025 by Adhunik FireXpert", // Keeping consistent format
+    pub: "Fire Safety Compliance | Adhunik FireXpert",
+    tag: "Certified Contractor, Fire Safety Expertise, Regulatory Compliance, Fire NOC"
+  }
+
 
   ];
   
