@@ -33,7 +33,7 @@ export const metadata = {
   openGraph: {
     title: "A Legacy of Trust, A Future of Safety : Introducing Adhunik FireXpert",
     description: "Discover the next chapter in our 19+ year engineering legacy. Adhunik FireXpert is the new, specialized company born from Adhunik Powertech's proven fire safety expertise.",
-    url: "https://www.adhunikfirexpert.com/blog/adhunik-firexpert-the-legacy-of-adhunik-powertech",  
+    url: "/blog/adhunik-firexpert-the-legacy-of-adhunik-powertech",  
     type: "article",
     images: [
       {
@@ -46,7 +46,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "https://www.adhunikfirexpert.com/blog/adhunik-firexpert-the-legacy-of-adhunik-powertech",  
+    canonical: "/adhunik-firexpert-the-legacy-of-adhunik-powertech",  
   },
 
   twitter: {
