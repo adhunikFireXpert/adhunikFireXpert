@@ -28,7 +28,7 @@ export const metadata = {
   openGraph: {
     title: "Reliable Glow Sign Emergency Light Services | Adhunik FireXpert",
     description: "Secure your evacuation paths with certified Glow Sign Emergency Light installation and maintenance services in Delhi NCR. Maximize safety and meet all regulations.",
-    url: "/blog/glow-signage-&-emergency-lights",
+    url: "https://www.adhunikfirexpert.com/glow-signage-&-emergency-lights",
     type: "website",
     images: [
       {
@@ -42,7 +42,7 @@ export const metadata = {
 
   // Canonical URL to prevent duplicate content issues
   alternates: {
-    canonical: "/glow-signage-&-emergency-lights",
+    canonical: "https://www.adhunikfirexpert.com/glow-signage-&-emergency-lights",
   },
 
   // Twitter Card for optimal display when the page is shared on X (Twitter)
