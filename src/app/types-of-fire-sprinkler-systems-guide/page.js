@@ -137,7 +137,7 @@ export default function FireSprinklerBlogPage() {
             Choosing the right fire sprinkler system is arguably the most important decision a property owner will make. The best system for a corporate office is drastically different from the ideal system for a data center. Selecting the wrong one can lead to high costs, code non-compliance, or system failure.
           </p>
           <div className="flex justify-center md:justify-start">
-            <a href="#" className="bg-red-700 hover:bg-red-800 text-white font-bold py-3 px-8 rounded-lg transition duration-300 inline-flex items-center gap-2">
+            <a href="/help-and-support" className="bg-red-700 hover:bg-red-800 text-white font-bold py-3 px-8 rounded-lg transition duration-300 inline-flex items-center gap-2">
               Get Expert System Guidance
             </a>
           </div>
