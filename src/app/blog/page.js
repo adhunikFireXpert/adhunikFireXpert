@@ -50,8 +50,17 @@ export default function BlogHome() {
     para: "November 2025 by Adhunik FireXpert", // Keeping consistent format
     pub: "Fire Safety Compliance | Adhunik FireXpert",
     tag: "Certified Contractor, Fire Safety Expertise, Regulatory Compliance, Fire NOC"
-  }
-
+  },
+    
+   {
+  href: '/types-of-fire-sprinkler-systems-guide', // Matches the canonical URL path
+  img: "https://res.cloudinary.com/djablkulv/image/upload/v1764048353/fire-sprinklers-blog_l1zgdj.webp", // Updated to match the specific blog topic
+  alt: "2025 guide to fire sprinkler types displayed next to an active fire sprinkler releasing water for fire protection.",
+  title: "Your 2025 Guide to Fire Sprinkler Types & How to Choose the Right One",
+  para: "November 2025 by Adhunik FireXpert",
+  pub: "Fire Sprinkler Systems | Adhunik FireXpert",
+  tag: "Wet Pipe, Dry Pipe, Pre-Action, Deluge, ESFR, Fire Safety Trends 2025"
+}
 
   ];
   
