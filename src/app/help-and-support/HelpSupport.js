@@ -245,7 +245,7 @@ export default function HelpSupport() {
 
                         <div className="h-fit justify-center items-center flex w-full md:w-7/12">
                             <img
-                                src="https://images.pexels.com/photos/416320/pexels-photo-416320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                src="https://res.cloudinary.com/djablkulv/image/upload/v1764306866/support-help_nzgge4.webp"
                                 alt="Talk to our Fire experts"
                                 className="w-full h-auto object-cover"
                             />
