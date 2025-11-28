@@ -197,7 +197,7 @@ export default function GlowSignEmergencyLight() {
 
                     <img
                       className=" w-full h-full object-center rounded-3xl object-contain"
-                      src=https:"https://res.cloudinary.com/djablkulv/image/upload/v1764307292/Glow_Signage_hy8h6q.webp"
+                      src="https://res.cloudinary.com/djablkulv/image/upload/v1764307292/Glow_Signage_hy8h6q.webp"
                       alt="Glow Signage & Emergency Lights"
                       loading="lazy"
                     />
