@@ -22,13 +22,13 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "/top-fire-fighting-contractor-delhi-ncr",
+    canonical: "https://www.adhunikfirexpert.com/top-fire-fighting-contractor-delhi-ncr",
   },
 
   openGraph: {
     title: "Top Fire Fighting Contractor in Delhi NCR: A 5-Point Guide",
     description: "Choosing a fire fighting contractor in Delhi NCR? Our 5-point guide covers turnkey solutions, Fire NOC, AMCs, and why a legacy of trust matters.",
-    url: "/blog/top-fire-fighting-contractor-delhi-ncr",
+    url: "https://www.adhunikfirexpert.com/top-fire-fighting-contractor-delhi-ncr",
     type: "article",
     images: [
       {
