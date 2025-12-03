@@ -21,13 +21,13 @@ export const metadata = {
 
   // IMPORTANT: Update the canonical path for this specific blog post
   alternates: {
-    canonical: "/fire-hydrant-system-installation",
+    canonical: "https://www.adhunikfirexpert.com/fire-hydrant-system-installation",
   },
 
   openGraph: {
     title: "The Unseen Backbone: Why Your Fire Hydrant System is Critical",
     description: "The Fire Hydrant System is the backbone of fire safety. Learn why proper installation, compliance, and maintenance are non-negotiable for industrial and commercial facilities.",
-    url: "/blog/fire-hydrant-system-installation",
+    url: "https://www.adhunikfirexpert.com/fire-hydrant-system-installation",
     type: "article",
     images: [
       {
