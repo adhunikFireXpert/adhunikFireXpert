@@ -317,8 +317,8 @@ export default function FireSuppressionPage() {
                 <div className="lg:w-6/12 w-full">
 
                   <img
-                    src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618768/fire-suppression-system-2_wgxcfe.jpg"
-                    alt="Key Components of a Fire Suppression System"
+                    src="https://res.cloudinary.com/djablkulv/image/upload/v1764846036/fire-suppression-system-2_wgxcfe_11zon_u4m8tj.webp"
+                    alt="Clean agent fire suppression system with interconnected high-pressure cylinders for rapid fire control."
                     className="rounded-xl w-full h-auto"
 
                   />
