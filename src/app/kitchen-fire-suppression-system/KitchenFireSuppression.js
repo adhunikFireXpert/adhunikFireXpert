@@ -106,9 +106,10 @@ export default function KitchenFireSuppression() {
             />
 
             <img
-              src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300892/5_kghh1c.webp"
+              src="https://res.cloudinary.com/djablkulv/image/upload/v1764839595/Kitchen_suppression_kbixyh.webp"
               className=" md:hidden  h-full w-full object-center object-cover"
-              alt="Kitchen Fire Suppression System"
+              alt="Illustration of a commercial kitchen fire suppression system integrated with cooking equipment, overhead piping, nozzles, and control panel."
+
             />
           </div>
 
