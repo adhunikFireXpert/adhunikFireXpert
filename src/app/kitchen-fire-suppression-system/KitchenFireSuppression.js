@@ -131,8 +131,8 @@ export default function KitchenFireSuppression() {
             <div className="flex justify-around flex-col lg:flex-row items-center ">
               <div className="lg:w-5/12 w-full">
                 <img
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618659/kitchenfire_biq0pf.webp"
-                  alt="Advanced Fire Protection for Commercial Kitchens"
+                  src="https://res.cloudinary.com/djablkulv/image/upload/v1764839595/Kitchen_suppression_kbixyh.webp"
+                  alt="Illustration of a commercial kitchen fire suppression system integrated with cooking equipment, overhead piping, nozzles, and control panel."
                   className="rounded-xl w-full h-auto"
                 />
               </div>
