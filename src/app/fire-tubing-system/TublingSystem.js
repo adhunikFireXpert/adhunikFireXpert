@@ -189,7 +189,7 @@ export default function TublingSystem() {
               <div className="rounded overflow-hidden shadow-md">
 
                 <img
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618663/tubling_ts7kec.webp"
+                  src="https://res.cloudinary.com/djablkulv/image/upload/v1764845231/Fire_Tubing_System_jvll2j.webp"
                   alt="Fire Tubing System"
                   className=" object-contain h-full w-full rounded-lg"
                 />
