@@ -63,7 +63,7 @@ export default function FireHydrantsBlogPage() {
                                 , ensuring unmatched quality and compliance.
                             </p>
                             <div className="flex justify-center md:justify-start mt-6">
-                                <Link href="/contact-us" className="bg-red-700 hover:bg-red-800 text-white font-bold py-3 px-8 rounded-lg transition duration-300 shadow-lg">
+                                <Link href="/help-and-support" className="bg-red-700 hover:bg-red-800 text-white font-bold py-3 px-8 rounded-lg transition duration-300 shadow-lg">
                                     Get a Free Quote
                                 </Link>
                             </div>
