@@ -704,7 +704,8 @@ As your trusted  <strong className=' text-red-500'>
 
       Don't compromise on clear guidance and reliable illumination during emergencies. Partner with Adhunik FireXpert, the premier glow signage dealer, emergency lights supplier, and contractor committed to delivering reliable, compliant, and cutting-edge safety solutions. Our team is ready to assess your needs, design, install, and maintain systems that offer maximum protection and peace of mind for your property.
                 </p>
-                <Link href='/help-and-support' className="bg-white w-fit text-red-900 px-8 py-4 rounded-lg font-bold flex items-center gap-2 hover:bg-gray-100 transition-colors text-sm md:text-md mx-auto shadow-xl">
+                <Link 
+                 href='/help-and-support' className="bg-white w-fit text-red-900 px-8 py-4 rounded-lg font-bold flex items-center gap-2 hover:bg-gray-100 transition-colors text-sm md:text-md mx-auto shadow-xl">
                   Schedule Consultation <ArrowRight className="w-5 h-5" />
                 </Link>
               </div>
