@@ -36,7 +36,7 @@ export default function FireExtinguisher() {
  const ABCChemicalFire = [
   {
     title: "ABC Dry Powder Extinguisher",
-    imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618669/abc-dry-powder-extinguisher_cbhshq.webp"
+    imgsrc: "https://res.cloudinary.com/djablkulv/image/upload/v1765271497/Dry_Powder_uui4br.webp"
   },
   {
     title: "Versatile Protection :",
@@ -62,7 +62,7 @@ export default function FireExtinguisher() {
 
   {
     title: "CO2 (Carbon Dioxide) Extinguisher",
-    imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755668457/CO2_j5bgn9.webp"
+    imgsrc: "https://res.cloudinary.com/djablkulv/image/upload/v1765271495/co2_d7xi7i.webp"
   },
   {
     title: "Residue-Free Solution : ",
@@ -88,7 +88,7 @@ export default function FireExtinguisher() {
 
   {
     title: "Water & Mechanical Foam (AFFF) Extinguishers",
-    imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755668457/Foam_aand_water_type_qfwezz.webp"
+    imgsrc: "https://res.cloudinary.com/djablkulv/image/upload/v1765271721/water_foam_o9jyhz.webp"
   },
   {
     title: "Effective for Class A/B : ",
@@ -113,7 +113,7 @@ export default function FireExtinguisher() {
 
   {
     title: "Wet Chemical Extinguishers (Class K/F)",
-    imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755670654/wet_chemical_oucpzt.webp"
+    imgsrc: "https://res.cloudinary.com/djablkulv/image/upload/v1765271498/wet_chemical_xvfiyk.webp"
   },
   {
     title: "Kitchen Fire Specialists : ",
@@ -139,7 +139,7 @@ export default function FireExtinguisher() {
 
   {
     title: "Clean Agent Fire Extinguishers",
-    imgsrc: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1755668457/Clean_Agent_wl31jp.webp"
+    imgsrc: "https://res.cloudinary.com/djablkulv/image/upload/v1765271543/cleanagent_ljf2uc.webp"
   },
   {
     title: "Sensitive Environment Protection : ",
@@ -281,9 +281,9 @@ export default function FireExtinguisher() {
           
   <div className="box w-full h-full">
                           <img
-          src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300835/fire_extinguisher_2_itdsfe.webp"
+          src="https://res.cloudinary.com/djablkulv/image/upload/v1765271359/main_znheng.webp"
           className="hidden md:block h-full w-full object-cover object-center"
-          alt="Fire Extinguisher Solutions"
+          alt="Different types of fire extinguishers including CO2, foam, powder, and water models displayed together for safety and fire protection"
         />
         <img
           src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1747300891/2_df1czf.webp"
