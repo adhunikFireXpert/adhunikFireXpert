@@ -305,7 +305,7 @@ export default function VesdaSystem() {
 
 
                 <img
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618666/Zedexfire4_wz58ui.webp"
+                  src="https://res.cloudinary.com/djablkulv/image/upload/v1765274163/vedsasystem_ap8g69.webp"
                   alt="Fire VESDA System"
                   className="rounded-xl w-full h-auto"
                 />
