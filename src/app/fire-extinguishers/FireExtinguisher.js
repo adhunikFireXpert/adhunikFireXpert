@@ -286,7 +286,7 @@ export default function FireExtinguisher() {
           alt="fire extinguishers"
         />
         <img
-          src="hhttps://res.cloudinary.com/djablkulv/image/upload/v1765271359/main_znheng.webp"
+          src="https://res.cloudinary.com/djablkulv/image/upload/v1765271359/main_znheng.webp"
           className="md:hidden h-full w-full object-cover object-center"
           alt="Different types of fire extinguishers including CO2, foam, powder, and water models displayed together for safety and fire protection"
         />
@@ -326,8 +326,8 @@ export default function FireExtinguisher() {
                 className="relative h-full border-2 border-red-300 p-2 rounded-lg overflow-hidden shadow-lg"
               >
                 <img
-                  src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618669/abc-dry-powder-extinguisher_cbhshq.webp"
-                  alt="ABC Dry Powder Extinguisher"
+                  src="https://res.cloudinary.com/djablkulv/image/upload/v1765271359/main_znheng.webp"
+                  alt="Different types of fire extinguishers including CO2, foam, powder, and water models displayed together for safety and fire protection"
                   className="w-full h-full object-cover rounded"
                 />
               </motion.div>
