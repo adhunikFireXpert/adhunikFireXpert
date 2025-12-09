@@ -281,9 +281,9 @@ export default function FireExtinguisher() {
           
   <div className="box w-full h-full">
                           <img
-          src=""
+          src="https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618669/abc-dry-powder-extinguisher_cbhshq.webp"
           className="hidden md:block h-full w-full object-cover object-center"
-          alt=""
+          alt="fire extinguishers"
         />
         <img
           src="hhttps://res.cloudinary.com/djablkulv/image/upload/v1765271359/main_znheng.webp"
