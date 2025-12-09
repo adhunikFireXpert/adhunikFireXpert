@@ -286,7 +286,7 @@ export default function FireExtinguisher() {
           alt="fire extinguishers"
         />
         <img
-          src="public/fire.webppublic/fire.webppublic/fire.webppublic/fire.webppublic/fire.webppublic/fire.webppublic/fire.webppublic/fire.webp"
+          src="/fire.webp"
           className="md:hidden h-full w-full object-cover object-center"
           alt="Different types of fire extinguishers including CO2, foam, powder, and water models displayed together for safety and fire protection"
         />
