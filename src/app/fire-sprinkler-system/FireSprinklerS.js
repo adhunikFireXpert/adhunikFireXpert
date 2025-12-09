@@ -332,7 +332,7 @@ export default function FireSprinklerS() {
 
                             <div className="lg:w-6/12 w-full">
 
-                                <img src="https://res.cloudinary.com/djablkulv/image/upload/v1765273353/sprinkler_oe4r3j.webp"
+                                <img src="https://res.cloudinary.com/djablkulv/image/upload/v1765274163/sprinkler-2_u4cxlg.webp"
                                     alt=" Fire Sprinkler System"
                                     className="rounded-xl w-full h-auto"
                                 />
