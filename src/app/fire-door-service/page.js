@@ -23,8 +23,6 @@ export const metadata = {
     "fire safety compliance",
   ],
 
-  robots: "index, follow",
-
   openGraph: {
     title: "Certified Fire Door Services for Commercial Buildings | Adhunik FireXpert",
     description: "Protect your property and occupants with our certified fire door installation and maintenance services in Delhi NCR, ensuring regulatory compliance and maximum safety.",
@@ -43,7 +41,7 @@ export const metadata = {
   alternates: {
     canonical: "https://www.adhunikfirexpert.com/fire-door-service",
   },
-
+ robots: "index, follow",
   twitter: {
     card: "summary_large_image",
     title: "Certified Fire Door Services for Commercial Buildings | Adhunik FireXpert",
