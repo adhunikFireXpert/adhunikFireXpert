@@ -16,9 +16,6 @@ export const metadata = {
     "Adhunik FireXpert",
     "fire protection services",
   ],
-
-  robots: "index, follow",
-
   alternates: {
     // Assuming this metadata is for the main home page or a primary contact page
     canonical: "https://www.adhunikfirexpert.com/help-and-support",
@@ -43,7 +40,7 @@ export const metadata = {
       },
     ],
   },
-
+ robots: "index, follow",
   twitter: {
     card: "summary_large_image",
     title: "Adhunik FireXpert - Comprehensive Fire Safety Solutions",
