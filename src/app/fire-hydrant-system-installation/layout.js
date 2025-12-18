@@ -39,7 +39,7 @@ export const metadata = {
       },
     ],
   },
-  
+   robots: "index, follow",
   twitter: {
     card: "summary_large_image",
     title: "The Unseen Backbone: Why Your Fire Hydrant System is Critical",
