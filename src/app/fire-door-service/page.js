@@ -23,6 +23,8 @@ export const metadata = {
     "fire safety compliance",
   ],
 
+  robots: "index, follow",
+
   openGraph: {
     title: "Certified Fire Door Services for Commercial Buildings | Adhunik FireXpert",
     description: "Protect your property and occupants with our certified fire door installation and maintenance services in Delhi NCR, ensuring regulatory compliance and maximum safety.",
@@ -30,7 +32,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/Fire-Door-Service1_rmxcde.webp", // Placeholder URL - replace with an actual fire door image URL
+        url: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/Fire-Door-Service1_rmxcde.webp",
         width: 1200,
         height: 630,
         alt: "A modern, high-quality fire rated door in a commercial building hallway.",
@@ -41,22 +43,19 @@ export const metadata = {
   alternates: {
     canonical: "https://www.adhunikfirexpert.com/fire-door-service",
   },
- robots: "index, follow",
+
   twitter: {
     card: "summary_large_image",
     title: "Certified Fire Door Services for Commercial Buildings | Adhunik FireXpert",
     description: "Protect your property and occupants with our certified fire door installation and maintenance services in Delhi NCR, ensuring regulatory compliance and maximum safety.",
-    image: "https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/Fire-Door-Service1_rmxcde.webp", // Placeholder URL - replace with an actual fire door image URL
+    images: ["https://res.cloudinary.com/dgx5cntyb/image/upload/v1746618654/Fire-Door-Service1_rmxcde.webp"], 
   },
 };
-
 
 export default function page() {
   return (
     <>
-    
-<FireDoor/>
-
+      <FireDoor />
     </>
   )
 }
