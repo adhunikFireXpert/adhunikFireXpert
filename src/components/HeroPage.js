@@ -367,7 +367,7 @@ export default function HeroPage() {
     {
       id: 5,
       alt: "CE Certification",
-      src: "https://www.polycase.com/wp/wp-content/media/ul-certified-logo.jpg",
+      src: "https://res.cloudinary.com/djablkulv/image/upload/v1766381345/UL_Listing_ihcjwf.webp",
     },
   ];
 
