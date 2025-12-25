@@ -281,12 +281,12 @@ export default function FireExtinguisher() {
           
   <div className="box w-full h-full">
                           <img
-          src="/fire.webp"
+          src="https://res.cloudinary.com/djablkulv/image/upload/v1766653673/fireext_yku8fy.webp"
           className="hidden md:block h-full w-full object-cover object-center"
           alt="fire extinguishers"
         />
         <img
-          src="/fire.webp"
+          src="https://res.cloudinary.com/djablkulv/image/upload/v1766653673/fireext_yku8fy.webp"
           className="md:hidden h-full w-full object-cover object-center"
           alt="Different types of fire extinguishers including CO2, foam, powder, and water models displayed together for safety and fire protection"
         />
