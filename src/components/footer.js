@@ -98,7 +98,7 @@ Sector 70, Gurugram, Pin Code-122101
         </div>
       </div>
       <div className="mt-12 border-t border-gray-700 pt-6 text-center text-sm">
-        © 2025 Adhunik FireXpert All rights reserved.
+        © 2026 Adhunik FireXpert All rights reserved.
       </div>
     </footer>
   );
